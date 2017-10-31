@@ -5,14 +5,14 @@
 ```
 # xxx - xxx
 
-################ tts ################
-define speaker "tts" "Microsoft Huihui Desktop" 0 100
+################ TTS ################
+define speaker "voice" "Microsoft Huihui Desktop" 0 100
 
-################ config ################
-alertall "xxx" before 3 speak "tts" "xxx"
+################ Config ################
+alertall "xxx" before 3 speak "voice" "xxx"
 hideall "xxx"
 
-################ main ################
+################ Main ################
 0 "--重置--" sync /Removing combatant xxx/ window 10000 jump 0
 
 # Phase 1
@@ -21,8 +21,8 @@ hideall "xxx"
 ```
 
 #### func
-- **define speaker:** `define speaker "tts" "Microsoft Huihui Desktop" 0 100`
-- **alertall:** `alertall "xxx" before 3 speak "tts" "xxx"`
+- **define speaker:** `define speaker "voice" "Microsoft Huihui Desktop" 0 100`
+- **alertall:** `alertall "xxx" before 3 speak "voice" "xxx"`
 - **hideall:** `hideall "xxx"`
 
 #### prop
@@ -122,11 +122,11 @@ window 2, 2
 
 ## 提示
 
-- tts 语音报幕提示
+- voice 语音报幕提示
 
 ```
-define speaker "tts" "Microsoft Huihui Desktop" 0 100
-alertall "强击" before 3 speak "tts" "T死刑"
+define speaker "voice" "Microsoft Huihui Desktop" 0 100
+alertall "强击" before 3 speak "voice" "T死刑"
 ```
 - 提示音
 
@@ -154,24 +154,24 @@ hideall "xxx"
 
 ################ TTS ################
 
-define speaker "tts" "Microsoft Huihui Desktop" 0 100
-#define speaker "tts" "Microsoft Hanhan Desktop" 0 100
-#define speaker "tts" "Microsoft Lili" 0 100
+define speaker "voice" "Microsoft Huihui Desktop" 0 100
+#define speaker "voice" "Microsoft Hanhan Desktop" 0 100
+#define speaker "voice" "Microsoft Lili" 0 100
 
 ################ Config #####################
 
-alertall "强击" before 3 speak "tts" "T死刑"
-alertall "破浪斩" before 0 speak "tts" "T死刑"
-alertall "祈请" before 2 speak "tts" "AOE"
+alertall "强击" before 3 speak "voice" "T死刑"
+alertall "破浪斩" before 0 speak "voice" "T死刑"
+alertall "祈请" before 2 speak "voice" "AOE"
 
-alertall "--骰子--" before 0 speak "tts" "骰子"
-alertall "--骰子/AOE--" before 0 speak "tts" "骰子AOE连招"
-alertall "--紫色点名--" before 2 speak "tts" "紫色点名"
-alertall "--雷云--" before 2 speak "tts" "雷云"
-alertall "--紫色点名/雷云--" before 2 speak "tts" "紫色点名 雷云连招"
-alertall "--骰子/分摊--" before 0 speak "tts" "骰子 击退 分摊 连招"
-alertall "--骰子/AOE x2--" before 2 speak "tts" "双重骰子AOE连招"
-alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷云 AOE 连招"
+alertall "--骰子--" before 0 speak "voice" "骰子"
+alertall "--骰子/AOE--" before 0 speak "voice" "骰子AOE连招"
+alertall "--紫色点名--" before 2 speak "voice" "紫色点名"
+alertall "--雷云--" before 2 speak "voice" "雷云"
+alertall "--紫色点名/雷云--" before 2 speak "voice" "紫色点名 雷云连招"
+alertall "--骰子/分摊--" before 0 speak "voice" "骰子 击退 分摊 连招"
+alertall "--骰子/AOE x2--" before 2 speak "voice" "双重骰子AOE连招"
+alertall "--紫色点名/雷云/AOE x2--" before 2 speak "voice" "紫色点名 雷云 AOE 连招"
 
 ################ Main ################
 

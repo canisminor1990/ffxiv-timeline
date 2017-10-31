@@ -2,22 +2,22 @@
 
 ################ TTS ################
 
-define speaker "tts" "Microsoft Huihui Desktop" 0 100
-#define speaker "tts" "Microsoft Hanhan Desktop" 0 100
-#define speaker "tts" "Microsoft Lili" 0 100
+define speaker "voice" "Microsoft Huihui Desktop" 0 100
+#define speaker "voice" "Microsoft Hanhan Desktop" 0 100
+#define speaker "voice" "Microsoft Lili" 0 100
 
 ################ Config #####################
 
-alertall "反复无常" before 0 speak "tts" "反复无常"
-alertall "光之奔流" before 0 speak "tts" "T死刑"
-alertall "赞歌" before 1 speak "tts" "AOE"
-alertall "完全拒绝" before 0 speak "tts" "击退"
-alertall "完全引诱" before 0 speak "tts" "远离"
-alertall "完全惑乱" before 0 speak "tts" "站位"
-alertall "光之瀑布" before 1 speak "tts" "分摊"
+alertall "反复无常" before 0 speak "voice" "反复无常"
+alertall "光之奔流" before 0 speak "voice" "T死刑"
+alertall "赞歌" before 1 speak "voice" "AOE"
+alertall "完全拒绝" before 0 speak "voice" "击退"
+alertall "完全引诱" before 0 speak "voice" "远离"
+alertall "完全惑乱" before 0 speak "voice" "站位"
+alertall "光之瀑布" before 1 speak "voice" "分摊"
 
-alertall "--蓝色点名--" before 2 speak "tts" "二仇准备"
-alertall "--反复无常结束--" before 0 speak "tts" "反复无常结束"
+alertall "--蓝色点名--" before 2 speak "voice" "二仇准备"
+alertall "--反复无常结束--" before 0 speak "voice" "反复无常结束"
 
 ################ Main ################
 

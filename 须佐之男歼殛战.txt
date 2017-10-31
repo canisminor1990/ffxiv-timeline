@@ -2,24 +2,24 @@
 
 ################ TTS ################
 
-define speaker "tts" "Microsoft Huihui Desktop" 0 100
-#define speaker "tts" "Microsoft Hanhan Desktop" 0 100
-#define speaker "tts" "Microsoft Lili" 0 100
+define speaker "voice" "Microsoft Huihui Desktop" 0 100
+#define speaker "voice" "Microsoft Hanhan Desktop" 0 100
+#define speaker "voice" "Microsoft Lili" 0 100
 
 ################ Config #####################
 
-alertall "强击" before 3 speak "tts" "T死刑"
-alertall "破浪斩" before 0 speak "tts" "T死刑"
-alertall "祈请" before 2 speak "tts" "AOE"
+alertall "强击" before 3 speak "voice" "T死刑"
+alertall "破浪斩" before 0 speak "voice" "T死刑"
+alertall "祈请" before 2 speak "voice" "AOE"
 
-alertall "--骰子--" before 0 speak "tts" "骰子"
-alertall "--骰子/AOE--" before 0 speak "tts" "骰子AOE连招"
-alertall "--紫色点名--" before 2 speak "tts" "紫色点名"
-alertall "--雷云--" before 2 speak "tts" "雷云"
-alertall "--紫色点名/雷云--" before 2 speak "tts" "紫色点名 雷云连招"
-alertall "--骰子/分摊--" before 0 speak "tts" "骰子 击退 分摊 连招"
-alertall "--骰子/AOE x2--" before 2 speak "tts" "双重骰子AOE连招"
-alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷云 AOE 连招"
+alertall "--骰子--" before 0 speak "voice" "骰子"
+alertall "--骰子/AOE--" before 0 speak "voice" "骰子AOE连招"
+alertall "--紫色点名--" before 2 speak "voice" "紫色点名"
+alertall "--雷云--" before 2 speak "voice" "雷云"
+alertall "--紫色点名/雷云--" before 2 speak "voice" "紫色点名 雷云连招"
+alertall "--骰子/分摊--" before 0 speak "voice" "骰子 击退 分摊 连招"
+alertall "--骰子/AOE x2--" before 2 speak "voice" "双重骰子AOE连招"
+alertall "--紫色点名/雷云/AOE x2--" before 2 speak "voice" "紫色点名 雷云 AOE 连招"
 
 ################ Main ################
 
@@ -47,7 +47,7 @@ alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷
 70 "雷云"
 72 "--红色点名--"
 78 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
-79 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+79 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 79 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
 89 "强击" sync /须佐之男发动了“强击”/ window 2, 2
 
@@ -90,7 +90,7 @@ alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷
 369 "--红色点名--"
 375 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 375 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
-375 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+375 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 
 385 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
 
@@ -99,7 +99,7 @@ alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷
 395 "雷云)"
 397 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
 398 "--紫色点名--"
-403 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+403 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 403 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
 403 "--紫色点名--"
 408 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
@@ -171,7 +171,7 @@ alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷
 606 "--紫色点名--"
 607 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
 611 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-611 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+611 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 612 "--紫色点名--"
 616 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
 617 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
@@ -180,7 +180,7 @@ alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷
 
 627 "--红色点名--"
 632 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
-633 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+633 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 633 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
 
 641 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
