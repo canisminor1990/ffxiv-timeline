@@ -151,6 +151,7 @@ hideall "xxx"
 
 ```
 # 须佐之男歼殛战 - 须佐之男
+# By CanisMinor
 
 ################ TTS ################
 
@@ -160,187 +161,190 @@ define speaker "voice" "Microsoft Huihui Desktop" 0 100
 
 ################ Config #####################
 
-alertall "强击" before 3 speak "voice" "T死刑"
-alertall "破浪斩" before 0 speak "voice" "T死刑"
-alertall "祈请" before 2 speak "voice" "AOE"
+alertall "强击" before 3 speak "voice" "T死刑 开减伤"
+alertall "停手判定" before 3 speak "voice" "停手判定"
 
-alertall "--骰子--" before 0 speak "voice" "骰子"
-alertall "--骰子/AOE--" before 0 speak "voice" "骰子AOE连招"
-alertall "--紫色点名--" before 2 speak "voice" "紫色点名"
-alertall "--雷云--" before 2 speak "voice" "雷云"
-alertall "--紫色点名/雷云--" before 2 speak "voice" "紫色点名 雷云连招"
-alertall "--骰子/分摊--" before 0 speak "voice" "骰子 击退 分摊 连招"
-alertall "--骰子/AOE x2--" before 2 speak "voice" "双重骰子AOE连招"
-alertall "--紫色点名/雷云/AOE x2--" before 2 speak "voice" "紫色点名 雷云 AOE 连招"
+alertall "# 水泡炸弹" before 0 speak "voice" "水泡炸弹"
+alertall "# 水泡炸弹 + 夹缝分摊" before 0 speak "voice" "水泡炸弹 夹缝分摊 连招"
+alertall "# 水泡炸弹 + 水圈" before 0 speak "voice" "水泡炸弹 水圈 连招"
+alertall "# 水泡炸弹 + 水圈x2" before 2 speak "voice" "水泡炸弹 双重水圈 连招"
 
+alertall "# 夹缝分摊" before 2 speak "voice" "击退点名 夹缝分摊"
+alertall "# 雷云" before 2 speak "voice" "雷云出现"
+
+alertall "# 破浪斩 > 换T" before 3 speak "voice" "T死刑 读条换T"
+alertall "# 副T撞球" before 0 speak "voice" "副T撞球"
+alertall "# 换T撞球" before 0 speak "voice" "换T判定"
+
+alertall "# 雷标记" before 2 speak "voice" "雷标记"
+alertall "# 定身雷" before 2 speak "voice" "定身雷"
+alertall "# 雷标记 + 夹缝分摊" before 2 speak "voice" "雷标记 夹缝分摊 连招"
+alertall "# 雷标记 + 水圈x2 + 夹缝分摊" before 2 speak "voice" "雷标记 双重水圈 夹缝分摊 连招"
+
+alertall "# 全屏x2" before 2 speak "voice" "2连全屏AOE"
+alertall "# 全屏x3" before 2 speak "voice" "3连全屏AOE"
+
+alertall "# 召唤石牢" before 2 speak "voice" "召唤石牢"
+
+alertall "## P1 热身阶段 ##" before 2 speak "voice" "P1 热身阶段"
+alertall "## P2 对刀阶段 ##" before 2 speak "voice" "P2 对刀阶段"
+alertall "## P3 最终阶段 ##" before 2 speak "voice" "P3 最终阶段"
 ################ Main ################
 
-0 "--重置--" sync /Removing combatant 须佐之男/ window 10000 jump 0
+0 "## 重置 ##" sync /Removing combatant 须佐之男/ window 10000 jump 0
 
-#Phase 1 -
-1 "--开始--" sync /欢庆吧！跳舞吧！/ window 10000
+# P1 热身阶段
+1 "## P1 热身阶段 ##" sync /欢庆吧！跳舞吧！/ window 10000
 10 "强击" sync /须佐之男发动了“强击”/ window 2, 2
-
-13 "--骰子--"
-13 "祸泡附身" sync /须佐之男发动了“祸泡附身”/ window 2, 2
-20 "--骰子 x4--"
-
-32 "--红色点名--"
+##
+13 "# 水泡炸弹" sync /须佐之男发动了“祸泡附身”/ window 2, 2
+19 "停手判定"
+##
+32 "# 夹缝分摊"
 37 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 38 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
+##
 49 "强击" sync /须佐之男发动了“强击”/ window 2, 2
-
-52 "--骰子/AOE--"
+##
+52 "# 水泡炸弹 + 水圈"
 52 "祸泡附身" sync /须佐之男发动了“祸泡附身”/ window 2, 2
-56 "螺旋海峡" duration 3 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-58 "--骰子 x4--"
-
-70 "--雷云--"
-70 "雷云"
-72 "--红色点名--"
+56 "# 水圈" duration 3 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+58 "停手判定"
+##
+70 "# 雷云"
+72 "# 夹缝分摊""
 78 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
-79 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+79 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 79 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
+##
 89 "强击" sync /须佐之男发动了“强击”/ window 2, 2
 
-#Phase 2 -
-94 "--Phase 2--" sync /有意思，真有意思！/ window 10000
+# P2 对刀阶段
+94 "## P2 对刀阶段 ##" sync /有意思，真有意思！/ window 10000
 118 "天之丛云" sync /Added new combatant 天之丛云/ window 10
-118 "紫电"
-121 "紫电"
-124 "紫电"
-127 "紫电"
-
+118 "# 副T撞球"
+118 "撞球 x4"
+##
 200 "天之丛云" sync /Added new combatant 天之丛云/ window 80, 0
-200 "紫电"
-203 "紫电"
-206 "紫电"
-209 "紫电"
+200 "# 换T撞球"
+200 "撞球 x4"
 
-#Phase 3 -
-300 "--Phase 3--" sync /哇啊啊啊！/ window 10000
+# P3 最终阶段
+300 "## P3 最终阶段 ##" sync /哇啊啊啊！/ window 10000
 304 "天之丛云"
-
-321 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 10
-
-328 "--紫色点名--"
-328 "--紫色点名--"
+321 "# 破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 10
+##
+328 "# 雷标记"
 333 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-334 "--紫色点名--"
+334 "# 雷标记"
 338 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-339 "--紫色点名--"
+339 "# 雷标记"
 344 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-345 "--紫色点名--"
+345 "# 雷标记"
 349 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-
-355 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 10
+##
+355 "# 全屏x2" duration 3 sync /须佐之男正在发动“祈请”/ window 10
 359 "祈请 (1)"
 361 "祈请 (2)"
-
-367 "--雷云--"
-367 "雷云)"
-369 "--红色点名--"
+##
+367 "# 雷云"
+369 "# 夹缝分摊"
 375 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 375 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
-375 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
-
-385 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
-
-392 "--紫色点名/雷云--"
-392 "--紫色点名--"
-395 "雷云)"
+375 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
+##
+385 "# 破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
+##
+392 "# 雷标记 + 雷云"
 397 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-398 "--紫色点名--"
-403 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+398 "# 雷标记"
+403 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 403 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-403 "--紫色点名--"
+403 "# 雷标记"
 408 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-409 "--紫色点名--"
+409 "# 雷标记"
 414 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-
-416 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
+##
+416 "# 全屏x3" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
 421 "祈请 (1)"
 423 "祈请 (2)"
 425 "祈请 (3)"
-
-431 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 2, 2
-432 "天之岩户 x4 "
-441 "岩户闭合" duration 15
-443 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-448 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
-
-459 "--Jump Robe--"
-459 "--紫色点名 --"
+##
+431 "# 召唤石牢" sync /须佐之男发动了“岩户隐”/ window 2, 2
+441 "岩户闭合 (攻击最后一个)" duration 15
+443 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+##
+448 "# 破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
+##
+459 "# 定身雷"
 465 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-466 "--紫色点名 --"
+466 "# 定身雷"
 472 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-472 "--紫色点名 --"
+472 "# 定身雷"
 478 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-479 "--紫色点名 --"
+479 "# 定身雷"
 485 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-
-487 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
+##
+487 "# 全屏x3" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
 491 "祈请 (1)"
 493 "祈请 (2)"
 495 "祈请 (3)"
-
-502 "--骰子/分摊--"
+##
+502 "# 水泡炸弹 + 夹缝分摊"
 502 "祸泡附身" sync /须佐之男发动了“祸泡附身”/ window 2, 2
-504 "--红色点名--"
-509 "--骰子 x4--"
+508 "停手判定"
 510 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 510 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
-
-517 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-525 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
-
-535 "--紫色点名 --"
+##
+517 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+##
+525 "# 破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
+##
+535 "# 定身雷"
 541 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-541 "--紫色点名 --"
+541 "# 定身雷"
 547 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-548 "--紫色点名 --"
+548 "# 定身雷"
 554 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-554 "--紫色点名 --"
+554 "# 定身雷"
 560 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-
-563 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
+##
+563 "全屏x3" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
 568 "祈请 (1)"
 570 "祈请 (2)"
 572 "祈请 (3)"
-
-574 "--骰子/AOE x2--"
+##
+574 "# 水泡炸弹 + 水圈x2"
 574 "祸泡附身" sync /须佐之男发动了“祸泡附身”/ window 2, 2
-578 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-581 "--骰子 x4--"
-583 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-
-593 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
-
-601 "--紫色点名/雷云/AOE x2--"
-601 "--紫色点名--"
-604 "雷云"
+578 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+581 "停手判定"
+583 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+##
+593 "# 破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
+##
+601 "## 雷标记 + 水圈x2 + 夹缝分摊"
+601 "# 雷标记"
+604 "# 雷云"
 605 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-606 "--紫色点名--"
-607 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+606 "# 雷标记"
+607 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
 611 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-611 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
-612 "--紫色点名--"
+611 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
+612 "# 雷标记"
 616 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-617 "螺旋海峡" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
-617 "--紫色点名--"
+617 "# 水圈" duration 2 sync /须佐之男正在发动“螺旋海峡”/ window 2, 2
+617 "# 雷标记"
 622 "闪电" sync /须佐之男发动了“闪电”/ window 2, 2
-
-627 "--红色点名--"
+##
+627 "# 夹缝分摊"
 632 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
-633 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
+633 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 633 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
-
-641 "祈请" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
+##
+641 "# 全屏x3" duration 3 sync /须佐之男正在发动“祈请”/ window 2, 2
 645 "祈请 (1)"
 647 "祈请 (2)"
 649 "祈请 (3)"
-
-656 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 100 jump 431
-658 "天之岩户 x4 "
-666 "岩户闭合" duration 15
+##
+656 "# 召唤石牢" sync /须佐之男发动了“岩户隐”/ window 100 jump 431
 ```
