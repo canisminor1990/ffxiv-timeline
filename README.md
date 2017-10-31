@@ -70,7 +70,7 @@ hideall "xxx"
 ```
 333 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 ...
-666 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
+666 "云间放电" duration 2 sync /雷云正在发动“云间放电”/ window 2, 2
 ```
 
 <br />
