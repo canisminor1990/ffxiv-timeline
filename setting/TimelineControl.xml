@@ -20,13 +20,13 @@
 		<ContentOpacity>0</ContentOpacity>
 		<BackgroundOpacity>60</BackgroundOpacity>
 		<BackgroundEffectType>Blur</BackgroundEffectType>
-		<BackgroundBlurRadius>6</BackgroundBlurRadius>
+		<BackgroundBlurRadius>2</BackgroundBlurRadius>
 		<BackgroundEffectKernelType>Box</BackgroundEffectKernelType>
 		<BackgroundCornerRadius>
-			<TopLeft>4</TopLeft>
-			<TopRight>4</TopRight>
-			<BottomRight>4</BottomRight>
-			<BottomLeft>4</BottomLeft>
+			<TopLeft>2</TopLeft>
+			<TopRight>2</TopRight>
+			<BottomRight>2</BottomRight>
+			<BottomLeft>2</BottomLeft>
 		</BackgroundCornerRadius>
 		<BackgroundMargin>
 			<Left>2</Left>
