@@ -9,7 +9,7 @@
 		<WindowLeft>7</WindowLeft>
 		<WindowVisibility>true</WindowVisibility>
 		<OverlayType>TimelineControl</OverlayType>
-		<OverlayName>TimelineControl</OverlayName>
+		<OverlayName>控制面板</OverlayName>
 		<WindowLock>false</WindowLock>
 		<TopMost>true</TopMost>
 	</OverlayWindowData>
@@ -20,19 +20,19 @@
 		<ContentOpacity>0</ContentOpacity>
 		<BackgroundOpacity>60</BackgroundOpacity>
 		<BackgroundEffectType>Blur</BackgroundEffectType>
-		<BackgroundBlurRadius>2</BackgroundBlurRadius>
+		<BackgroundBlurRadius>1</BackgroundBlurRadius>
 		<BackgroundEffectKernelType>Box</BackgroundEffectKernelType>
 		<BackgroundCornerRadius>
-			<TopLeft>2</TopLeft>
-			<TopRight>2</TopRight>
-			<BottomRight>2</BottomRight>
-			<BottomLeft>2</BottomLeft>
+			<TopLeft>1</TopLeft>
+			<TopRight>1</TopRight>
+			<BottomRight>1</BottomRight>
+			<BottomLeft>1</BottomLeft>
 		</BackgroundCornerRadius>
 		<BackgroundMargin>
-			<Left>2</Left>
-			<Top>2</Top>
-			<Right>2</Right>
-			<Bottom>2</Bottom>
+			<Left>1</Left>
+			<Top>1</Top>
+			<Right>1</Right>
+			<Bottom>1</Bottom>
 		</BackgroundMargin>
 		<TitleBarVisibility>true</TitleBarVisibility>
 		<ContentHeaderVisibility>true</ContentHeaderVisibility>
