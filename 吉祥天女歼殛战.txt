@@ -1,7 +1,7 @@
 # 吉祥天女歼殛战 - 吉祥天女
 # By CanisMinor
 
-################ Config #####################
+################ TTS #####################
 
 alertall "[H]赞歌" before 1 sound "tts AOE"
 
@@ -21,7 +21,7 @@ alertall "[T]黑化蓝色点名" before 0 sound "tts 黑化二仇 副T吃球"
 alertall "[G]黑化光之瀑布" before 0 sound "tts 黑化分摊 全体吃球"
 alertall "[H]黑化优美的左手" before 0 sound "tts 治疗吃球"
 
-################ Hide ################
+################ Config ################
 
 hideall "[EGI]重置"
 

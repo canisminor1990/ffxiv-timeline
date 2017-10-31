@@ -1,7 +1,7 @@
 # 须佐之男歼殛战 - 须佐之男
 # By CanisMinor
 
-################ Config #####################
+################ TTS #####################
 
 alertall "停手判定" before 3 sound "tts 停手判定"
 alertall "水圈" before 3 sound "tts 水圈"
@@ -34,7 +34,7 @@ alertall "[EGI]P1 热身阶段 ##" before 2 sound "tts P1 热身阶段"
 alertall "[EGI]P2 对刀阶段 ##" before 2 sound "tts P2 对刀阶段"
 alertall "[EGI]P3 最终阶段 ##" before 2 sound "tts P3 最终阶段"
 
-################ Hide ################
+################ Config ################
 
 hideall "[EGI]重置 ##"
 
