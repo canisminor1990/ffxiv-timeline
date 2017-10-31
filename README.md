@@ -2,6 +2,8 @@
 
 注意：使用 `FZ.Timeline` 不兼容 `ACT.Timeline`
 
+![](https://ws3.sinaimg.cn/large/006tKfTcly1fl1mv8tqwaj30jj0y8wfl.jpg)
+
 ## 使用
 
 #### 安装美化
