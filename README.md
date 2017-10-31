@@ -1,5 +1,7 @@
 # TimeLine
 
+注意：使用 `FZ.Timeline` 不兼容 `ACT.Timeline`
+
 ## 使用
 
 #### 安装美化
@@ -20,11 +22,15 @@ http://canisminor1990.coding.me/ffxiv-timeline/setting/StandardTimeline.xml
 
 > 导入成功后请点击显示
 
+<br />
+
 #### 导入时间轴
 
 - 克隆或下载本仓库
 - FZ.技能时间轴 > 选项设置 > 资源环境目录 > 设置为本仓库文件夹
 - 刷新列表 > 加载TXT
+
+<br />
 
 ## 编写时间轴
 
