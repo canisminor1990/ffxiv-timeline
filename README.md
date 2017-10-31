@@ -58,6 +58,10 @@ hideall "xxx"
 - `Added new combatant`
 - `Removing combatant`
 
+```
+118 "天之丛云" sync /Added new combatant 天之丛云/ window 10
+```
+
 #### 发动技能
 
 - xxx正在发动“xxx”
