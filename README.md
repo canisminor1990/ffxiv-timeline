@@ -1,9 +1,18 @@
 #TimeLine
 
+命令一览
+
 ```sh
-# comment
+# tts
+define speaker "tts" "Microsoft Huihui Desktop" 0 100
+# config
+alertall "xxx" before 3 speak "tts" "xxx"
+hideall "xxx"
+# main
 0 "xxx" duration 0 sync /xxx“xxx”/ window 0,0 jump 0
 ```
+
+<br />
 
 ## 自动加载
 
@@ -12,6 +21,8 @@
 ```
 须佐之男歼殛战.txt
 ```
+
+<br />
 
 ## 同步
 
@@ -33,6 +44,8 @@
 - xxx正在发动“xxx”
 - xxx发动了“xxx”
 
+<br />
+
 ## 误差调整
 
 - `window` 前误差, 后误差
@@ -52,6 +65,8 @@ window 2, 2
 ...
 94 "--Phase 2--" sync /有意思，真有意思！/ window 10000
 ```
+
+<br />
 
 ## 跳转
 
@@ -74,6 +89,8 @@ window 2, 2
 0 "--重置--" sync /Removing combatant 须佐之男/ window 10000 jump 0
 ```
 
+<br />
+
 ## 提示
 
 ```sh
@@ -86,7 +103,11 @@ define alertsound "提示音" "提示音.wav"
 alertall "强击" before 3 sound "提示音"
 ```
 
+<br />
+
 ## 隐藏
+
+隐藏不需要的提示，一般可作为T，奶，DPS单独配置用。
 
 ```
 hideall "xxx"
