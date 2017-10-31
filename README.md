@@ -50,7 +50,7 @@ hideall "xxx"
 
 
 ```
-593 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
+666 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
 ```
 
 #### 增加删除对象
@@ -59,13 +59,19 @@ hideall "xxx"
 - `Removing combatant`
 
 ```
-118 "天之丛云" sync /Added new combatant 天之丛云/ window 10
+666 "天之丛云" sync /Added new combatant 天之丛云/ window 10
 ```
 
 #### 发动技能
 
-- xxx正在发动“xxx”
-- xxx发动了“xxx”
+- `xxx正在发动“xxx”`
+- `xxx发动了“xxx”`
+
+```
+333 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
+...
+666 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
+```
 
 <br />
 
@@ -86,7 +92,7 @@ window 2, 2
 ```
 1 "--开始--" sync /欢庆吧！跳舞吧！/ window 10000
 ...
-94 "--Phase 2--" sync /有意思，真有意思！/ window 10000
+666 "--Phase 2--" sync /有意思，真有意思！/ window 10000
 ```
 
 <br />
@@ -98,9 +104,9 @@ window 2, 2
 #### 循环
 
 ```
-431 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 2, 2
+333 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 2, 2
 ...
-656 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 100 jump 431
+666 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 100 jump 333
 ```
 
 #### 重置
