@@ -21,7 +21,7 @@ alertall "--骰子/分摊--" before 0 speak "tts" "骰子 击退 分摊 连招"
 alertall "--骰子/AOE x2--" before 2 speak "tts" "双重骰子AOE连招"
 alertall "--紫色点名/雷云/AOE x2--" before 2 speak "tts" "紫色点名 雷云 AOE 连招"
 
-##############################################################
+################ Main ################
 
 0 "--重置--" sync /Removing combatant 须佐之男/ window 10000 jump 0
 

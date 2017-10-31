@@ -3,13 +3,21 @@
 命令一览
 
 ```
-# tts
+# xxx - xxx
+
+################ tts ################
 define speaker "tts" "Microsoft Huihui Desktop" 0 100
-# config
+
+################ config ################
 alertall "xxx" before 3 speak "tts" "xxx"
 hideall "xxx"
-# main
-0 "xxx" duration 0 sync /xxx“xxx”/ window 0,0 jump 0
+
+################ main ################
+0 "--重置--" sync /Removing combatant xxx/ window 10000 jump 0
+
+# Phase 1
+1 "--开始--" sync /xxx/ window 10000
+...
 ```
 
 <br />
