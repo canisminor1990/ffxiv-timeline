@@ -13,10 +13,10 @@ alertall "xxx" before 3 speak "voice" "xxx"
 hideall "xxx"
 
 ################ Main ################
-0 "--重置--" sync /Removing combatant xxx/ window 10000 jump 0
+0 "## 重置 ##" sync /Removing combatant xxx/ window 10000 jump 0
 
-# Phase 1
-1 "--开始--" sync /xxx/ window 10000
+# P1 开始
+1 "## 开始 ##" sync /xxx/ window 10000
 ...
 ```
 

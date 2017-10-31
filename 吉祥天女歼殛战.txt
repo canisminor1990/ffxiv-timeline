@@ -27,7 +27,9 @@ alertall "# 黑化蓝色点名" before 0 speak "voice" "黑化二仇 副T吃球"
 alertall "# 黑化光之瀑布" before 0 speak "voice" "黑化分摊 全体吃球"
 alertall "# 黑化优美的左手" before 0 speak "voice" "治疗吃球"
 
+################ Hide ################
 
+hideall "## 重置 ##"
 
 ################ Main ################
 
@@ -211,5 +213,6 @@ alertall "# 黑化优美的左手" before 0 speak "voice" "治疗吃球"
 764 "> 吃球"
 764 "# 完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
 
-# P3.4
-784 "## P3.4 完全拒绝 (狂暴)"
+# P3.4 狂暴
+784 "## P3.4 狂暴"
+784 "完全拒绝"

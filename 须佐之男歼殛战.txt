@@ -39,6 +39,11 @@ alertall "# 召唤石牢" before 2 speak "voice" "召唤石牢"
 alertall "## P1 热身阶段 ##" before 2 speak "voice" "P1 热身阶段"
 alertall "## P2 对刀阶段 ##" before 2 speak "voice" "P2 对刀阶段"
 alertall "## P3 最终阶段 ##" before 2 speak "voice" "P3 最终阶段"
+
+################ Hide ################
+
+hideall "## 重置 ##"
+
 ################ Main ################
 
 0 "## 重置 ##" sync /Removing combatant 须佐之男/ window 10000 jump 0
