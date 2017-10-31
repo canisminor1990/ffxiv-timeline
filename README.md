@@ -2,7 +2,7 @@
 
 命令一览
 
-```sh
+```
 # tts
 define speaker "tts" "Microsoft Huihui Desktop" 0 100
 # config
@@ -60,7 +60,7 @@ window 2, 2
 
 一般调阶段时请将误差设为`10000`
 
-```sh
+```
 1 "--开始--" sync /欢庆吧！跳舞吧！/ window 10000
 ...
 94 "--Phase 2--" sync /有意思，真有意思！/ window 10000
@@ -74,7 +74,7 @@ window 2, 2
 
 #### 循环
 
-```sh
+```
 431 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 2, 2
 ...
 656 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 100 jump 431
@@ -85,7 +85,7 @@ window 2, 2
 - 使用 `Removing combatant` 判断Boss重置
 - 如果指定了0秒，将在起始位置进入待机状态。
 
-```sh
+```
 0 "--重置--" sync /Removing combatant 须佐之男/ window 10000 jump 0
 ```
 
@@ -93,12 +93,12 @@ window 2, 2
 
 ## 提示
 
-```sh
+```
 define speaker "tts" "Microsoft Huihui Desktop" 0 100
 alertall "强击" before 3 speak "tts" "T死刑"
 ```
 
-```sh
+```
 define alertsound "提示音" "提示音.wav"
 alertall "强击" before 3 sound "提示音"
 ```
