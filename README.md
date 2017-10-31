@@ -20,6 +20,16 @@ hideall "xxx"
 ...
 ```
 
+- define speaker: `define speaker "tts" "Microsoft Huihui Desktop" 0 100`
+- alertall: `alertall "xxx" before 3 speak "tts" "xxx"`
+- hideall: `hideall "xxx"`
+
+
+- duration: `duration 5`
+- sync: `sync /xxx/`
+- window: `window 2,2`
+- jump: `jump 0`
+
 <br />
 
 ## 自动加载
