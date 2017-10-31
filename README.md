@@ -101,10 +101,13 @@ window 2, 2
 
 ## 提示
 
+- tts 语音报幕提示
+
 ```
 define speaker "tts" "Microsoft Huihui Desktop" 0 100
 alertall "强击" before 3 speak "tts" "T死刑"
 ```
+- 提示音
 
 ```
 define alertsound "提示音" "提示音.wav"
