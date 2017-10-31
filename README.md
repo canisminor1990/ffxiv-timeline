@@ -212,7 +212,7 @@ alertall "## P3 最终阶段 ##" before 2 speak "voice" "P3 最终阶段"
 58 "停手判定"
 ##
 70 "# 雷云"
-72 "# 夹缝分摊""
+72 "# 夹缝分摊"
 78 "八咫镜" sync /须佐之男发动了“八咫镜”/ window 2, 2
 79 "云间放电" duration 2 sync / 雷云正在发动“云间放电”/ window 2, 2
 79 "断海" duration 5 sync /须佐之男正在发动“断海”/ window 2, 2
