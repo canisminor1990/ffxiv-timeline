@@ -34,12 +34,12 @@ hideall "xxx"
 593 "破浪斩" duration 4 sync /须佐之男正在发动“破浪斩”/ window 2, 2
 ```
 
-### 增加删除对象
+#### 增加删除对象
 
 - `Added new combatant`
 - `Removing combatant`
 
-### 发动技能
+#### 发动技能
 
 - xxx正在发动“xxx”
 - xxx发动了“xxx”
@@ -56,7 +56,7 @@ hideall "xxx"
 window 2, 2
 ```
 
-### 阶段性调整
+#### 阶段性调整
 
 一般调阶段时请将误差设为`10000`
 
@@ -72,7 +72,7 @@ window 2, 2
 
 - `jump` 跳转时间
 
-### 循环
+#### 循环
 
 ```sh
 431 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 2, 2
@@ -80,7 +80,7 @@ window 2, 2
 656 "岩户隐" sync /须佐之男发动了“岩户隐”/ window 100 jump 431
 ```
 
-### 重置
+#### 重置
 
 - 使用 `Removing combatant` 判断Boss重置
 - 如果指定了0秒，将在起始位置进入待机状态。
