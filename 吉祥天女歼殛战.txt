@@ -1,218 +1,212 @@
 # 吉祥天女歼殛战 - 吉祥天女
 # By CanisMinor
 
-################ TTS ################
-
-define speaker "voice" "Microsoft Huihui Desktop" 0 100
-#define speaker "voice" "Microsoft Hanhan Desktop" 0 100
-#define speaker "voice" "Microsoft Lili" 0 100
-
 ################ Config #####################
 
-alertall "赞歌" before 1 speak "voice" "AOE"
+alertall "[H]赞歌" before 1 sound "tts AOE"
 
-alertall "# 黑化" before 0 speak "voice" "黑化"
-alertall "# 黑化结束" before 0 speak "voice" "黑化结束"
+alertall "[G]黑化" before 0 sound "tts 黑化"
+alertall "[G]黑化结束" before 0 sound "tts 黑化结束"
 
-alertall "# 光之奔流" before 0 speak "voice" "T死刑"
-alertall "# 蓝色点名" before 2 speak "voice" "副T二仇准备"
+alertall "[T]光之奔流" before 0 sound "tts T死刑"
+alertall "[T]蓝色点名" before 2 sound "tts 副T二仇准备"
 
-alertall "# 完全拒绝" before 0 speak "voice" "全体吃球 击退"
-alertall "# 完全引诱" before 0 speak "voice" "全体吃球 远离"
-alertall "# 完全惑乱" before 0 speak "voice" "全体吃球 ABCD站位"
-alertall "# 光之瀑布" before 1 speak "voice" "分摊"
+alertall "[G]完全拒绝" before 0 sound "tts 全体吃球 击退"
+alertall "[G]完全引诱" before 0 sound "tts 全体吃球 远离"
+alertall "[G]完全惑乱" before 0 sound "tts 全体吃球 ABCD站位"
+alertall "[G]光之瀑布" before 1 sound "tts 分摊"
 
-alertall "# 黑化光之奔流" before 0 speak "voice" "黑化死刑 T吃球"
-alertall "# 黑化蓝色点名" before 0 speak "voice" "黑化二仇 副T吃球"
-alertall "# 黑化光之瀑布" before 0 speak "voice" "黑化分摊 全体吃球"
-alertall "# 黑化优美的左手" before 0 speak "voice" "治疗吃球"
+alertall "[T]黑化光之奔流" before 0 sound "tts 黑化死刑 T吃球"
+alertall "[T]黑化蓝色点名" before 0 sound "tts 黑化二仇 副T吃球"
+alertall "[G]黑化光之瀑布" before 0 sound "tts 黑化分摊 全体吃球"
+alertall "[H]黑化优美的左手" before 0 sound "tts 治疗吃球"
 
 ################ Hide ################
 
-hideall "## 重置 ##"
+hideall "[EGI]重置"
 
 ################ Main ################
 
-0 "## 重置 ##" sync /Removing combatant 吉祥天女/ window 10000 jump 0
+0 "[EGI]重置" sync /Removing combatant 吉祥天女/ window 10000 jump 0
 
 # P1 - 开始
-1 "## P1 开始 ##" sync /污秽之人啊/ window 10000
-12 "心魔" duration 4 sync /梦寐的刹帝利正在咏唱“心魔”/ window 2, 2
-13 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+1 "[EGI]P1 开始" sync /污秽之人啊/ window 10000
+12 "心魔" duration 4 sync /梦寐的刹帝利正在咏唱“心魔”/
+13 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 
 # P1.1 - 优雅的右手
-100 "## P1.1 优雅的右手" sync /竟然将王的信徒都打倒了/ window 10000
-104 "优雅的右手" duration 2 sync /吉祥天女正在发动“优雅的右手”/ window 2, 2
+100 "[EGI]P1.1 优雅的右手" sync /竟然将王的信徒都打倒了/ window 10000
+104 "优雅的右手" duration 2 sync /吉祥天女正在发动“优雅的右手”/
 104 "> 十字AOEx3" duration 16
 ##
-109 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+109 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-121 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+121 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 ##
-130 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+130 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-138 "# 蓝色点名" duration 4
+138 "[T]蓝色点名" duration 4
 ##
-143 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+143 "光之波动" sync /吉祥天女发动了“光之波动”/
 
 # P1.2 - 魅惑之臂
-150 "## P1.2 魅惑之臂" sync /此刻，指尖凝聚/ window 10000
-150 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
+150 "[EGI]P1.2 魅惑之臂" sync /此刻，指尖凝聚/ window 10000
+150 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/
 150 "十字AOE + 单体AOEx2" duration 16
 ##
-155 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+155 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-167 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+167 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 ##
-172 "# 光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+172 "[G]光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
-181 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+181 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 
 # P1.3 - 反复无常
-191 "## P1.3 黑化" sync /领略进化之光/ window 10000
-191 "# 黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+191 "[EGI]P1.3 黑化" sync /领略进化之光/ window 10000
+191 "[G]黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
 191 "> 吃球"
 ##
-203 "# 完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
+203 "[G]完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
 ##
-214 "# 黑化优美的左手" duration 3 sync /吉祥天女正在发动“优美的左手”/ window 2, 2
+214 "[H]黑化优美的左手" duration 3 sync /吉祥天女正在发动“优美的左手”/
 214 "> 吃球 (治疗)"
-214 "# 单体AOE x2" duration 16
+214 "[G]单体AOE x2" duration 16
 ##
 214 "> 吃球 (MT)"
-219 "# 黑化光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+219 "[T]黑化光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
 227 "> 吃球 (ST)"
-227 "# 黑化蓝色点名" duration 4
-232 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+227 "[T]黑化蓝色点名" duration 4
+232 "光之波动" sync /吉祥天女发动了“光之波动”/
 ##
 239 "> 吃球"
-239 "# 完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
+239 "[G]完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
 ##
-245 "# 黑化结束"
+245 "[G]黑化结束"
 ##
-252 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+252 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-264 "# 蓝色点名" duration 4
-270 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+264 "[T]蓝色点名" duration 4
+270 "光之波动" sync /吉祥天女发动了“光之波动”/
 ##
-274 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+274 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 
 # P2 杀怪抢球
-281 "## P2 杀怪抢球" sync /陷入梦境吧，我的信徒/ window 10000
+281 "[EGI]P2 杀怪抢球" sync /陷入梦境吧，我的信徒/ window 10000
 281 "婆罗门x2 + 首陀罗x2"
-281 "别打死 留10%血"
+281 "> 别打死 留10%血"
 ##
 400 "至上天母" sync /吉祥天女发动了“至上天母”/ window 300, 0
 
 # P3 最终阶段
-402 "## P3 最终阶段 ##" sync /接受我的拥抱吧/ window 10000
+402 "[EGI]P3 最终阶段" sync /接受我的拥抱吧/ window 10000
 402 "> 吃球"
 436 "魅惑拥抱" sync /吉祥天女发动了“魅惑拥抱”/ window 10000
 ##
 440 "> 吃球"
-440 "# 黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+440 "[G]黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
 ##
-452 "# 完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
+452 "[G]完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
 ##
 469 "> 吃球 (ST)"
-469 "# 黑化蓝色点名" duration 4
-474 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+469 "[T]黑化蓝色点名" duration 4
+474 "光之波动" sync /吉祥天女发动了“光之波动”/
 ##
 479 "> 吃球 (MT)"
-479 "# 黑化光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+479 "[T]黑化光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-485 "# 黑化结束"
+485 "[G]黑化结束"
 
 # P3.1 补球
-491 "## P3.1 补球" sync /何为大爱/ window 10000
-492 "至上天母" sync /吉祥天女发动了“至上天母”/ window 2, 2
+491 "[EGI]P3.1 补球" sync /何为大爱/ window 10000
+492 "至上天母" sync /吉祥天女发动了“至上天母”/
 ##
-501 "# 补充吃球"
+501 "[G]补充吃球"
 501 "圣枪 x3" duration 9
-504 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+504 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-518 "# 补充吃球"
+518 "[G]补充吃球"
 518 "圣枪" duration 9
 ##
-520 "# 蓝色点名" duration 4
-525 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+520 "[T]蓝色点名" duration 4
+525 "光之波动" sync /吉祥天女发动了“光之波动”/
 ##
-527 "# 光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+527 "[G]光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
-540 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
-540 "# 单体AOE" duration 16
-540 "# 十字AOE x2" duration 16
+540 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/
+540 "[G]单体AOE" duration 16
+540 "[G]十字AOE x2" duration 16
 ##
-545 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+545 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-552 "# 蓝色点名" duration 4
-557 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+552 "[T]蓝色点名" duration 4
+557 "光之波动" sync /吉祥天女发动了“光之波动”/
 558 "圣枪 x2"
 ##
-564 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+564 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 
 # P3.2 黑化
-575 "## P3.2 黑化"
+575 "[EGI]P3.2 黑化"
 575 "> 吃球"
-575 "# 黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+575 "[G]黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
 ##
-587 "# 完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
+587 "[G]完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
 ##
 603 "> 吃球"
-603 "# 黑化光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+603 "[G]黑化光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
-616 "至上天母" sync /吉祥天女发动了“至上天母”/ window 2, 2
+616 "至上天母" sync /吉祥天女发动了“至上天母”/
 ##
-625 "# 补充吃球"
+625 "[G]补充吃球"
 625 "圣枪" duration 9
 ##
 630 "> 吃球"
-630 "# 完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
+630 "[G]完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
 ##
-640 "# 补充吃球"
+640 "[G]补充吃球"
 640 "圣枪 x3" duration 9
 ##
 644 "> 吃球"
-644 "# 黑化光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+644 "[G]黑化光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
 657 "> 吃球"
-657 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
-662 "# 黑化结束"
+657 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
+662 "[G]黑化结束"
 
 # P3.3
-670 "## P3.3 狂暴前夕"
-670 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
-670 "# 单体AOE x2" duration 16
-670 "# 十字AOE x2" duration 16
+670 "[EGI]P3.3 狂暴前夕"
+670 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/
+670 "[G]单体AOE x2" duration 16
+670 "[G]十字AOE x2" duration 16
 ##
-676 "# 光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+676 "[G]光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
-683 "# 蓝色点名" duration 4
-689 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+683 "[T]蓝色点名" duration 4
+689 "光之波动" sync /吉祥天女发动了“光之波动”/
 689 "圣枪"
 ##
-693 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+693 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 ##
-701 "# 光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+701 "[T]光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/
 ##
-713 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
-713 "# 单体AOE x2" duration 16
-713 "# 十字AOE x3" duration 16
+713 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/
+713 "[G]单体AOE x2" duration 16
+713 "[G]十字AOE x3" duration 16
 731 "圣枪"
 ##
-731 "# 光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+731 "[G]光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/
 ##
-738 "# 蓝色点名" duration 4
-744 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+738 "[T]蓝色点名" duration 4
+744 "光之波动" sync /吉祥天女发动了“光之波动”/
 ##
-748 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+748 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 ##
-759 "# 黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+759 "[G]黑化" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
 ##
 764 "> 吃球"
-764 "# 完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
+764 "[G]完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
 
 # P3.4 狂暴
-784 "## P3.4 狂暴"
+784 "[EGI]P3.4 狂暴"
 784 "完全拒绝"
