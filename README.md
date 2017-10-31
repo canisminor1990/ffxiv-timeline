@@ -145,7 +145,7 @@ alertall "强击" before 3 sound "提示音"
 hideall "xxx"
 ```
 
-## 示例
+## 完整示例
 
 - 须佐之男歼殛战.txt
 
