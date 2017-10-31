@@ -30,20 +30,20 @@ alertall "[H]全屏x3" before 2 sound "tts 3连全屏AOE"
 
 alertall "[G]召唤石牢" before 2 sound "tts 召唤石牢"
 
-alertall "[EGI]P1 热身阶段 ##" before 2 sound "tts P1 热身阶段"
-alertall "[EGI]P2 对刀阶段 ##" before 2 sound "tts P2 对刀阶段"
-alertall "[EGI]P3 最终阶段 ##" before 2 sound "tts P3 最终阶段"
+alertall "[EGI]P1 热身阶段" before 2 sound "tts P1 热身阶段"
+alertall "[EGI]P2 对刀阶段" before 2 sound "tts P2 对刀阶段"
+alertall "[EGI]P3 最终阶段" before 2 sound "tts P3 最终阶段"
 
 ################ Config ################
 
-hideall "[EGI]重置 ##"
+hideall "[EGI]重置"
 
 ################ Main ################
 
-0 "[EGI]重置 ##" sync /Removing combatant 须佐之男/ window 10000 jump 0
+0 "[EGI]重置" sync /Removing combatant 须佐之男/ window 10000 jump 0
 
 # P1 热身阶段
-1 "[EGI]P1 热身阶段 ##" sync /欢庆吧！跳舞吧！/ window 10000
+1 "[EGI]P1 热身阶段" sync /欢庆吧！跳舞吧！/ window 10000
 10 "[T]强击" sync /须佐之男发动了“强击”/ 
 ##
 13 "[G]水泡炸弹" sync /须佐之男发动了“祸泡附身”/ 
@@ -69,7 +69,7 @@ hideall "[EGI]重置 ##"
 89 "[T]强击" sync /须佐之男发动了“强击”/ 
 
 # P2 对刀阶段
-94 "[EGI]P2 对刀阶段 ##" sync /有意思，真有意思！/ window 10000
+94 "[EGI]P2 对刀阶段" sync /有意思，真有意思！/ window 10000
 118 "天之丛云" sync /Added new combatant 天之丛云/ window 10
 118 "[T]副T撞球"
 118 "撞球 x4"
@@ -79,7 +79,7 @@ hideall "[EGI]重置 ##"
 200 "撞球 x4"
 
 # P3 最终阶段
-300 "[EGI]P3 最终阶段 ##" sync /哇啊啊啊！/ window 10000
+300 "[EGI]P3 最终阶段" sync /哇啊啊啊！/ window 10000
 304 "[H]全屏AOE"
 ##
 321 "[T]破浪斩 > 换T" duration 4 sync /须佐之男正在发动“破浪斩”/ window 10

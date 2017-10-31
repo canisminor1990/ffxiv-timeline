@@ -2,7 +2,7 @@
 
 注意：使用 `FZ.Timeline` 不兼容 `ACT.Timeline`
 
-<img src="https://ws3.sinaimg.cn/large/006tKfTcly1fl1mv8tqwaj30jj0y8wfl.jpg" width="350" />
+<img src="https://ws1.sinaimg.cn/large/006tKfTcly1fl1n0n0comj30jg0upjsw.jpg" width="350" />
 
 ## 使用
 
