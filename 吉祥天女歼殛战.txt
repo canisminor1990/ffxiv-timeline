@@ -1,0 +1,196 @@
+# 吉祥天女歼殛战 - 吉祥天女
+
+################ TTS ################
+
+define speaker "tts" "Microsoft Huihui Desktop" 0 100
+#define speaker "tts" "Microsoft Hanhan Desktop" 0 100
+#define speaker "tts" "Microsoft Lili" 0 100
+
+################ Config #####################
+
+alertall "反复无常" before 0 speak "tts" "反复无常"
+alertall "光之奔流" before 0 speak "tts" "T死刑"
+alertall "赞歌" before 1 speak "tts" "AOE"
+alertall "完全拒绝" before 0 speak "tts" "击退"
+alertall "完全引诱" before 0 speak "tts" "远离"
+alertall "完全惑乱" before 0 speak "tts" "站位"
+alertall "光之瀑布" before 1 speak "tts" "分摊"
+
+alertall "--蓝色点名--" before 2 speak "tts" "二仇准备"
+alertall "--反复无常结束--" before 0 speak "tts" "反复无常结束"
+
+################ Main ################
+
+0 "--重置--" sync /Removing combatant 吉祥天女/ window 10000 jump 0
+
+#Phase 1 - Adds
+1 "--开始--" sync /污秽之人啊/ window 10000
+12 "心魔" duration 4 sync /梦寐的刹帝利正在咏唱“心魔”/ window 2, 2
+13 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+#Phase 2 - 优雅的右手
+100 "--Phase 2--" sync /竟然将王的信徒都打倒了/ window 10000
+104 "优雅的右手" duration 2 sync /吉祥天女正在发动“优雅的右手”/ window 2, 2
+104 "--十字AOEx3--" duration 16
+
+109 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+121 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+130 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+138 "--蓝色点名--" duration 4
+143 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+#Phase 3 - 魅惑之臂
+150 "--Phase 3--" sync /此刻，指尖凝聚/ window 10000
+150 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
+150 "--单体AOE x2--" duration 16
+150 "--十字AOE--" duration 16
+
+155 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+167 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+172 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+181 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+#Phase 4 - 反复无常
+191 "--Phase 4--" sync /领略进化之光/ window 10000
+191 "反复无常" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+191 "--元气--"
+
+203 "完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
+
+214 "优美的左手" duration 3 sync /吉祥天女正在发动“优美的左手”/ window 2, 2
+214 "--元气 (治疗)--"
+214 "--单体AOE x2--" duration 16
+
+214 "--元气 (MT)--"
+219 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+227 "--元气 (ST)--"
+227 "--蓝色点名--" duration 4
+232 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+239 "--元气--"
+239 "完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
+
+245 "--反复无常结束--"
+252 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+264 "--蓝色点名--" duration 4
+270 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+274 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+#Phase 4 -
+281 "--Phase 4--" sync /陷入梦境吧，我的信徒/ window 10000
+281 "梦寐的婆罗门 x2"
+281 "梦寐的首陀罗 x2"
+
+#Phase 5 -
+400 "至上天母" sync /吉祥天女发动了“至上天母”/ window 300, 0
+
+402 "--Phase 5--" sync /接受我的拥抱吧/ window 10000
+402 "--元气--"
+436 "魅惑拥抱" sync /吉祥天女发动了“魅惑拥抱”/ window 10000
+
+440 "--元气--"
+440 "反复无常" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+
+452 "完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
+
+469 "--元气 (ST)--"
+469 "--蓝色点名--" duration 4
+474 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+479 "--元气 (MT)--"
+479 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+485 "--反复无常结束--"
+
+#Phase 6
+491 "--Phase 6--" sync /何为大爱/ window 10000
+492 "至上天母" sync /吉祥天女发动了“至上天母”/ window 2, 2
+
+501 "--补充元气--"
+501 "圣枪 x3" duration 9
+504 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+518 "--补充元气--"
+518 "圣枪" duration 9
+
+520 "--蓝色点名--" duration 4
+525 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+527 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+
+540 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
+540 "--单体AOE--" duration 16
+540 "--十字AOE x2--" duration 16
+
+545 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+552 "--蓝色点名--" duration 4
+557 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+558 "圣枪 x2"
+
+564 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+#Phase 7
+575 "--元气--"
+575 "反复无常" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+
+587 "--Phase 7"
+587 "完全惑乱" duration 6 sync /吉祥天女正在发动“完全惑乱”/ window 10
+
+603 "--元气--"
+603 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+
+616 "至上天母" sync /吉祥天女发动了“至上天母”/ window 2, 2
+
+625 "--补充元气--"
+625 "圣枪" duration 9
+
+630 "--元气--"
+630 "完全引诱" duration 5 sync /吉祥天女正在发动“完全引诱”/ window 10
+
+640 "--补充元气--"
+640 "圣枪 x3" duration 9
+
+644 "--元气--"
+644 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+
+657 "--元气--"
+657 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+662 "--反复无常结束--"
+
+#Phase 8
+670 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
+670 "--单体AOE x2--" duration 16
+670 "--十字AOE x2--" duration 16
+
+676 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+
+683 "--蓝色点名--" duration 4
+689 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+689 "圣枪"
+
+693 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+701 "光之奔流" duration 5 sync /吉祥天女正在发动“光之奔流”/ window 2, 2
+
+713 "魅惑之臂" duration 3 sync /吉祥天女正在发动“魅惑之臂”/ window 2, 2
+713 "--单体AOE x2--" duration 16
+713 "--十字AOE x3--" duration 16
+731 "圣枪"
+
+731 "光之瀑布" duration 5 sync /吉祥天女正在发动“光之瀑布”/ window 2, 2
+
+738 "--蓝色点名--" duration 4
+744 "光之波动" sync /吉祥天女发动了“光之波动”/ window 2, 2
+
+748 "赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/ window 2, 2
+
+759 "反复无常" duration 4 sync /吉祥天女正在发动“反复无常”/ window 10
+
+764 "--元气--"
+764 "完全拒绝" duration 5 sync /吉祥天女正在发动“完全拒绝”/ window 10
+784 "完全拒绝 (狂暴)"
