@@ -22,7 +22,7 @@ alertall "[G]暗黑光(中下安全)" before 0 sound "tts 中间集合"
 alertall "[G]暗黑光(中间安全)" before 0 sound "tts 中间集合"
 
 alertall "[D]重力-100 > 近A远C" before 0 sound "tts  近A远C,准备上天"
-alertall "[G]中集合>下降>疾跑出发" before 0 sound "tts 中间集合,下降,疾跑出发"
+alertall "[G]点上集合>下降>避震" before 0 sound "tts 点上集合,下降,避震"
 alertall "[G]先到位>再分摊" before 0 sound "tts 先到位,再分摊"
 alertall "[G][背对]恶魔之瞳" before 0 sound "tts 背对"
 
@@ -59,7 +59,7 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 111 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
 118 "震源制造" duration 3 sync /灾变者正在发动“震源制造”/ window 10
 125 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
-125 "[G]中集合>下降>疾跑出发"
+125 "[G]点上集合>下降>避震"
 136 "重力100" duration 8 sync /灾变者正在发动“重力100”/
 140 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
