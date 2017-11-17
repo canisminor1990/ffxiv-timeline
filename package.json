@@ -1,0 +1,11 @@
+{
+  "name": "ffxiv-timeline",
+  "version": "1.0.0",
+  "main": "README.md",
+  "repository": [
+    "git@git.coding.net:canisminor1990/ffxiv-timeline.git",
+    "git@github.com:canisminor1990/ffxiv-timeline.git"
+  ],
+  "author": "canisminor1990 <canisminor1990@gmail.com>",
+  "license": "MIT"
+}

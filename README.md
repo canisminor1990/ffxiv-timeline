@@ -38,3 +38,9 @@ http://canisminor1990.coding.me/ffxiv-timeline/setting/StandardTimeline.xml
 
 - [语法说明](docs/wiki.md)
 - [完整示例](docs/demo.md)
+
+## Link
+
+- NGA Timeline: <http://bbs.ngacn.cc/read.php?tid=12766323>
+- NGA ACT: <http://bbs.ngacn.cc/read.php?tid=12526945>
+- FZ.Timeline: <https://github.com/FairyZeta/ACT.Timeline/releases>
