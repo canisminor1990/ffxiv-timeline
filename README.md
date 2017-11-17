@@ -41,8 +41,21 @@ http://canisminor1990.coding.me/ffxiv-timeline/setting/StandardTimeline.xml
 - [语法说明](docs/wiki.md)
 - [完整示例](docs/demo.md)
 
+<br />
+
 ## Link
 
 - NGA Timeline: <http://bbs.ngacn.cc/read.php?tid=12766323>
 - NGA ACT: <http://bbs.ngacn.cc/read.php?tid=12526945>
 - FZ.Timeline: <https://github.com/FairyZeta/ACT.Timeline/releases>
+- Github: <git@git.coding.net:canisminor1990/ffxiv-timeline.git>
+- Coding: <git@github.com:canisminor1990/ffxiv-timeline.git>
+
+<br />
+
+## Copyright
+
+- **Author:** CanisMinor
+- **ID:** 男孩纸榨汁机(紫水)
+- **E-Mail:** <i@canisminor.cc>
+- **License:** MIT
