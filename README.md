@@ -48,8 +48,8 @@ http://canisminor1990.coding.me/ffxiv-timeline/setting/StandardTimeline.xml
 - NGA Timeline: <http://bbs.ngacn.cc/read.php?tid=12766323>
 - NGA ACT: <http://bbs.ngacn.cc/read.php?tid=12526945>
 - FZ.Timeline: <https://github.com/FairyZeta/ACT.Timeline/releases>
-- Github: <git@git.coding.net:canisminor1990/ffxiv-timeline.git>
-- Coding: <git@github.com:canisminor1990/ffxiv-timeline.git>
+- Github: <https://github.com/canisminor1990/ffxiv-timeline>
+- Coding: <https://coding.net/u/canisminor1990/p/ffxiv-timeline>
 
 <br />
 
