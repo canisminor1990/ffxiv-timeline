@@ -1,5 +1,7 @@
 ﻿# 欧米茄零式时空狭缝 德尔塔幻境2 - 灾变者
+# 参考菓子君攻略 https://www.bilibili.com/video/av14211868/
 # By CanisMinor
+
 
 ################ TTS #####################
 
@@ -137,7 +139,9 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 480 "[G]所有人浮空"
 482 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
 492 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
-##
+
+## P5 - 最后阶段
+495 "[EGI]P5 - 最后阶段"
 495 "[T]死刑2+1"
 497 "诅咒波" sync /灾变者发动了“诅咒波”/
 502 "[G]暗黑光(地面安全)" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
@@ -163,4 +167,4 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 596 "重力100"
 599 "[G]所有人浮空"
 601 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
-611 "[狂暴]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
+611 "[EGI][狂暴]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
