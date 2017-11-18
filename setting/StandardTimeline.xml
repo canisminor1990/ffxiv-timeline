@@ -3,10 +3,10 @@
   <DataVersionStr>0.0.7.3</DataVersionStr>
   <OverlayWindowData>
     <ID>2</ID>
-    <WindowWidth>323</WindowWidth>
-    <WindowHeight>557</WindowHeight>
-    <WindowTop>44</WindowTop>
-    <WindowLeft>1020</WindowLeft>
+    <WindowWidth>226</WindowWidth>
+    <WindowHeight>306</WindowHeight>
+    <WindowTop>468</WindowTop>
+    <WindowLeft>733.5</WindowLeft>
     <WindowVisibility>true</WindowVisibility>
     <OverlayType>StandardTimeline</OverlayType>
     <OverlayName>时间轴</OverlayName>
@@ -18,7 +18,7 @@
     <HeaderFontSize>14</HeaderFontSize>
     <ContentFontSize>14</ContentFontSize>
     <ContentOpacity>0</ContentOpacity>
-    <BackgroundOpacity>60</BackgroundOpacity>
+    <BackgroundOpacity>48</BackgroundOpacity>
     <BackgroundEffectType>Blur</BackgroundEffectType>
     <BackgroundBlurRadius>6</BackgroundBlurRadius>
     <BackgroundEffectKernelType>Gaussian</BackgroundEffectKernelType>
@@ -29,15 +29,15 @@
       <BottomLeft>4</BottomLeft>
     </BackgroundCornerRadius>
     <BackgroundMargin>
-      <Left>6</Left>
-      <Top>2</Top>
-      <Right>2</Right>
+      <Left>12</Left>
+      <Top>12</Top>
+      <Right>12</Right>
       <Bottom>2</Bottom>
     </BackgroundMargin>
     <TitleBarVisibility>false</TitleBarVisibility>
     <ContentHeaderVisibility>false</ContentHeaderVisibility>
     <ContentScrollBarVisibility>true</ContentScrollBarVisibility>
-    <LightMode>false</LightMode>
+    <LightMode>true</LightMode>
   </OverlayGenericSettingsData>
   <OverlayOptionData />
   <OverlayFilterSettingsData>
@@ -84,17 +84,17 @@
   </OverlayItemVisibilitySettingsData>
   <OverlayContentSettingsData>
     <TimeNoWidth>50</TimeNoWidth>
-    <ActionTimeWidth>50</ActionTimeWidth>
+    <ActionTimeWidth>0</ActionTimeWidth>
     <TypeWidth>70</TypeWidth>
     <JobWidth>70</JobWidth>
     <TankModeWidth>50</TankModeWidth>
-    <ActionWidth>162.9032258064515</ActionWidth>
-    <ActiveWidth>108.7096774193548</ActiveWidth>
-    <AlertWidth>30</AlertWidth>
-    <JumpWidth>30</JumpWidth>
+    <ActionWidth>169.35483870967715</ActionWidth>
+    <ActiveWidth>16.129032258064516</ActiveWidth>
+    <AlertWidth>9.3548387096774164</AlertWidth>
+    <JumpWidth>0</JumpWidth>
     <TitleBarMinHeight>0</TitleBarMinHeight>
     <HeaderMinHeight>0</HeaderMinHeight>
-    <ContentMinHeight>0</ContentMinHeight>
+    <ContentMinHeight>32.167832167832231</ContentMinHeight>
   </OverlayContentSettingsData>
   <OverlayColorSettingsData>
     <MenuMain_Base>
@@ -329,7 +329,7 @@
       <PaletteElement />
       <PaletteType>NonType</PaletteType>
       <PaletteMemo />
-      <Updated>2017-10-31T18:13:47.4483278+08:00</Updated>
+      <Updated>2017-11-18T14:35:06.7285768+08:00</Updated>
       <CreatorName />
       <ColorCollection>
         <Color>
@@ -433,7 +433,215 @@
       <PaletteElement />
       <PaletteType>NonType</PaletteType>
       <PaletteMemo />
-      <Updated>2017-10-31T18:13:10.8738824+08:00</Updated>
+      <Updated>2017-11-18T14:35:42.6193854+08:00</Updated>
+      <CreatorName />
+      <ColorCollection>
+        <Color>
+          <A>255</A>
+          <R>169</R>
+          <G>169</G>
+          <B>169</B>
+          <ScA>1</ScA>
+          <ScR>0.396755248</ScR>
+          <ScG>0.396755248</ScG>
+          <ScB>0.396755248</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+      </ColorCollection>
+      <ImageByteCollection />
+      <InnerTextSchemeNo>0</InnerTextSchemeNo>
+      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
+      <OutlineThickness>1</OutlineThickness>
+      <ShadowSchemeNo>2</ShadowSchemeNo>
+      <ShadowEnabled>true</ShadowEnabled>
+      <ShadowLevel>3</ShadowLevel>
+      <ShadowDepth>0</ShadowDepth>
+      <ShadowDirection>0</ShadowDirection>
+      <DrawingReverseMode>true</DrawingReverseMode>
+      <PropertyChangedFLG>true</PropertyChangedFLG>
+    </UNKNOWN_OutlineTextData>
+    <TANK_OutlineTextData>
+      <PaletteName />
+      <PaletteCategory />
+      <PaletteElement />
+      <PaletteType>NonType</PaletteType>
+      <PaletteMemo />
+      <Updated>2017-11-18T14:34:40.058088+08:00</Updated>
+      <CreatorName />
+      <ColorCollection>
+        <Color>
+          <A>255</A>
+          <R>0</R>
+          <G>191</G>
+          <B>255</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.5209956</ScG>
+          <ScB>1</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+      </ColorCollection>
+      <ImageByteCollection />
+      <InnerTextSchemeNo>0</InnerTextSchemeNo>
+      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
+      <OutlineThickness>1</OutlineThickness>
+      <ShadowSchemeNo>2</ShadowSchemeNo>
+      <ShadowEnabled>true</ShadowEnabled>
+      <ShadowLevel>3</ShadowLevel>
+      <ShadowDepth>0</ShadowDepth>
+      <ShadowDirection>0</ShadowDirection>
+      <DrawingReverseMode>true</DrawingReverseMode>
+      <PropertyChangedFLG>true</PropertyChangedFLG>
+    </TANK_OutlineTextData>
+    <DPS_OutlineTextData>
+      <PaletteName />
+      <PaletteCategory />
+      <PaletteElement />
+      <PaletteType>NonType</PaletteType>
+      <PaletteMemo />
+      <Updated>2017-11-18T14:34:53.0977587+08:00</Updated>
+      <CreatorName />
+      <ColorCollection>
+        <Color>
+          <A>255</A>
+          <R>255</R>
+          <G>99</G>
+          <B>71</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.124771819</ScG>
+          <ScB>0.06301002</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+      </ColorCollection>
+      <ImageByteCollection />
+      <InnerTextSchemeNo>0</InnerTextSchemeNo>
+      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
+      <OutlineThickness>1</OutlineThickness>
+      <ShadowSchemeNo>2</ShadowSchemeNo>
+      <ShadowEnabled>true</ShadowEnabled>
+      <ShadowLevel>3</ShadowLevel>
+      <ShadowDepth>0</ShadowDepth>
+      <ShadowDirection>0</ShadowDirection>
+      <DrawingReverseMode>true</DrawingReverseMode>
+      <PropertyChangedFLG>true</PropertyChangedFLG>
+    </DPS_OutlineTextData>
+    <HEALER_OutlineTextData>
+      <PaletteName />
+      <PaletteCategory />
+      <PaletteElement />
+      <PaletteType>NonType</PaletteType>
+      <PaletteMemo />
+      <Updated>2017-11-18T14:34:24.8230932+08:00</Updated>
+      <CreatorName />
+      <ColorCollection>
+        <Color>
+          <A>255</A>
+          <R>124</R>
+          <G>252</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0.20155625</ScR>
+          <ScG>0.9734453</ScG>
+          <ScB>0</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+        <Color>
+          <A>50</A>
+          <R>0</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>0.196078435</ScA>
+          <ScR>0</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Color>
+      </ColorCollection>
+      <ImageByteCollection />
+      <InnerTextSchemeNo>0</InnerTextSchemeNo>
+      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
+      <OutlineThickness>0</OutlineThickness>
+      <ShadowSchemeNo>2</ShadowSchemeNo>
+      <ShadowEnabled>true</ShadowEnabled>
+      <ShadowLevel>3</ShadowLevel>
+      <ShadowDepth>0</ShadowDepth>
+      <ShadowDirection>0</ShadowDirection>
+      <DrawingReverseMode>true</DrawingReverseMode>
+      <PropertyChangedFLG>true</PropertyChangedFLG>
+    </HEALER_OutlineTextData>
+    <PET_OutlineTextData>
+      <PaletteName />
+      <PaletteCategory />
+      <PaletteElement />
+      <PaletteType>NonType</PaletteType>
+      <PaletteMemo />
+      <Updated>2017-11-18T14:34:01.3614409+08:00</Updated>
       <CreatorName />
       <ColorCollection>
         <Color>
@@ -478,214 +686,6 @@
       <ShadowDirection>0</ShadowDirection>
       <DrawingReverseMode>true</DrawingReverseMode>
       <PropertyChangedFLG>true</PropertyChangedFLG>
-    </UNKNOWN_OutlineTextData>
-    <TANK_OutlineTextData>
-      <PaletteName />
-      <PaletteCategory />
-      <PaletteElement />
-      <PaletteType>NonType</PaletteType>
-      <PaletteMemo />
-      <Updated>2017-10-31T18:11:52.1847824+08:00</Updated>
-      <CreatorName />
-      <ColorCollection>
-        <Color>
-          <A>255</A>
-          <R>87</R>
-          <G>192</G>
-          <B>229</B>
-          <ScA>1</ScA>
-          <ScR>0.09530747</ScR>
-          <ScG>0.527115166</ScG>
-          <ScB>0.7835378</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-      </ColorCollection>
-      <ImageByteCollection />
-      <InnerTextSchemeNo>0</InnerTextSchemeNo>
-      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
-      <OutlineThickness>1</OutlineThickness>
-      <ShadowSchemeNo>2</ShadowSchemeNo>
-      <ShadowEnabled>true</ShadowEnabled>
-      <ShadowLevel>3</ShadowLevel>
-      <ShadowDepth>0</ShadowDepth>
-      <ShadowDirection>0</ShadowDirection>
-      <DrawingReverseMode>true</DrawingReverseMode>
-      <PropertyChangedFLG>true</PropertyChangedFLG>
-    </TANK_OutlineTextData>
-    <DPS_OutlineTextData>
-      <PaletteName />
-      <PaletteCategory />
-      <PaletteElement />
-      <PaletteType>NonType</PaletteType>
-      <PaletteMemo />
-      <Updated>2017-10-31T18:12:08.9172131+08:00</Updated>
-      <CreatorName />
-      <ColorCollection>
-        <Color>
-          <A>255</A>
-          <R>216</R>
-          <G>111</G>
-          <B>135</B>
-          <ScA>1</ScA>
-          <ScR>0.6866853</ScR>
-          <ScG>0.158960834</ScG>
-          <ScB>0.242281154</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-      </ColorCollection>
-      <ImageByteCollection />
-      <InnerTextSchemeNo>0</InnerTextSchemeNo>
-      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
-      <OutlineThickness>1</OutlineThickness>
-      <ShadowSchemeNo>2</ShadowSchemeNo>
-      <ShadowEnabled>true</ShadowEnabled>
-      <ShadowLevel>3</ShadowLevel>
-      <ShadowDepth>0</ShadowDepth>
-      <ShadowDirection>0</ShadowDirection>
-      <DrawingReverseMode>true</DrawingReverseMode>
-      <PropertyChangedFLG>true</PropertyChangedFLG>
-    </DPS_OutlineTextData>
-    <HEALER_OutlineTextData>
-      <PaletteName />
-      <PaletteCategory />
-      <PaletteElement />
-      <PaletteType>NonType</PaletteType>
-      <PaletteMemo />
-      <Updated>2017-10-31T18:12:24.3874963+08:00</Updated>
-      <CreatorName />
-      <ColorCollection>
-        <Color>
-          <A>255</A>
-          <R>179</R>
-          <G>255</G>
-          <B>190</B>
-          <ScA>1</ScA>
-          <ScR>0.450785816</ScR>
-          <ScG>1</ScG>
-          <ScB>0.5149177</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-      </ColorCollection>
-      <ImageByteCollection />
-      <InnerTextSchemeNo>0</InnerTextSchemeNo>
-      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
-      <OutlineThickness>0</OutlineThickness>
-      <ShadowSchemeNo>2</ShadowSchemeNo>
-      <ShadowEnabled>true</ShadowEnabled>
-      <ShadowLevel>3</ShadowLevel>
-      <ShadowDepth>0</ShadowDepth>
-      <ShadowDirection>0</ShadowDirection>
-      <DrawingReverseMode>true</DrawingReverseMode>
-      <PropertyChangedFLG>true</PropertyChangedFLG>
-    </HEALER_OutlineTextData>
-    <PET_OutlineTextData>
-      <PaletteName />
-      <PaletteCategory />
-      <PaletteElement />
-      <PaletteType>NonType</PaletteType>
-      <PaletteMemo />
-      <Updated>2017-10-31T18:12:45.2802111+08:00</Updated>
-      <CreatorName />
-      <ColorCollection>
-        <Color>
-          <A>191</A>
-          <R>175</R>
-          <G>254</G>
-          <B>238</B>
-          <ScA>0.7490196</ScA>
-          <ScR>0.428690523</ScR>
-          <ScG>0.9911021</ScG>
-          <ScB>0.8549926</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-        <Color>
-          <A>50</A>
-          <R>0</R>
-          <G>0</G>
-          <B>0</B>
-          <ScA>0.196078435</ScA>
-          <ScR>0</ScR>
-          <ScG>0</ScG>
-          <ScB>0</ScB>
-        </Color>
-      </ColorCollection>
-      <ImageByteCollection />
-      <InnerTextSchemeNo>0</InnerTextSchemeNo>
-      <OutlineTextSchemeNo>1</OutlineTextSchemeNo>
-      <OutlineThickness>1</OutlineThickness>
-      <ShadowSchemeNo>2</ShadowSchemeNo>
-      <ShadowEnabled>true</ShadowEnabled>
-      <ShadowLevel>3</ShadowLevel>
-      <ShadowDepth>0</ShadowDepth>
-      <ShadowDirection>0</ShadowDirection>
-      <DrawingReverseMode>true</DrawingReverseMode>
-      <PropertyChangedFLG>true</PropertyChangedFLG>
     </PET_OutlineTextData>
     <GIMMICK_OutlineTextData>
       <PaletteName />
@@ -693,18 +693,18 @@
       <PaletteElement />
       <PaletteType>NonType</PaletteType>
       <PaletteMemo />
-      <Updated>2017-10-31T18:12:55.6863231+08:00</Updated>
+      <Updated>2017-11-18T14:35:17.51505+08:00</Updated>
       <CreatorName />
       <ColorCollection>
         <Color>
           <A>255</A>
-          <R>238</R>
-          <G>225</G>
-          <B>197</B>
+          <R>255</R>
+          <G>215</G>
+          <B>0</B>
           <ScA>1</ScA>
-          <ScR>0.8549926</ScR>
-          <ScG>0.7529422</ScG>
-          <ScB>0.55834043</ScB>
+          <ScR>1</ScR>
+          <ScG>0.6795425</ScG>
+          <ScB>0</ScB>
         </Color>
         <Color>
           <A>50</A>
@@ -834,10 +834,10 @@
   <ActiveBarSettingsData>
     <BarFormType>SimpleType</BarFormType>
     <BarMargin>
-      <Left>2</Left>
-      <Top>6</Top>
-      <Right>35</Right>
-      <Bottom>6</Bottom>
+      <Left>-165</Left>
+      <Top>21</Top>
+      <Right>-13</Right>
+      <Bottom>-6</Bottom>
     </BarMargin>
     <BarInnerMargin>
       <Left>0</Left>
@@ -852,62 +852,62 @@
       <BottomLeft>3</BottomLeft>
     </CornerRadius>
     <BorderThickness>
-      <Left>1</Left>
-      <Top>1</Top>
-      <Right>1</Right>
-      <Bottom>1</Bottom>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Right>0</Right>
+      <Bottom>0</Bottom>
     </BorderThickness>
     <BorderColor>
-      <A>50</A>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <ScA>0.196078435</ScA>
-      <ScR>0</ScR>
-      <ScG>0</ScG>
-      <ScB>0</ScB>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
     </BorderColor>
     <BackgroundColor>
-      <A>50</A>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <ScA>0.196078435</ScA>
-      <ScR>0</ScR>
-      <ScG>0</ScG>
-      <ScB>0</ScB>
+      <A>40</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0.156862751</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
     </BackgroundColor>
     <BarColor1_Base>
-      <A>255</A>
-      <R>100</R>
-      <G>144</G>
-      <B>41</B>
-      <ScA>1</ScA>
-      <ScR>0.127437681</ScR>
-      <ScG>0.2788943</ScG>
-      <ScB>0.0221738853</ScB>
+      <A>50</A>
+      <R>188</R>
+      <G>169</G>
+      <B>138</B>
+      <ScA>0.196078435</ScA>
+      <ScR>0.5028865</ScR>
+      <ScG>0.396755248</ScG>
+      <ScB>0.254152119</ScB>
     </BarColor1_Base>
     <BarColor2_Base>
-      <A>255</A>
-      <R>238</R>
-      <G>225</G>
-      <B>197</B>
-      <ScA>1</ScA>
-      <ScR>0.8549926</ScR>
-      <ScG>0.7529422</ScG>
-      <ScB>0.55834043</ScB>
+      <A>150</A>
+      <R>188</R>
+      <G>169</G>
+      <B>138</B>
+      <ScA>0.5882353</ScA>
+      <ScR>0.5028865</ScR>
+      <ScG>0.396755248</ScG>
+      <ScB>0.254152119</ScB>
     </BarColor2_Base>
     <BarColor3_Base>
       <A>255</A>
-      <R>216</R>
-      <G>111</G>
-      <B>135</B>
+      <R>188</R>
+      <G>169</G>
+      <B>138</B>
       <ScA>1</ScA>
-      <ScR>0.6866853</ScR>
-      <ScG>0.158960834</ScG>
-      <ScB>0.242281154</ScB>
+      <ScR>0.5028865</ScR>
+      <ScG>0.396755248</ScG>
+      <ScB>0.254152119</ScB>
     </BarColor3_Base>
-    <BarHorizontalAlignment>Right</BarHorizontalAlignment>
+    <BarHorizontalAlignment>Left</BarHorizontalAlignment>
     <TextHorizontalAlignment>Right</TextHorizontalAlignment>
     <TextVerticalAlignment>Center</TextVerticalAlignment>
     <DoubleVisibilityStyle>N0</DoubleVisibilityStyle>
@@ -920,10 +920,10 @@
   <CastBarSettingsData>
     <BarFormType>SimpleType</BarFormType>
     <BarMargin>
-      <Left>2</Left>
-      <Top>6</Top>
-      <Right>35</Right>
-      <Bottom>6</Bottom>
+      <Left>-165</Left>
+      <Top>21</Top>
+      <Right>-13</Right>
+      <Bottom>-6</Bottom>
     </BarMargin>
     <BarInnerMargin>
       <Left>0</Left>
@@ -938,75 +938,75 @@
       <BottomLeft>3</BottomLeft>
     </CornerRadius>
     <BorderThickness>
-      <Left>1</Left>
-      <Top>1</Top>
-      <Right>1</Right>
-      <Bottom>1</Bottom>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Right>0</Right>
+      <Bottom>0</Bottom>
     </BorderThickness>
     <BorderColor>
-      <A>50</A>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <ScA>0.196078435</ScA>
-      <ScR>0</ScR>
-      <ScG>0</ScG>
-      <ScB>0</ScB>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
     </BorderColor>
     <BackgroundColor>
-      <A>50</A>
-      <R>0</R>
-      <G>0</G>
-      <B>0</B>
-      <ScA>0.196078435</ScA>
-      <ScR>0</ScR>
-      <ScG>0</ScG>
-      <ScB>0</ScB>
+      <A>0</A>
+      <R>255</R>
+      <G>255</G>
+      <B>255</B>
+      <ScA>0</ScA>
+      <ScR>1</ScR>
+      <ScG>1</ScG>
+      <ScB>1</ScB>
     </BackgroundColor>
     <BarColor1_Base>
-      <A>255</A>
-      <R>216</R>
-      <G>111</G>
-      <B>135</B>
-      <ScA>1</ScA>
-      <ScR>0.6866853</ScR>
-      <ScG>0.158960834</ScG>
-      <ScB>0.242281154</ScB>
+      <A>50</A>
+      <R>238</R>
+      <G>225</G>
+      <B>197</B>
+      <ScA>0.196078435</ScA>
+      <ScR>0.8549926</ScR>
+      <ScG>0.7529422</ScG>
+      <ScB>0.55834043</ScB>
     </BarColor1_Base>
     <BarColor2_Base>
-      <A>255</A>
-      <R>232</R>
-      <G>129</G>
-      <B>181</B>
-      <ScA>1</ScA>
-      <ScR>0.8069523</ScR>
-      <ScG>0.219526231</ScG>
-      <ScB>0.462077022</ScB>
+      <A>150</A>
+      <R>238</R>
+      <G>225</G>
+      <B>197</B>
+      <ScA>0.5882353</ScA>
+      <ScR>0.8549926</ScR>
+      <ScG>0.7529422</ScG>
+      <ScB>0.55834043</ScB>
     </BarColor2_Base>
     <BarColor3_Base>
       <A>255</A>
-      <R>187</R>
-      <G>132</G>
-      <B>255</B>
+      <R>238</R>
+      <G>225</G>
+      <B>197</B>
       <ScA>1</ScA>
-      <ScR>0.496933</ScR>
-      <ScG>0.23074007</ScG>
-      <ScB>1</ScB>
+      <ScR>0.8549926</ScR>
+      <ScG>0.7529422</ScG>
+      <ScB>0.55834043</ScB>
     </BarColor3_Base>
     <BarHorizontalAlignment>Left</BarHorizontalAlignment>
     <TextHorizontalAlignment>Right</TextHorizontalAlignment>
     <TextVerticalAlignment>Center</TextVerticalAlignment>
     <DoubleVisibilityStyle>N0</DoubleVisibilityStyle>
     <BarActiveTime>3</BarActiveTime>
-    <GradientStop1StartTime>3</GradientStop1StartTime>
-    <GradientStop1EndTime>2</GradientStop1EndTime>
-    <GradientStop2StartTime>2</GradientStop2StartTime>
-    <GradientStop2EndTime>1</GradientStop2EndTime>
+    <GradientStop1StartTime>9</GradientStop1StartTime>
+    <GradientStop1EndTime>7</GradientStop1EndTime>
+    <GradientStop2StartTime>5</GradientStop2StartTime>
+    <GradientStop2EndTime>3</GradientStop2EndTime>
   </CastBarSettingsData>
   <FontData>
-    <TitleBar_BaseFontInfo FontFamily="Microsoft YaHei" Size="14" Weight="Bold" Style="Normal" Stretch="Normal" />
-    <Header_BaseFontInfo FontFamily="Microsoft YaHei" Size="14" Weight="Bold" Style="Normal" Stretch="Normal" />
-    <Content_BaseFontInfo FontFamily="Microsoft YaHei" Size="14" Weight="Bold" Style="Normal" Stretch="Normal" />
-    <Content_ActiveFontInfo FontFamily="Microsoft YaHei" Size="14" Weight="Bold" Style="Normal" Stretch="Normal" />
+    <TitleBar_BaseFontInfo FontFamily="Microsoft YaHei" Size="12" Weight="Bold" Style="Normal" Stretch="Normal" />
+    <Header_BaseFontInfo FontFamily="Microsoft YaHei" Size="12" Weight="Bold" Style="Normal" Stretch="Normal" />
+    <Content_BaseFontInfo FontFamily="Microsoft YaHei" Size="12" Weight="Bold" Style="Normal" Stretch="Normal" />
+    <Content_ActiveFontInfo FontFamily="Microsoft YaHei" Size="12" Weight="Bold" Style="Normal" Stretch="Normal" />
   </FontData>
 </OverlayDataModel>

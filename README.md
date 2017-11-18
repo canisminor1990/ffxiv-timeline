@@ -4,7 +4,7 @@
 
 注意：使用 `FZ.Timeline` 不兼容 `ACT.Timeline`
 
-<img src="https://ws1.sinaimg.cn/large/006tKfTcly1fl1n0n0comj30jg0upjsw.jpg" width="350" />
+![](http://qn.canisminor.cc/cm-timeline.png)
 
 ## 使用
 
