@@ -1,4 +1,4 @@
-﻿# 欧米茄零式时空狭缝 德尔塔幻境2 - 灾变者
+# 欧米茄零式时空狭缝 德尔塔幻境2 - 灾变者
 # 参考菓子君攻略 https://www.bilibili.com/video/av14211868/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
@@ -99,7 +99,7 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 307 "[D]DPS触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
 310 "[T][H]T奶浮空"
 318 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
-325 "震源制造" duration 3 sync /灾变者正在发动”震源制造“/ window 10
+325 "震源制造" duration 3 sync /灾变者正在发动“震源制造”/ window 10
 325 "[G]先到位>再分摊"
 332 "重力操纵" duration 5 sync /灾变者正在发动“重力操纵”/ window 10
 ##
