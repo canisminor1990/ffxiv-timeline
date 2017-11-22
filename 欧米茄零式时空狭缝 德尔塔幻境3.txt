@@ -128,7 +128,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 338 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 
 # P5 - 综合阶段
-347 "[EGI]P4 图书阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
+347 "[EGI]P5 综合阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
 352 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
 361 "[H]奶妈变身" duration 4
 368 "[T]坦克变身" duration 4
