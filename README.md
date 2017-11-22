@@ -34,6 +34,15 @@ http://canisminor1990.coding.me/ffxiv-timeline/setting/StandardTimeline.xml
 - FZ.技能时间轴 > 选项设置 > 资源环境目录 > 设置为本仓库文件夹
 - 刷新列表 > 加载TXT
 
+**支持SVN**
+
+可使用TortoiseSVN同步
+
+```
+svn+ssh://svn@svn.coding.net/canisminor1990/ffxiv-timeline
+```
+
+
 <br />
 
 ## 编写时间轴
