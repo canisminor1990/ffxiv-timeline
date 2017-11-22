@@ -9,22 +9,22 @@ alertall "[G]所有人下降" before 0 sound "tts 所有人下降"
 alertall "[G]所有人浮空" before 0 sound "tts 所有人浮空"
 
 alertall "[D]DPS触手" before 0 sound "tts DPS触手"
-alertall "[D]DPS浮空" before 0 sound "tts DPS浮空"
+alertall "[D]DPS浮空 > 分摊" before 0 sound "tts DPS浮空"
 alertall "[D]DPS浮空 > 准备弹飞" before 0 sound "tts DPS浮空,准备弹飞"
 alertall "[D]分摊出现 > DPS位移" before 0 sound "tts DPS位移"
 
-alertall "[T][H]T奶触手" before 0 sound "tts T奶触手"
-alertall "[T][H]T奶浮空" before 0 sound "tts T奶浮空"
-alertall "[T][H]T奶浮空 > 准备弹飞" before 0 sound "tts T奶浮空,准备弹飞"
-alertall "[T][H]分摊出现 > T奶位移" before 0 sound "tts T奶位移"
+alertall "[T]T奶触手" before 0 sound "tts T奶触手"
+alertall "[T]T奶浮空 > 分摊" before 0 sound "tts T奶浮空"
+alertall "[T]T奶浮空 > 准备弹飞" before 0 sound "tts T奶浮空,准备弹飞"
+alertall "[T]分摊出现 > T奶位移" before 0 sound "tts T奶位移"
 
 alertall "[G]暗黑光(中下安全)" before 0 sound "tts 中间集合"
 alertall "[G]暗黑光(中间安全)" before 0 sound "tts 中间集合"
 
 alertall "[D]重力-100 > 近A远C" before 0 sound "tts  近A远C,准备上天"
-alertall "[G]点上集合>下降>避震" before 0 sound "tts 点上集合,下降,避震"
-alertall "[G]先到位>再分摊" before 0 sound "tts 先到位,再分摊"
-alertall "[G][背对]恶魔之瞳" before 0 sound "tts 背对"
+alertall "[G]点上集合 > 下降避震" before 0 sound "tts 点上集合,下降避震"
+alertall "[G]先到位 > 再分摊" before 0 sound "tts 先到位,再分摊"
+alertall "[G][背对]死神之瞳" before 0 sound "tts 背对"
 
 alertall "[H][AOE]重力波" before 2 sound "tts AOE"
 
@@ -36,14 +36,16 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 0 "[EGI]重置" sync /Removing combatant 灾变者/ window 10000 jump 0
 
 # P1 - 开始
-1 "[EGI]P1 开始" sync /灾变者正在发动“大地震”/  window 10000 jump 13
+1 "[EGI]P1 开始" sync /灾变者发动了“地震”/ window 10 jump 10
+10 "地震" sync /灾变者发动了“地震”/
 13 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
 20 "[G]所有人下降"
-25 "重力100" duration 8 sync /灾变者正在发动“重力100”/
+25 "重力100" 
 30 "[G]暗黑光(中下安全)" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
+46 "爆炸"
 47 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
-50 "[T][H]T奶浮空"
+50 "[T]T奶浮空 > 分摊"
 55 "重力操纵" duration 5 sync /灾变者正在发动“重力操纵”/ window 10
 68 "[G]所有人浮空"
 ##
@@ -55,41 +57,48 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 
 # P2 - T奶触手套餐
 100 "[EGI]P2 - T奶触手套餐"
-100 "[T][H]T奶触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
-111 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
+100 "[T]T奶触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
+111 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 118 "震源制造" duration 3 sync /灾变者正在发动“震源制造”/ window 10
 125 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
-125 "[G]点上集合>下降>避震"
-136 "重力100" duration 8 sync /灾变者正在发动“重力100”/
+125 "[G]点上集合 > 下降避震"
+136 "重力100" 
 140 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
 143 "[T]死刑2+1"
 149 "诅咒波" sync /灾变者发动了“诅咒波”/
-150 "[T][H]T奶浮空"
+150 "[T]T奶浮空 > 分摊"
 153 "重力操纵" duration 5 sync /灾变者正在发动“重力操纵”/ window 10
 174 "诅咒波" sync /灾变者发动了“诅咒波”/
 178 "[T]邪球 > 换T" duration 5 sync /灾变者正在发动“邪球”/ window 10
 191 "诅咒波" sync /灾变者发动了“诅咒波”/
 ##
 197 "[D]重力-100 > 近A远C" duration 8 sync /灾变者正在发动“重力-100”/ window 10
-210 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
+206 "点名:重力崩坏x4"
+210 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
+213 "爆炸"
 218 "[G]所有人下降"
-226 "重力100" duration 8 sync /灾变者正在发动“重力100”/
+226 "重力100" 
 
 # P2.5 - T奶弹飞
 230 "[EGI]P2.5 - T奶弹飞"
 230 "[G]暗黑光(中间安全)" duration 3 sync /灾变者正在发动“暗黑光”/
 238 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
-240 "[T][H]T奶浮空 > 准备弹飞"
-247 "[T][H]分摊出现 > T奶位移"
+240 "[T]T奶浮空 > 准备弹飞"
+247 "爆炸"
+247 "[T]分摊出现 > T奶位移"
+253 "自由落体"
 ##
 256 "[G]所有人下降"
-263 "重力100" duration 8 sync /灾变者正在发动“重力100”/
+263 "重力100" 
 268 "[G]暗黑光(地面安全)" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
 ##
+276 "地震" sync /灾变者发动了“地震”/
+279 "地震" sync /灾变者发动了“地震”/
 282 "[G]所有人浮空"
 282 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
+284 "爆炸"
 ##
 287 "[G]所有人下降"
 297 "重力100"
@@ -97,16 +106,18 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 # P3 - Dps触手套餐
 307 "[EGI]P3 - Dps触手套餐"
 307 "[D]DPS触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
-310 "[T][H]T奶浮空"
-318 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
+318 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 325 "震源制造" duration 3 sync /灾变者正在发动“震源制造”/ window 10
-325 "[G]先到位>再分摊"
+325 "[G]先到位 > 再分摊"
 332 "重力操纵" duration 5 sync /灾变者正在发动“重力操纵”/ window 10
+339 "[T]T奶浮空 > 分摊" duration 4
 ##
 344 "[G]暗黑光(中下安全)" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
 355 "重力100"
 355 "[D]DPS浮空 > 准备弹飞"
+360 "爆炸"
 360 "[D]分摊出现 > DPS位移"
+366 "自由落体"
 ##
 372 "[T]死刑2+1"
 376 "诅咒波" sync /灾变者发动了“诅咒波”/
@@ -119,25 +130,26 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 415 "重力100"
 
 # P4 - T奶触手套餐
-420 "[T][H]T奶触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
-425 "[T][H]T奶浮空"
-431 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
+420 "[T]T奶触手" duration 5 sync /灾变者正在发动“触手乱舞”/ window 10
+421 "爆炸"
+425 "[T]T奶浮空 > 分摊"
+431 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 434 "触手出现"
-434 "[T][H]T奶浮空"
+434 "[T]T奶浮空 > 分摊"
 438 "震源制造" duration 3 sync /灾变者正在发动“震源制造”/ window 10
-440 "[G]先到位>再分摊"
+440 "[G]先到位 > 再分摊"
 445 "重力操纵" duration 5 sync /灾变者正在发动“重力操纵”/ window 10
 ##
 457 "暗黑光" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
 457 "[G]去中间下降"
 468 "重力100"
 ##
-470 "[T][H]T奶浮空 > 准备弹飞"
-474 "[T][H]分摊出现 > T奶位移"
-480 "击退"
+470 "[T]T奶浮空 > 准备弹飞"
+474 "[T]分摊出现 > T奶位移"
+480 "自由落体"
 ##
-480 "[G]所有人浮空"
-482 "[G][背对]恶魔之瞳" duration 5 sync /灾变者正在发动“恶魔之瞳”/ window 10
+481 "[G]所有人浮空"
+482 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 492 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 
 ## P5 - 最后阶段
@@ -148,7 +160,8 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 506 "[G]所有人下降"
 512 "重力100"
 518 "诅咒波" sync /灾变者发动了“诅咒波”/
-520 "[T][H]T奶浮空"
+518 "爆炸"
+520 "[T]T奶浮空 > 分摊"
 524 "[T]邪球 > 换T" duration 5 sync /灾变者正在发动“邪球”/ window 10
 537 "诅咒波" sync /灾变者发动了“诅咒波”/
 ##
@@ -158,13 +171,19 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 557 "[G]暗黑光(地面安全)"  duration 3 sync /灾变者正在发动“暗黑光”/ window 10
 560 "[G]所有人下降"
 567 "重力100"
-570 "[G]所有人浮空"
+567 "地震" sync /灾变者发动了“地震”/
 572 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
+573 "爆炸"
 582 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
-585 "[G]暗黑光(地面安全)"  duration 3 sync /灾变者正在发动“暗黑光”/ window 10
-588 "[G]所有人下降"
-596 "重力100"
-599 "[G]所有人浮空"
-601 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
-611 "[EGI][狂暴]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
+590 "[D]重力-100 > 近A远C" duration 8 sync /灾变者正在发动“重力-100”/ window 10
+599 "点名:重力崩坏x4"
+603 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
+606 "爆炸"
+##
+610 "[G]暗黑光(地面安全)" duration 3 sync /灾变者正在发动“暗黑光”/ window 10
+620 "重力100"
+620 "地震" sync /灾变者发动了“地震”/
+626 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
+627 "爆炸"
+633 "[EGI][狂暴]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
