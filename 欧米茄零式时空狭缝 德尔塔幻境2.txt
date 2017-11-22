@@ -178,6 +178,7 @@ hideall "开始"
 567 "地震" sync /灾变者发动了“地震”/
 572 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
 573 "爆炸"
+574 "[G]所有人浮空"
 582 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
 590 "[D]重力-100 > 近A远C" duration 8 sync /灾变者正在发动“重力-100”/ window 10
@@ -190,4 +191,5 @@ hideall "开始"
 620 "地震" sync /灾变者发动了“地震”/
 626 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
 627 "爆炸"
+628 "[G]所有人浮空"
 633 "[EGI][狂暴]重力波" duration 9 sync /灾变者正在发动“重力波”/ window 10
