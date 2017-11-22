@@ -34,9 +34,9 @@ alertall "[G]变身·猪" before 1 sound "tts 变猪,集中"
 alertall "[G]变身·青蛙" before 1 sound "tts 变青蛙,去背面"
 alertall "[G]变身·河童" before 1 sound "tts 变河童,背对"
 
-alertall "[H]奶妈变身" duration 1 sound "tts 奶妈变身"
-alertall "[T]坦克变身" duration 1 sound "tts 坦克变身"
-alertall "[D]输出变身" duration 1 sound "tts 输出变身"
+alertall "[H]奶妈变身" before 1 sound "tts 奶妈变身"
+alertall "[T]坦克变身" before 1 sound "tts 坦克变身"
+alertall "[D]输出变身" before 1 sound "tts 输出变身"
 
 alertall "[D]LB砸小牛" before 1 sound "tts LB砸小牛"
 alertall "[D]法师LB忍者" before 1 sound "tts 法师LB忍者"
