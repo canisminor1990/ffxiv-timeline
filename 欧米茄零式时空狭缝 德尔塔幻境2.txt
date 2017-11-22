@@ -186,4 +186,4 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 620 "地震" sync /灾变者发动了“地震”/
 626 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
 627 "爆炸"
-633 "[EGI][狂暴]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
+633 "[EGI][狂暴]重力波" duration 9 sync /灾变者正在发动“重力波”/ window 10
