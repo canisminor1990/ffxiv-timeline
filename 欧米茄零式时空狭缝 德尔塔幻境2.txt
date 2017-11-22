@@ -1,5 +1,5 @@
 # 欧米茄零式时空狭缝 德尔塔幻境2 - 灾变者
-# 参考菓子君攻略 https://www.bilibili.com/video/av14211868/
+# 参考菓子君攻略 https·//www.bilibili.com/video/av14211868/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
 
@@ -74,7 +74,7 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 191 "诅咒波" sync /灾变者发动了“诅咒波”/
 ##
 197 "[D]重力-100 > 近A远C" duration 8 sync /灾变者正在发动“重力-100”/ window 10
-206 "点名:重力崩坏x4"
+206 "点名·重力崩坏x4"
 210 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 213 "爆炸"
 218 "[G]所有人下降"
@@ -177,7 +177,7 @@ alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 582 "[H][AOE]重力波" duration 3 sync /灾变者正在发动“重力波”/ window 10
 ##
 590 "[D]重力-100 > 近A远C" duration 8 sync /灾变者正在发动“重力-100”/ window 10
-599 "点名:重力崩坏x4"
+599 "点名·重力崩坏x4"
 603 "[G][背对]死神之瞳" duration 5 sync /灾变者正在发动“死神之瞳”/ window 10
 606 "爆炸"
 ##
