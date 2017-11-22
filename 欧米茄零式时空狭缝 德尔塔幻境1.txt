@@ -26,8 +26,9 @@ hideall "火焰"
 0 "[EGI]重置" sync /Removing combatant 老者/ window 10000 jump 0
 
 # P1 - 火球(1)
+1 "开始" sync /开始/ window 10000
 1 "[EGI]P1 - 火球(1)" sync /老者发动了“太古龙尾”/  jump 9
-9 "太古龙尾"
+9 "太古龙尾" sync /老者发动了“太古龙尾”/
 15 "太古龙尾" sync /老者发动了“太古龙尾”/ 
 16 "[T][死刑]双重落雷" duration 5 sync /老者正在发动“双重落雷”/ window 10
 30 "经典元素" duration 5 sync /老者正在发动“经典元素”/ window 10

@@ -3,6 +3,7 @@
 # By CanisMinor 男孩纸榨汁机(紫水)
 
 ################ TTS #####################
+
 alertall "加速" before 3 sound "tts 准备加速魔法剑"
 alertall "加速魔法剑·爆雷" before 3 sound "tts 加速直线"
 alertall "加速魔法剑·冰封" before 3 sound "tts 加速冰圈"

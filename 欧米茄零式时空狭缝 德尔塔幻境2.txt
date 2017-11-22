@@ -30,12 +30,16 @@ alertall "[H][AOE]重力波" before 2 sound "tts AOE"
 
 alertall "[T]邪球 > 换T" before 0 sound "tts 换T"
 
+################ Config ################
+
+hideall "开始"
 
 ################ Main ################
 
 0 "[EGI]重置" sync /Removing combatant 灾变者/ window 10000 jump 0
 
 # P1 - 开始
+1 "开始" sync /开始/ window 10000
 1 "[EGI]P1 开始" sync /灾变者发动了“地震”/ window 10 jump 10
 10 "地震" sync /灾变者发动了“地震”/
 13 "大地震" duration 5 sync /灾变者正在发动“大地震”/ window 10
