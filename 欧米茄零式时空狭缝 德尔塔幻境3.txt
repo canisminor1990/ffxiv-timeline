@@ -19,7 +19,7 @@ alertall "[G]分摊吃蓝 > 点名吃绿" before 1 sound "tts 分摊吃内侧蓝
 
 alertall "[T]暴击死刑" before 3 sound "tts 死刑防爆"
 alertall "[T]ST接球 > MT反向远离" before 3 sound "tts ST接球,MT反向远离"
-alertall "[T]ST拉龙" before 3 sound "tts ST拉龙"
+alertall "[T]ST拉龙至C" before 3 sound "tts ST拉龙至C"
 alertall "[T]ST拉到角落" before 3 sound "tts ST拉到角落"
 alertall "[T]ST拉回自家" before 3 sound "tts ST拉回自家"
 alertall "[T]MT忍者/ST巨人(背对)" before 3 sound "tts MT忍者,ST巨人背对人群"
@@ -54,11 +54,17 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 21 "磁场转换" duration 5 sync /哈利卡纳苏斯正在发动“磁场转换”/ window 10
 ##
 33 "[G]女王之舞(剑)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
+34 " ＼MT ST／"
+34 "远1＼  ／远2"
+34 "近1／  ＼近2"
+34 " ／H1 H2＼"
 41 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 44 "加速魔法剑·随机" duration 2
 48 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
 58 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
+59 "MT|            |ST"
+59 "H1│远1近1│远2近2│H2"
 63 "[G]变身:猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 69 "游戏开始" duration 4 sync /哈利卡纳苏斯正在发动“游戏开始”/ window 10
 
@@ -88,7 +94,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 # P3 - 大地阶段
 171 "[EGI]P3 大地阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
 176 "召唤棋子:黄龙" duration 3 sync /哈利卡纳苏斯正在发动“召唤棋子”/ window 10
-180 "[T]ST拉龙"
+180 "[T]ST拉龙至C"
 185 "[G]女王之舞(地刺)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 190 "[T]ST拉到角落"
 192 "[G]变身:青蛙" duration 4 sync /哈利卡纳苏斯正在发动“呱呱呱呱呱！”/ window 10
@@ -107,6 +113,8 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 
 # P4 - 图书阶段
 254 "[EGI]P4 图书阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
+255 "远1|MT|ST|远2"
+255 "H1|近1|近2|H2"
 259 "女王之舞(书本)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 267 "[G]变身:猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 ##
@@ -130,6 +138,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 # P5 - 综合阶段
 347 "[EGI]P5 综合阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
 352 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
+352 "变身:奶妈＞T＞DPS"
 361 "[H]奶妈变身" duration 4
 368 "[T]坦克变身" duration 4
 374 "[D]输出变身" duration 4
