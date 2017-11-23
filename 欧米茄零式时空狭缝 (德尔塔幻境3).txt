@@ -1,4 +1,4 @@
-# 欧米茄零式时空狭缝 德尔塔幻境3 - 哈利卡纳苏斯
+﻿# 欧米茄零式时空狭缝 德尔塔幻境3 - 哈利卡纳苏斯
 # 参考菓子君攻略 https·//www.bilibili.com/video/av16168566/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
@@ -62,10 +62,12 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 ##
 33 "[G]女王之舞(剑)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 ##
-34 " ＼MT ST／" duration 4
-35 "远1＼  ／远2" duration 4
-36 "近1／  ＼近2" duration 4
-37 " ／H1 H2＼" duration 4
+37.0 "----------------" duration 4
+37.1 " ＼MT ST／" duration 4
+37.2 "远1＼  ／远2" duration 4
+37.3 "近1／  ＼近2" duration 4
+37.4 " ／H1 H2＼" duration 4
+37.5 "----------------" duration 4
 ##
 41 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 44 "加速魔法剑·随机" duration 2
@@ -73,15 +75,17 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 ##
 58 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
 ##
-60 "MT|            |ST" duration 4
-61 "H1│远1近1│远2近2│H2" duration 4
+60.0 "----------------" duration 4
+60.1 "MT|                         |ST" duration 4
+60.2 "H1│远1近1│远2近2│H2" duration 4
+60.3 "----------------" duration 4
 ##
 63 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 69 "游戏开始" duration 4 sync /哈利卡纳苏斯正在发动“游戏开始”/ window 10
 
 # P2 - 花田阶段
 80 "[EGI]P2 花田阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
-80 "[T]固定Boss面向朝北"
+81 "[T]固定Boss面向朝北"
 87 "[G]女王之舞(荆棘)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 90 "移动·对角扯线"
 94 "魔法剑·爆炎" duration 3
@@ -124,8 +128,10 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 246 "[H]副奶群盾"
 248 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
-250 "远1|MT|ST|远2" duration 4
-251 "H1|近1|近2|H2" duration 4
+250.0 "----------------" duration 4
+250.1 "远1|MT|ST|远2" duration 4
+250.2 "H1|近1|近2|H2" duration 4
+250.3 "----------------" duration 4
 ##
 # P4 - 图书阶段
 254 "[EGI]P4 图书阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
@@ -153,13 +159,15 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 # P5 - 综合阶段
 347 "[EGI]P5 综合阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
 352 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
-352 "变身·奶妈＞T＞DPS" duration 4
+352.0 "----------------" duration 4
+352.1 "变身·奶妈＞T＞DPS" duration 4
+352.2 "----------------" duration 4
 361 "[H]奶妈变身" duration 4
 368 "[T]坦克变身" duration 4
 374 "[D]输出变身" duration 4
 380 "游戏开始" duration 4 sync /哈利卡纳苏斯正在发动“游戏开始”/ window 10
 ##
-391 "--Boss换场地--"
+391 "--- Boss换场地 ---"
 392 "[G]女王之舞(剑/书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 403 "[G]魔法剑·神圣" duration 3 sync /哈利卡纳苏斯正在发动“魔法剑·神圣”/ window 10
 407 "磁场转换" duration 5 sync /哈利卡纳苏斯正在发动“磁场转换”/ window 10
@@ -170,23 +178,23 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 440 "死形x8 > 连线x4" duration 8
 440 "[G]连线 > 对角方格中点"
 ##
-451 "--Boss换场地--"
+451 "--- Boss换场地 ---"
 452 "[G]女王之舞(地刺/荆棘)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 466 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
-476 "--2连 加速魔法剑--"
+476 "--- 2连·加速魔法剑 ---"
 476 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 479 "加速魔法剑·随机" duration 3
 483 "加速魔法剑·随机" duration 3
 488 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
 495 "[H]抬满血·副奶群盾"
-499 "--忍者+巨人--"
+499 "--- 忍者+巨人 ---"
 499 "召唤棋子" duration 3 sync /哈利卡纳苏斯正在发动“召唤棋子”/ window 10
 503 "[T]MT忍者/ST巨人"
 503 "[D]远程LB忍者"
 ##
-510 "--4连 AOE--"
+510 "--- 4连·AOE ---"
 508 "[H]强加速 > AOE4连" duration 4 sync /哈利卡纳苏斯正在发动“强加速”/ window 10000
 513 "次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 514 "巨人·巨剑" sync /巨人发动了“巨剑”/ window 10
@@ -195,14 +203,14 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 524 "次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 529 "次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
-535 "--Boss换场地--"
+535 "--- Boss换场地 ---"
 536 "[G]女王之舞(随机)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 542 "魔法剑·随机" duration 2
 551 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
 557 "[T]暴击死刑" duration 4 sync /哈利卡纳苏斯正在发动“暴击”/ window 10
 ##
-566 "--Boss换场地--"
+566 "--- Boss换场地 ---"
 567 "[G]女王之舞(剑/书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 578 "[G]魔法剑·神圣" duration 3 sync /哈利卡纳苏斯正在发动“魔法剑·神圣”/ window 10
 582 "磁场转换" duration 5 sync /哈利卡纳苏斯正在发动“磁场转换”/ window 10
@@ -213,11 +221,11 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 612 "死形x8 > 连线x4" duration 8
 612 "[G]连线 > 对角方格中点"
 ##
-626 "--Boss换场地--"
+626 "--- Boss换场地 ---"
 627 "[G]女王之舞(地刺/荆棘)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 641 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
-651 "--2连 加速魔法剑--"
+651 "--- 2连·加速魔法剑 ---"
 651 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 654 "加速魔法剑·随机" duration 2
 659 "加速魔法剑·随机" duration 2
