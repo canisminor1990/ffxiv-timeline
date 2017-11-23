@@ -29,6 +29,7 @@ alertall "[T]巨人·过热 > 沉默" before 3 sound "tts ST过热沉默"
 alertall "[G]女王之舞(剑)" before 1 sound "tts 按站位站好"
 alertall "[G]女王之舞(荆棘)" before 1 sound "tts T奶AB,输出CD"
 alertall "[G]女王之舞(地刺)" before 1 sound "tts 蓝色地板"
+alertall "[G]女王之舞(书)" before 1 sound "tts 按站位,奶妈抬血"
 alertall "[G]魔法剑·神圣" before 1 sound "tts 分摊远离,连线集合"
 
 alertall "[G]变身·猪" before 1 sound "tts 变猪,集中"
@@ -123,13 +124,13 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 255 "H1|近1|近2|H2"
 255 "远1|MT|ST|远2"
 ##
-259 "女王之舞(书本)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
+259 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 267 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 ##
 273 "召唤棋子·小牛" duration 3 sync /哈利卡纳苏斯正在发动“召唤棋子”/ window 10
 273 "[T]ST拉回自家"
 277 "[D]LB砸小牛"
-284 "女王之舞(书本)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
+284 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 285 "[D]LB砸小牛"
 289 "[G]魔法锤 > 远AB奶DC" duration 3
 291 "[G]变身·河童" duration 4 sync /哈利卡纳苏斯正在发动“喀喀喀喀喀！”/ window 10
@@ -140,7 +141,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 315 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 321 "魔法剑·神圣" duration 3 sync /哈利卡纳苏斯正在发动“魔法剑·神圣”/ window 10
 321 "[G]分摊吃蓝 > 点名吃绿"
-327 "女王之舞(书本)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
+327 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 338 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 
 # P5 - 综合阶段
