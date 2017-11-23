@@ -1,0 +1,88 @@
+# 欧米茄零式时空狭缝 德尔塔幻境4 - 艾克斯迪司
+# 参考菓子君攻略 https://www.bilibili.com/video/av16534805/
+# By CanisMinor 男孩纸榨汁机(紫水)
+
+################ TTS #####################
+
+alertall "[T]死刑·暴雷" before 2 sound "tts T死刑,暴雷"
+
+
+################ Main - 门神 ################
+
+0 "[EGI]重置" sync /Removing combatant 艾克斯迪司/ window 10000 jump 0
+0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
+
+# P1
+1 "[EGI]P1" sync /You shall all be given to the void/ window 10000
+10 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+15 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+##
+23 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+27 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+##
+36 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+40 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+##
+47 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+61 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+61 "触手x7"
+70 "--Stack Marker--"
+70 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+73 "Collision" sync /Exdeath uses Collision/
+78 "--Get Away Marker x3--"
+78 "Flare x3" duration 5
+79 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
+87 "爆炎/冰封/暴雷" duration 3
+92 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+##
+99 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+116 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+120 "黑洞 x8"
+
+122 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+126 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+
+131 "--Stack Marker--"
+131 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+
+138 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+152 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+156 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+162 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
+
+177 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+177 "触手x7"
+185 "--Stack Marker--"
+185 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+188 "Collision" sync /Exdeath uses Collision/
+
+193 "--Get Away Marker x3--"
+193 "核爆点名 x3" duration 5
+194 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
+
+202 "爆炎/冰封/暴雷" duration 3
+207 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+
+214 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+231 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+235 "黑洞 x8 (Add)"
+
+237 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+241 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+
+246 "--Get Away Marker x3--"
+246 "核爆点名 x3" duration 5
+253 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+
+267 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+271 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+277 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
+
+400 "--Neo Exdeath--" sync /Nothingness is my weapon/ window 10000 jump 0
+
+
+
+################ Main - 本体 ################
+
