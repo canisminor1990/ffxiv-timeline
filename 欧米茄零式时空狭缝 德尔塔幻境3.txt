@@ -56,17 +56,21 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 21 "磁场转换" duration 5 sync /哈利卡纳苏斯正在发动“磁场转换”/ window 10
 ##
 33 "[G]女王之舞(剑)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
-34 " ＼MT ST／"
-34 "远1＼  ／远2"
-34 "近1／  ＼近2"
+## 时间轴是反向的
 34 " ／H1 H2＼"
+34 "近1／  ＼近2"
+34 "远1＼  ／远2"
+34 " ＼MT ST／"
+##
 41 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 44 "加速魔法剑·随机" duration 2
 48 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
 58 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
-59 "MT|            |ST"
+## 时间轴是反向的
 59 "H1│远1近1│远2近2│H2"
+59 "MT|            |ST"
+##
 63 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 69 "游戏开始" duration 4 sync /哈利卡纳苏斯正在发动“游戏开始”/ window 10
 
@@ -115,8 +119,10 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 
 # P4 - 图书阶段
 254 "[EGI]P4 图书阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
-255 "远1|MT|ST|远2"
+## 时间轴是反向的
 255 "H1|近1|近2|H2"
+255 "远1|MT|ST|远2"
+##
 259 "女王之舞(书本)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 267 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 ##

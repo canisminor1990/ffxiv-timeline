@@ -2,3 +2,248 @@
 # 参考菓子君攻略 https://www.bilibili.com/video/av16534805/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
+################ TTS #####################
+
+alertall "[T]死刑·暴雷" before 2 sound "tts T死刑,暴雷"
+
+
+################ Main - 门神 ################
+
+0 "[EGI]重置" sync /Removing combatant 艾克斯迪司/ window 10000 jump 0
+0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
+
+# P1
+1 "[EGI]P1" sync /You shall all be given to the void/ window 10000
+10 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+15 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+##
+23 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+27 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+##
+36 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+40 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+##
+47 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+61 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+61 "触手x7"
+70 "--Stack Marker--"
+70 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+73 "Collision" sync /Exdeath uses Collision/
+78 "--Get Away Marker x3--"
+78 "Flare x3" duration 5
+79 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
+87 "爆炎/冰封/暴雷" duration 3
+92 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+##
+99 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+116 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+120 "黑洞 x8"
+
+122 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+126 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+
+131 "--Stack Marker--"
+131 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+
+138 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+152 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+156 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+162 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
+
+177 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+177 "触手x7"
+185 "--Stack Marker--"
+185 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+188 "Collision" sync /Exdeath uses Collision/
+
+193 "--Get Away Marker x3--"
+193 "核爆点名 x3" duration 5
+194 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
+
+202 "爆炎/冰封/暴雷" duration 3
+207 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+
+214 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+231 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+235 "黑洞 x8 (Add)"
+
+237 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+241 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+
+246 "--Get Away Marker x3--"
+246 "核爆点名 x3" duration 5
+253 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+
+267 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+271 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+277 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
+
+400 "--Neo Exdeath--" sync /Nothingness is my weapon/ window 10000 jump 0
+
+
+
+################ Main - 本体 ################
+
+# P1
+1000 "[EGI]P1"
+1000 "至高无上"	sync/新生艾克斯迪司发动了“至高无上”/ window 10000
+1011 "--Aero III--"
+1011 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+1020 "Delta Attack" duration 5 sync /Neo Exdeath begins casting Delta Attack/ window 10
+1023 "--Move--"
+
+1036 "Grand Cross Alpha" duration 5 sync /Neo Exdeath readies Grand Cross Alpha/ window 10
+1047 "Flood of Naught (Terminal)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1055 "Flood of Naught (White/Black)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+1067 "Double Attack" duration 5 sync /Neo Exdeath readies Double Attack/ window 10
+1080 "--Emptiness then Beam--"
+1080 "Emptiness" duration 2
+1085 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1096 "--Aero then Grand Cross Delta--"
+1096 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+
+# P2
+1109 "[EGI]P2"
+1109 "Grand Cross Delta" duration 5 sync /Neo Exdeath readies Grand Cross Delta/ window 10
+1122 "Flood of Naught (Random)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1122 "--Death Shriek x2--"
+1124 "--Death Bolt x2--"
+1124 "--Death Wave--"
+1130 "Almagest" duration 6 sync /Neo Exdeath readies Almagest/ window 10, 10
+
+1143 "--Aero then Earth Shaker--"
+1143 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+1153 "Earth Shaker" duration 4 sync /Neo Exdeath readies Earth Shaker/ window 10
+1160 "Vacuum Wave" duration 3 sync /Neo Exdeath readies Vacuum Wave/
+
+1174 "--Emptiness then Light and Darkness--"
+1174 "Emptiness" duration 2
+1181 "Light and Darkness" duration 4 sync /Neo Exdeath begins casting Light and Darkness/ window 10
+1186 "--Flare x3--" duration 5
+1186 "--Holy--" duration 5
+1191 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+# P3
+1206 "[EGI]P3"
+1206 "Meteor" duration 4 sync /Neo Exdeath begins casting Meteor/ window 10
+1212 "Arcane Sphere x4 (Add)"
+1216 "--Jump--"
+1219 "Flood of Naught (White/Black)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+1232 "--Charybdis then Double Attack--"
+1232 "Charybdis" duration 5 sync /Neo Exdeath readies Charybdis/ window 20, 10
+1240 "Double Attack" duration 5 sync /Neo Exdeath readies Double Attack/ window 10
+1255 "Almagest" duration 6 sync /Neo Exdeath readies Almagest/ window 10, 10
+
+1264 "Vacuum Wave" duration 3 sync /Neo Exdeath readies Vacuum Wave/
+1269 "--Aero III--"
+1269 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+
+1277 "--Emptiness then Grand Cross Alpha--"
+1277 "Emptiness" duration 2
+1283 "Grand Cross Alpha" duration 5 sync /Neo Exdeath readies Grand Cross Alpha/ window 10
+1294 "Flood of Naught (Terminal)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1302 "Flood of Naught (White/Black)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+1309 "--Stack for Delta Attack--"
+1319 "Delta Attack" duration 5 sync /Neo Exdeath begins casting Delta Attack/ window 10
+1322 "--Move--"
+1328 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+# P4
+1337 "[EGI]P4"
+1337 "Grand Cross Omega" duration 5 sync /Neo Exdeath readies Grand Cross Omega/ window 10
+1345 "The Final Battle" duration 3 sync /Neo Exdeath readies The Final Battle/
+
+1349 "--Jump--"
+1352 "Flood of Naught (Random)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+1355 "--Death Wave--"
+1355 "--Death Bolt x3--"
+1357 "Flood of Naught (Random)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+1363 "Flood of Naught (Random)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+1369 "--Shriek to Center Look Away--"
+1374 "--Death Shriek x2--"
+1377 "Flood of Naught (Terminal)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+
+1386 "Almagest" duration 6 sync /Neo Exdeath readies Almagest/ window 10, 10
+1397 "--Emptiness then Beam--"
+1397 "Emptiness" duration 2
+1402 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1413 "--Aero then Grand Cross Delta--"
+1413 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+
+# P5 - 重复P2
+1426 "[EGI]P5 (重复P2)"
+1426 "Grand Cross Delta" duration 5 sync /Neo Exdeath readies Grand Cross Delta/ window 10
+1439 "Flood of Naught (Random)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+1439 "--Death Shriek x2--"
+1441 "--Death Bolt x2--"
+1441 "--Death Wave--"
+1448 "Almagest" duration 6 sync /Neo Exdeath readies Almagest/ window 10, 10
+
+1461 "--Aero then Earth Shaker--"
+1461 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+1470 "Earth Shaker" duration 4 sync /Neo Exdeath readies Earth Shaker/ window 10
+1477 "Vacuum Wave" duration 3 sync /Neo Exdeath readies Vacuum Wave/
+
+1493 "--Emptiness then Light and Darkness--"
+1493 "Emptiness" duration 2
+1499 "Light and Darkness" duration 4 sync /Neo Exdeath begins casting Light and Darkness/ window 10
+1504 "--Flare x3--" duration 5
+1504 "--Holy--" duration 5
+1509 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+# P6 - 重复P3
+1523 "[EGI]P6 (重复P3)"
+1523 "Meteor" duration 4 sync /Neo Exdeath begins casting Meteor/ window 10
+1529 "Arcane Sphere x4 (Add)"
+1534 "--Jump--"
+1537 "Flood of Naught (White/Black)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+1550 "--Charybdis then Double Attack--"
+1550 "Charybdis" duration 5 sync /Neo Exdeath readies Charybdis/ window 20, 10
+1558 "Double Attack" duration 5 sync /Neo Exdeath readies Double Attack/ window 10
+1572 "Almagest" duration 6 sync /Neo Exdeath readies Almagest/ window 10, 10
+
+1582 "Vacuum Wave" duration 3 sync /Neo Exdeath readies Vacuum Wave/
+1587 "--Aero III--"
+1587 "Aero III" duration 4 sync /Neo Exdeath begins casting Aero III/ window 10
+
+1594 "--Emptiness then Grand Cross Alpha--"
+1594 "Emptiness" duration 2
+1600 "Grand Cross Alpha" duration 5 sync /Neo Exdeath readies Grand Cross Alpha/ window 10
+1611 "Flood of Naught (Terminal)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+1619 "Flood of Naught (White/Black)" duration 5 sync /Neo Exdeath readies Flood of Naught/
+
+1626 "--Stack for Delta Attack--"
+1636 "Delta Attack" duration 5 sync /Neo Exdeath begins casting Delta Attack/ window 10
+1639 "--Move--"
+1644 "Flood of Naught (Inner/Outer)" duration 5 sync /Neo Exdeath readies Flood of Naught/ window 10
+
+# P7
+1653 "[EGI]P7"
+1653 "Neverwhere" duration 5 sync /Neo Exdeath readies Neverwhere/ window 10
+1661 "--Charybdis then Soft Enrage--"
+1661 "Charybdis" duration 5 sync /Neo Exdeath readies Charybdis/ window 10
+
+1670 "Frenzied Fist x9"
+1677 "Frenzied Sphere (1)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1680 "Frenzied Fist x9"
+1687 "Frenzied Sphere (2)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1690 "Frenzied Fist x9"
+1697 "Frenzied Sphere (3)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1700 "Frenzied Fist x9"
+1707 "Frenzied Sphere (4)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1710 "Frenzied Fist x9"
+1717 "Frenzied Sphere (5)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1720 "Frenzied Fist x9"
+1727 "Frenzied Sphere (6)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1730 "Frenzied Fist x9"
+1737 "Frenzied Sphere (7)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+1740 "Frenzied Fist x9"
+1747 "Frenzied Sphere (8)" sync /Neo Exdeath uses Frenzied Sphere/ window 10
+##
+1752 "[EGI](狂暴)" duration 10 sync /Neo Exdeath readies Almagest/ window 100
