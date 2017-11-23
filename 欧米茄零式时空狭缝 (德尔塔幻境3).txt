@@ -19,11 +19,12 @@ alertall "[G]魔法锤 > 远AB奶DC" before 1 sound "tts 远AB,奶DC"
 alertall "[G]分摊吃蓝 > 点名吃绿" before 1 sound "tts 分摊吃内侧蓝,点名吃绿"
 
 alertall "[T]暴击死刑" before 3 sound "tts 死刑防爆"
-alertall "[T]ST接球 > MT反向远离" before 3 sound "tts ST接球,MT反向远离"
-alertall "[T]ST拉龙至C" before 3 sound "tts ST拉龙至C"
+alertall "[T]固定Boss面向朝北" before 3 sound "tts 固定Boss面向朝北"
+alertall "[T]ST接球 > MT反向远离" before 3 sound "tts ST盾姿接球,MT反向远离"
+alertall "[T]ST拉龙至C" before 3 sound "tts ST盾姿拉龙至C"
 alertall "[T]ST拉到角落" before 3 sound "tts ST拉到角落"
-alertall "[T]ST拉回自家" before 3 sound "tts ST拉回自家"
-alertall "[T]MT忍者/ST巨人(背对)" before 3 sound "tts MT忍者,ST巨人背对人群"
+alertall "[T]ST拉回自家" before 3 sound "tts ST盾姿拉回自家,背对人群"
+alertall "[T]MT忍者/ST巨人(背对)" before 3 sound "tts MT忍者,ST盾姿拉巨人,背对人群"
 alertall "[T]巨人·过热 > 沉默" before 3 sound "tts ST过热沉默"
 
 alertall "[G]女王之舞(剑)" before 1 sound "tts 按站位站好"
@@ -43,6 +44,7 @@ alertall "[D]输出变身" before 1 sound "tts 输出变身"
 alertall "[D]LB砸小牛" before 1 sound "tts LB砸小牛"
 alertall "[D]远程LB忍者" before 1 sound "tts 远程LB忍者"
 
+alertall "[H]副奶群盾" before 1 sound "tts 副奶群盾"
 alertall "[H]过热 > 4连AOE" before 1 sound "tts 4连AOE"
 alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 
@@ -53,30 +55,32 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 # P1 - 经典阶段
 1 "[EGI]P1 经典阶段" sync /你们逃不掉的/ window 10000
 7 "[T]暴击死刑" duration 4 sync /哈利卡纳苏斯正在发动“暴击”/ window 10
+15 "[H]副奶群盾"
 17 "[G]魔法剑·神圣" duration 3 sync /哈利卡纳苏斯正在发动“魔法剑·神圣”/ window 10
 21 "磁场转换" duration 5 sync /哈利卡纳苏斯正在发动“磁场转换”/ window 10
 ##
 33 "[G]女王之舞(剑)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
-## 时间轴是反向的
-34 " ／H1 H2＼"
-34 "近1／  ＼近2"
-34 "远1＼  ／远2"
-34 " ＼MT ST／"
+##
+34 " ＼MT ST／" duration 4
+35 "远1＼  ／远2" duration 4
+36 "近1／  ＼近2" duration 4
+37 " ／H1 H2＼" duration 4
 ##
 41 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 44 "加速魔法剑·随机" duration 2
 48 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
 ##
 58 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
-## 时间轴是反向的
-59 "H1│远1近1│远2近2│H2"
-59 "MT|            |ST"
+##
+60 "MT|            |ST" duration 4
+61 "H1│远1近1│远2近2│H2" duration 4
 ##
 63 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 69 "游戏开始" duration 4 sync /哈利卡纳苏斯正在发动“游戏开始”/ window 10
 
 # P2 - 花田阶段
 80 "[EGI]P2 花田阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
+80 "[T]固定Boss面向朝北"
 87 "[G]女王之舞(荆棘)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 90 "移动·对角扯线"
 94 "魔法剑·爆炎" duration 3
@@ -116,14 +120,15 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 ##
 241 "加速" duration 2 sync /哈利卡纳苏斯正在发动“加速”/
 244 "加速魔法剑·随机" duration 2
+246 "[H]副奶群盾"
 248 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
-
+##
+250 "远1|MT|ST|远2" duration 4
+251 "H1|近1|近2|H2" duration 4
+##
 # P4 - 图书阶段
 254 "[EGI]P4 图书阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
-## 时间轴是反向的
-255 "H1|近1|近2|H2"
-255 "远1|MT|ST|远2"
-##
+
 259 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 267 "[G]变身·猪" duration 4 sync /哈利卡纳苏斯正在发动“哼哼哼哼哼！”/ window 10
 ##
@@ -147,7 +152,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 # P5 - 综合阶段
 347 "[EGI]P5 综合阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10
 352 "游戏盘面" duration 3 sync /哈利卡纳苏斯正在发动“游戏盘面”/
-352 "变身·奶妈＞T＞DPS"
+352 "变身·奶妈＞T＞DPS" duration 4
 361 "[H]奶妈变身" duration 4
 368 "[T]坦克变身" duration 4
 374 "[D]输出变身" duration 4
