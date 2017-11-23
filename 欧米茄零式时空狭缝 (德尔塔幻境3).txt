@@ -40,7 +40,7 @@ alertall "[T]坦克变身" before 1 sound "tts 坦克变身"
 alertall "[D]输出变身" before 1 sound "tts 输出变身"
 
 alertall "[D]LB砸小牛" before 1 sound "tts LB砸小牛"
-alertall "[D]法师LB忍者" before 1 sound "tts 法师LB忍者"
+alertall "[D]远程LB忍者" before 1 sound "tts 远程LB忍者"
 
 alertall "[H]过热 > 4连AOE" before 1 sound "tts 4连AOE"
 alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
@@ -176,7 +176,7 @@ alertall "[H]次元波动" before 1 sound "tts 全屏AOE"
 499 "--忍者+巨人--"
 499 "召唤棋子" duration 3 sync /哈利卡纳苏斯正在发动“召唤棋子”/ window 10
 503 "[T]MT忍者/ST巨人"
-503 "[D]法师LB忍者"
+503 "[D]远程LB忍者"
 ##
 510 "--4连 AOE--"
 508 "[H]强加速 > AOE4连" duration 4 sync /哈利卡纳苏斯正在发动“强加速”/ window 10000
