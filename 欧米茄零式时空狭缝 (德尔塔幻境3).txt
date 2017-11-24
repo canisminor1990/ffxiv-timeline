@@ -151,6 +151,7 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 303 "[T]暴击死刑" duration 4 sync /哈利卡纳苏斯正在发动“暴击”/ window 10
 ##
 315 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
+317 "[H]抬满血·副奶群盾"
 321 "魔法剑·神圣" duration 3 sync /哈利卡纳苏斯正在发动“魔法剑·神圣”/ window 10
 321 "[G]分摊吃蓝 > 点名吃绿"
 327 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
