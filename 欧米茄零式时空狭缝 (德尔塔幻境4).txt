@@ -4,81 +4,131 @@
 
 ################ TTS #####################
 
-alertall "[T]死刑·暴雷" before 2 sound "tts T死刑,暴雷"
+alertall "[G]二连冰" before 3 sound "tts 连躲两轮黄圈"
+alertall "[G]二连火" before 3 sound "tts 分散,DPS火圈,T奶火圈"
+alertall "[T]二连雷·死刑" before 3 sound "tts 二连雷,死刑"
+alertall "[G]强化冰火雷" before 2 sound "tts 随机强化,别离太近"
 
+alertall "[G]决战>最后一根触" before 2 sound "tts 最后一根触手集合,击退分摊"
+alertall "[G]开跑>先消失方向" before 0 sound "tts 开跑,触手先消失方向"
+alertall "[G]核爆x3" before 2 sound "tts 核爆点名"
+
+alertall "[G]真空波" before 2 sound "tts 准备击退,靠近Boss"
+
+alertall "[D]点名DPS顺时针跑" before 1 sound "tts 点名DPS接着跑"
+alertall "[D]点名T逆时针跑" before 1 sound "tts 点名T往回跑正面"
+
+alertall "[G]黑洞(1)" before 0 sound "tts T奶到点,DPS分散"
+alertall "[G]黑洞(2)" before 0 sound "tts T奶到点,点名DPS插缝"
+
+alertall "[H]白洞" before 1 sound "tts 白洞,抬满血"
+alertall "[H]陨石" before 1 sound "tts AOE陨石"
+
+alertall "死亡吐息" before 1 sound "tts 死亡吐息"
+
+################ Config ################
+
+hideall "开始"
 
 ################ Main - 门神 ################
 
 0 "[EGI]重置" sync /Removing combatant 艾克斯迪司/ window 10000 jump 0
 0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
 
-# P1
-1 "[EGI]P1" sync /You shall all be given to the void/ window 10000
-10 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-15 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+# P1 - 二连冰火雷
+1 "开始" sync /战斗开始！/ window 10000
+1 "[EGI]P1 - 二连冰火雷" sync /You shall all be given to the void/ window 10000
+10 "连续咏唱(冰)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+13 "[G]二连冰" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+14 "冰圈(1)"
+17 "冰圈(2)"
 ##
-23 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-27 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+23 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+26 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+27 "暴雷(1)"
+33 "暴雷(2)"
 ##
-36 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-40 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+36 "连续咏唱(火)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+39 "[G]二连火" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+40 "爆炎(1)"
+47 "爆炎(2)"
 ##
-47 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+47 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+
+# P2 - 决战
+59 "[EGI]P2 - 决战"
+60 "--- Boss无法选中 ---"
 ##
-61 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
-61 "触手x7"
-70 "--Stack Marker--"
-70 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
-73 "Collision" sync /Exdeath uses Collision/
-78 "--Get Away Marker x3--"
-78 "Flare x3" duration 5
+61 "[G]决战>最后一根触" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+61.1 "触手x7"
+70 "[分摊]神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+73 "击退"
+74 "[G]开跑>先消失方向" sync /灵树藤发动了“横扫”/
+##
+78 "[G]核爆x3" duration 5
+78.1 "[H]点名奶不动" duration 2
+78.2 "[D]点名DPS接着跑" duration 2
 79 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
-87 "爆炎/冰封/暴雷" duration 3
-92 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+79.1 "[T]点名T往回跑" duration 2
+
+# P2.5 - 黑洞1
+86 "[EGI]P2.5 - 黑洞1"
+86.1 "--- Boss无法选中 ----"
 ##
-99 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+87 "[G]强化冰火雷" duration 3
+92 "[G]真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
 ##
-116 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+99 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+116 "[G]黑洞(1)" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
 120 "黑洞 x8"
+##
+122 "连续咏唱(火)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+126 "[G]二连火" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
+127 "DPS爆炎(1)"
+##
+131 "[分摊]神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+134 "T奶爆炎(2)"
+##
+138 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+152 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+156 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+162 "[H]陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
 
-122 "连续咏唱(爆炎)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-126 "爆炎" duration 2 sync /艾克斯迪司正在咏唱“爆炎”/
-
-131 "--Stack Marker--"
-131 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
-
-138 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
-152 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-156 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
-162 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
-
-177 "决战" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
-177 "触手x7"
-185 "--Stack Marker--"
-185 "神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
-188 "Collision" sync /Exdeath uses Collision/
-
-193 "--Get Away Marker x3--"
-193 "核爆点名 x3" duration 5
+# P3 - 决战
+175 "[EGI]P3 - 决战"
+175.1 "--- Boss无法选中 ----"
+##
+177 "[G]决战>最后一根触" duration 4 sync /艾克斯迪司正在发动“决战”/ window 10
+177.1 "触手x7"
+185 "[分摊]神圣" duration 4 sync /艾克斯迪司正在咏唱“神圣”/ window 10
+188 "击退"
+189 "[G]开跑>先消失方向" sync /灵树藤发动了“横扫”/
+##
+193 "[G]核爆x3" duration 5
+193.1 "[H]点名奶不动" duration 2
+193.2 "[D]点名DPS接着跑" duration 2
 194 "死亡吐息" sync /艾克斯迪司发动了“死亡吐息”/
+194.1 "[T]点名T往回跑" duration 2
 
-202 "爆炎/冰封/暴雷" duration 3
-207 "真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
-
-214 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
-231 "黑洞" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
-235 "黑洞 x8 (Add)"
-
-237 "连续咏唱(冰封)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-241 "冰封" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
-
-246 "--Get Away Marker x3--"
-246 "核爆点名 x3" duration 5
-253 "白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
-
-267 "连续咏唱(暴雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-271 "[T]死刑·暴雷" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
-277 "陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
-
-400 "--Neo Exdeath--" sync /Nothingness is my weapon/ window 10000 jump 0
-
+# P3.5 - 黑洞2
+201 "[EGI]P3.5 - 黑洞2"
+201.1 "--- Boss可选中 ---"
+##
+202 "[G]强化冰火雷" duration 3
+207 "[G]真空波" duration 4 sync /艾克斯迪司正在发动“真空波”/
+##
+214 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+231 "[G]黑洞(2)" duration 3 sync /艾克斯迪司正在发动“黑洞”/ window 10
+235 "黑洞x8"
+##
+237 "连续咏唱(冰)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+241 "[G]二连冰" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
+##
+246 "[G]核爆x3" duration 5
+253 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
+##
+267 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
+271 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
+277 "[H]陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
