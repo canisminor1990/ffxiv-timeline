@@ -16,7 +16,7 @@ alertall "[G]精神控制" before 1 sound "tts 注意方向Buff"
 alertall "[G]死形3+1 > 找安全点" before 1 sound "tts 单个死形夹角"
 alertall "[G]连线 > 对角方格中点" before 1 sound "tts 对角方格中点,注意方向Buff"
 alertall "[G]魔法锤 > 远AB奶DC" before 1 sound "tts 放圈,远AB,奶DC,其他人极限中间"
-alertall "[G]分摊吃蓝 > 点名吃绿" before 1 sound "tts 分摊吃内侧蓝,点名吃绿"
+alertall "[G]分摊吃蓝 > 点名吃绿" before 2 sound "tts T奶回家,准备吃书"
 
 alertall "[T]暴击死刑" before 5 sound "tts 死刑防爆"
 alertall "[T]固定Boss面向朝北" before 3 sound "tts 固定Boss面向朝北"
