@@ -18,7 +18,7 @@ alertall "[G]连线 > 对角方格中点" before 1 sound "tts 对角方格中点
 alertall "[G]魔法锤 > 远AB奶DC" before 1 sound "tts 远AB,奶DC"
 alertall "[G]分摊吃蓝 > 点名吃绿" before 1 sound "tts 分摊吃内侧蓝,点名吃绿"
 
-alertall "[T]暴击死刑" before 3 sound "tts 死刑防爆"
+alertall "[T]暴击死刑" before 5 sound "tts 死刑防爆"
 alertall "[T]固定Boss面向朝北" before 3 sound "tts 固定Boss面向朝北"
 alertall "[T]ST接球 > MT反向远离" before 3 sound "tts ST盾姿接球,MT反向远离"
 alertall "[T]ST拉龙至C" before 3 sound "tts ST盾姿拉龙至C"
