@@ -158,11 +158,6 @@ alertall "光与暗" before 1 sound "tts 十字分散,分摊不动"
 265 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
 270 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
 275 "[H]陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
-248 "[H]白洞" duration 7 sync /艾克斯迪司正在发动“白洞”/ window 10
-##
-265 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
-270 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
-275 "[H]陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
 
 
 ################ Main - 本体 ################
