@@ -254,12 +254,13 @@ alertall "光与暗" before 1 sound "tts 十字分散,分摊不动"
 1377 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
 1386 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10
+
+# P4 - 德尔塔
+1396 "[EGI]P4-德尔塔"
 1397 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
 1402 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 1413 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
-
-# P4 - 德尔塔
-1426 "[EGI]P4-德尔塔"
+##
 1426 "[G]大十字·德尔塔" duration 5 sync /新生艾克斯迪司正在发动“大十字·德尔塔”/ window 10
 1426.1 "[H]雷奶左(面左上)水奶下(背对)" duration 10
 1426.2 "[T]雷T右,闲T分摊(面左上)" duration 10
