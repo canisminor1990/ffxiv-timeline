@@ -2,7 +2,7 @@
 # 参考菓子君攻略 https://www.bilibili.com/video/av16534805/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
-################ TTS #####################
+################ TTS - 门神 #####################
 
 alertall "[G]二连冰" before 3 sound "tts 连躲两轮黄圈"
 alertall "[G]二连火" before 3 sound "tts 分散,DPS火圈,T奶火圈"
@@ -20,9 +20,24 @@ alertall "[分摊]神圣" before 0 sound "tts 快分摊"
 alertall "[H]陨石" before 1 sound "tts 快抬血"
 alertall "死亡吐息" before 1 sound "tts 死亡吐息"
 
-################ Config ################
+################ TTS - 本体 #####################
 
-hideall "开始"
+alertall "[G]排队" before 2 sound "tts 排队"
+alertall "[G]集合-无之失控" before 2 sound "tts 集合"
+alertall "[G]击退-真空波" before 2 sound "tts 准备击退"
+
+alertall "[T]死刑-暴风" before 3 sound "tts MT死刑"
+alertall "[T][MT无敌]三角攻击" before 3 sound "tts MT无敌,三角攻击"
+alertall "[T][ST无敌]双重攻击" before 3 sound "tts ST无敌,双重攻击"
+alertall "[T][分摊]双重攻击" before 3 sound "tts T中央分摊,双重攻击"
+
+alertall "[T]MT一仇" before 2 sound "tts MT一仇"
+alertall "[T]ST一仇" before 2 sound "tts ST一仇"
+
+alertall "鸳鸯锅" before 1 sound "tts 鸳鸯锅"
+alertall "激光(中/侧)" before 1 sound "tts 激光"
+
+alertall "激光/鸳鸯锅" before 1 sound "tts 随机"
 
 ################ Main - 门神 ################
 
@@ -130,3 +145,162 @@ hideall "开始"
 265 "连续咏唱(雷)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
 270 "[T]二连雷·死刑" duration 4 sync /艾克斯迪司正在咏唱“暴雷”/
 275 "[H]陨石" duration 5 sync /艾克斯迪司正在咏唱“陨石”/ window 10
+
+
+################ Main - 本体 ################
+
+# P1
+1000 "[EGI]P1-阿尔法"
+1000 "至高无上"	sync/新生艾克斯迪司发动了“至高无上”/ window 1000,0
+1011 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+1020 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1023 "-- Boss瞬移 --"
+##
+1036 "[G]大十字·阿尔法" duration 5 sync /新生艾克斯迪司正在发动“大十字·阿尔法”/ window 10
+1047 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1055 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+##
+1063 "[T]ST一仇"
+1067 "[T][ST无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
+
+# P2
+1109 "[EGI]P2-德尔塔"
+1080 "[G]集合-无之失控" duration 2
+1085 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+##
+1092 "[T]MT一仇"
+1096 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+##
+1109 "[G]大十字·德尔塔" duration 5 sync /新生艾克斯迪司正在发动“大十字·德尔塔”/ window 10
+1122 "激光/鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1122 "--Death Shriek x2--"
+1124 "--Death Bolt x2--"
+1124 "--Death Wave--"
+1130 "至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
+##
+1139 "[T]MT一仇"
+1143 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+1149 "[T]ST一仇"
+1153 "[T][ST]大地摇动" duration 4 sync /新生艾克斯迪司正在发动“大地摇动”/ window 10
+1160 "[G]击退-真空波" duration 3 sync /新生艾克斯迪司正在发动“真空波”/
+##
+1174 "[G]集合-无之失控" duration 2
+1181 "光与暗" duration 4 sync /新生艾克斯迪司正在咏唱“光与暗”/ window 10
+1186 "--核弹x3 分摊x1--" duration 5
+##
+1191 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+
+# P2.5 - 阿尔法
+1206 "[EGI]P2.5-阿尔法"
+1206 "陨石" duration 4 sync /新生艾克斯迪司正在咏唱“陨石”/ window 10
+1212 "木桩x4"
+1216 "-- Boss瞬移 --"
+1219 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+##
+1232 "[H]一血-大漩涡" duration 5 sync /新生艾克斯迪司正在发动“大漩涡”/ window 20, 10
+1236 "[T]MT一仇"
+1240 "[T][分摊]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
+1255 "至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
+##
+1264 "[G]击退-真空波" duration 3 sync /新生艾克斯迪司正在发动“真空波”/
+1265 "[T]MT一仇"
+1269 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+##
+1277 "[G]集合-无之失控" duration 2
+1283 "[G]大十字·阿尔法" duration 5 sync /新生艾克斯迪司正在发动“大十字·阿尔法”/ window 10
+1294 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1302 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+##
+1215 "[T]MT一仇"
+1319 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1322 "-- Boss瞬移 --"
+1328 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+
+# P3 - 欧米茄
+1337 "[EGI]P3-欧米茄"
+1337 "[G]大十字·欧米茄" duration 5 sync /新生艾克斯迪司正在发动“大十字·欧米茄”/ window 10
+1345 "最终之战" duration 3 sync /新生艾克斯迪司正在发动“最终之战”/
+##
+1349 "-- Boss瞬移 --"
+1352 "激光/鸳鸯锅" duration 5
+1355 "--Death Wave--"
+1355 "--Death Bolt x3--"
+1357 "激光/鸳鸯锅" duration 5
+1363 "激光/鸳鸯锅" duration 5
+1369 "--Shriek to Center Look Away--"
+1374 "--Death Shriek x2--"
+1377 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+##
+1386 "至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
+1397 "[G]集合-无之失控" duration 2
+1402 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1413 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+
+# P4 - 循环(2)
+1426 "[EGI]P4-德尔塔"
+1426 "[G]大十字·德尔塔" duration 5 sync /新生艾克斯迪司正在发动“大十字·德尔塔”/ window 10
+1439 "激光/鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1439 "--Death Shriek x2--"
+1441 "--Death Bolt x2--"
+1441 "--Death Wave--"
+1448 "至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
+##
+1457 "[T]MT一仇"
+1461 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+1470 "[T][ST]大地摇动" duration 4 sync /新生艾克斯迪司正在发动“大地摇动”/ window 10
+1477 "[G]击退-真空波" duration 3 sync /新生艾克斯迪司正在发动“真空波”/
+##
+1493 "[G]集合-无之失控" duration 2
+1499 "光与暗" duration 4 sync /新生艾克斯迪司新生艾克斯迪司正在咏唱“光与暗”/ window 10
+1504 "--核弹x3 分摊x1--" duration 5
+##
+1509 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+##
+1523 "[EGI]P4.5-阿尔法"
+1523 "陨石" duration 4 sync /新生艾克斯迪司正在咏唱“陨石”/ window 10
+1529 "木桩x4"
+1534 "-- Boss瞬移 --"
+1537 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+##
+1550 "[H]一血-大漩涡" duration 5 sync /新生艾克斯迪司正在发动“大漩涡”/ window 20, 10
+1554 "[T]ST一仇"
+1558 "[T][ST无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
+1572 "至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
+##
+1582 "[G]击退-真空波" duration 3 sync /新生艾克斯迪司正在发动“真空波”/
+1583 "[T]MT一仇"
+1587 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
+##
+1594 "[G]集合-无之失控" duration 2
+1600 "[G]大十字·阿尔法" duration 5 sync /新生艾克斯迪司正在发动“大十字·阿尔法”/ window 10
+1611 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+1619 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10
+##
+1632 "[T]MT一仇"
+1636 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1639 "-- Boss瞬移 --"
+1644 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ window 10 
+
+# P5 - 狂暴
+1653 "[EGI]P5-狂暴"
+1653 "规律崩坏" duration 5 sync /新生艾克斯迪司正在发动“规律崩坏”/ window 10
+1661 "[H]一血-大漩涡" duration 5 sync /新生艾克斯迪司正在发动“大漩涡”/ window 10
+##
+1670 "狂乱之拳 x9"
+1677 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1680 "狂乱之拳 x9"
+1687 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1690 "狂乱之拳 x9"
+1697 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1700 "狂乱之拳 x9"
+1707 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1710 "狂乱之拳 x9"
+1717 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1720 "狂乱之拳 x9"
+1727 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1730 "狂乱之拳 x9"
+1737 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+1740 "狂乱之拳 x9"
+1747 "[H]狂乱领域" sync /新生艾克斯迪司发动了“狂乱领域”/ window 10
+##
+1752 "[EGI](狂暴)" duration 10 sync /新生艾克斯迪司发动了“至高无上”/ window 50
