@@ -30,7 +30,6 @@ hideall "开始"
 0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
 
 # P1 - 二连冰火雷
-1 "开始" sync /战斗开始！/ window 10000
 1 "[EGI]P1 - 二连冰火雷" sync /你们也消失于“虚无”吧/ window 10000
 10 "连续咏唱(冰)" duration 2 sync /艾克斯迪司正在发动“连续咏唱”/
 13 "[G]二连冰" duration 2 sync /艾克斯迪司正在咏唱“冰封”/
