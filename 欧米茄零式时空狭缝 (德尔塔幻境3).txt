@@ -2,6 +2,13 @@
 # 参考菓子君攻略 https·//www.bilibili.com/video/av16168566/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
+################ Trigger ################
+
+# <Trigger R="2306:哈利卡纳苏斯正在" SD="万变水波" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="2308:哈利卡纳苏斯正在" SD="荆棘连线" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="230A:哈利卡纳苏斯正在" SD="蓝色地板" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="230E:哈利卡纳苏斯正在" SD="图书分散" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+
 ################ TTS #####################
 
 alertall "加速" before 3 sound "tts 准备加速魔法剑"
@@ -30,8 +37,8 @@ alertall "[T]巨人·过热 > 沉默" before 3 sound "tts ST过热沉默"
 alertall "[G]女王之舞(剑)" before 1 sound "tts 按站位站好"
 alertall "[G]女王之舞(荆棘)" before 1 sound "tts T奶AB,输出CD"
 alertall "[G]女王之舞(地刺)" before 1 sound "tts 蓝色地板"
-alertall "[G]女王之舞(书)" before 1 sound "tts 按站位,奶妈抬血"
-alertall "[G]魔法剑·神圣" before 2 sound "tts 分摊B,点名D,分摊连线重合Boss"
+alertall "[G]女王之舞(书)" before 1 sound "tts 砸书,按站位"
+alertall "[G]魔法剑·神圣" before 2 sound "tts 点名分摊远离,分摊连线重合Boss"
 
 alertall "[G]变身·猪" before 1 sound "tts 变猪,集中"
 alertall "[G]变身·青蛙" before 1 sound "tts 变青蛙,去背面"
@@ -41,7 +48,7 @@ alertall "[H]奶妈变身" before 1 sound "tts 奶妈变身"
 alertall "[T]坦克变身" before 1 sound "tts 坦克变身"
 alertall "[D]输出变身" before 1 sound "tts 输出变身"
 
-alertall "[D]LB砸小牛" before 1 sound "tts LB砸小牛"
+alertall "[D]LB砸Boss" before 1 sound "tts LB砸Boss"
 alertall "[D]远程LB忍者" before 1 sound "tts 远程LB忍者"
 
 alertall "[H]副奶群盾" before 1 sound "tts 副奶群盾"
@@ -141,9 +148,7 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 ##
 273 "召唤棋子·小牛" duration 3 sync /哈利卡纳苏斯正在发动“召唤棋子”/ window 10
 273 "[T]ST拉回自家"
-277 "[D]LB砸小牛"
 284 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
-285 "[D]LB砸小牛"
 289 "[G]魔法锤 > 远AB奶DC" duration 3
 291 "[G]变身·河童" duration 4 sync /哈利卡纳苏斯正在发动“喀喀喀喀喀！”/ window 10
 297 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
@@ -156,6 +161,7 @@ alertall "[H]抬满血·副奶群盾" before 1 sound "tts 抬满血·副奶群�
 321 "[G]分摊吃蓝 > 点名吃绿"
 327 "[G]女王之舞(书)" duration 5 sync /哈利卡纳苏斯正在发动“女王之舞”/ window 10
 338 "[H]次元波动" duration 4 sync /哈利卡纳苏斯正在咏唱“次元波动”/ window 10
+340 "[D]LB砸Boss"
 
 # P5 - 综合阶段
 347 "[EGI]P5 综合阶段" sync /哈利卡纳苏斯正在发动“刷新盘面”/ window 10

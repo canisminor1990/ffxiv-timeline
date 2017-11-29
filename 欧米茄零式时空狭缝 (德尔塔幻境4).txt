@@ -2,10 +2,12 @@
 # 参考菓子君攻略 https://www.bilibili.com/video/av16534805/
 # By CanisMinor 男孩纸榨汁机(紫水)
 
-# <Trigger R="14:240E:艾克斯迪司正在" SD="中央激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="14:240F:艾克斯迪司正在" SD="两侧激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="14:2411:艾克斯迪司正在" SD="紫左蓝右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="14:2412:艾克斯迪司正在" SD="蓝左紫右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+################ Trigger ################
+
+# <Trigger R="240E:艾克斯迪司正在" SD="中央激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="240F:艾克斯迪司正在" SD="两侧激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2411:艾克斯迪司正在" SD="紫左蓝右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2412:艾克斯迪司正在" SD="蓝左紫右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
 
 ################ TTS - 门神 #####################
 
