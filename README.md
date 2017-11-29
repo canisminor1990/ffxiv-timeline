@@ -67,4 +67,5 @@ svn+ssh://svn@svn.coding.net/canisminor1990/ffxiv-timeline
 - **Author:** CanisMinor
 - **ID:** 男孩纸榨汁机(紫水)
 - **E-Mail:** <i@canisminor.cc>
+- **讨论群:** 246243038
 - **License:** MIT
