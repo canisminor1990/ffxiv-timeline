@@ -1,6 +1,6 @@
 # 须佐之男歼殛战 - 须佐之男
 # 参考菓子君攻略 https://www.bilibili.com/video/av13828943/
-# By CanisMinor 男孩纸榨汁机(紫水)
+# 作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038
 
 ################ TTS #####################
 
@@ -35,16 +35,18 @@ alertall "[EGI]P1 热身阶段" before 2 sound "tts P1 热身阶段"
 alertall "[EGI]P2 对刀阶段" before 2 sound "tts P2 对刀阶段"
 alertall "[EGI]P3 最终阶段" before 2 sound "tts P3 最终阶段"
 
-################ Config ################
-
-hideall "[EGI]重置"
-
 ################ Main ################
 
 0 "[EGI]重置" sync /Removing combatant 须佐之男/ window 10000 jump 0
 
 # P1 热身阶段
 1 "[EGI]P1 热身阶段" sync /欢庆吧！跳舞吧！/ window 10000
+##
+2 "---------------------"
+2.1 "By CanisMinor"
+2.2  "讨论群: 246243038"
+2.3 "---------------------"
+##
 10 "[T]强击" sync /须佐之男发动了“强击”/ 
 ##
 13 "[G]水泡炸弹" sync /须佐之男发动了“祸泡附身”/ 

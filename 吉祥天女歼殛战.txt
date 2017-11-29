@@ -1,6 +1,6 @@
 # 吉祥天女歼殛战 - 吉祥天女
 # 参考菓子君攻略 https://www.bilibili.com/video/av14544683/
-# By CanisMinor 男孩纸榨汁机(紫水)
+# 作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038
 
 ################ TTS #####################
 
@@ -22,16 +22,18 @@ alertall "[T]黑化蓝色点名" before 0 sound "tts 黑化二仇 副T吃球"
 alertall "[G]黑化光之瀑布" before 0 sound "tts 黑化分摊 全体吃球"
 alertall "[H]黑化优美的左手" before 0 sound "tts 治疗吃球"
 
-################ Config ################
-
-hideall "[EGI]重置"
-
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 吉祥天女/ window 10000 jump 0
+0 "[EGI]重置" sync /污秽之人啊/ window 10000 jump 1
 
 # P1 - 开始
 1 "[EGI]P1 开始" sync /污秽之人啊/ window 10000
+##
+2 "---------------------"
+2.1 "By CanisMinor"
+2.2  "讨论群: 246243038"
+2.3 "---------------------"
+##
 12 "心魔" duration 4 sync /梦寐的刹帝利正在咏唱“心魔”/
 13 "[H]赞歌" duration 3 sync /吉祥天女正在发动“赞歌”/
 
