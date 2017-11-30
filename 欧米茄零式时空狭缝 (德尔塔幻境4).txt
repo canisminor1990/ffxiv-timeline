@@ -52,7 +52,7 @@ alertall "[T]ST一仇" before 2 sound "tts ST一仇"
 alertall "[D]砸LB" before 0 sound "tts 砸LB"
 alertall "[D]自杀背靠背" before 0 sound "tts 自杀背靠背"
 
-alertall "[H]至高无上" before 1 sound "tts AOE"
+alertall "[H]至高无上" before 1 sound "tts 减伤,刷血"
 
 alertall "鸳鸯锅" before 1 sound "tts 鸳鸯锅"
 alertall "激光(中/侧)" before 1 sound "tts 激光"
