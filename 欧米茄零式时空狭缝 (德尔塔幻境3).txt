@@ -4,10 +4,10 @@
 
 ################ Trigger ################
 
-# <Trigger R="2306:哈利卡纳苏斯正在" SD="万变水波" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
-# <Trigger R="2308:哈利卡纳苏斯正在" SD="荆棘连线" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
-# <Trigger R="230A:哈利卡纳苏斯正在" SD="蓝色地板" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
-# <Trigger R="230E:哈利卡纳苏斯正在" SD="图书分散" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="2306:哈利卡纳苏斯" SD="万变水波" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="2308:哈利卡纳苏斯" SD="荆棘连线" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="230A:哈利卡纳苏斯" SD="蓝色地板" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
+# <Trigger R="230E:哈利卡纳苏斯" SD="图书分散" ST="3" CR="F" C="O3S" T="F" TN="" Ta="F" />
 
 ################ TTS #####################
 

@@ -4,10 +4,10 @@
 
 ################ Trigger ################
 
-# <Trigger R="240E:新生艾克斯迪司正在" SD="中央激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="240F:新生艾克斯迪司正在" SD="两侧激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="2411:新生艾克斯迪司正在" SD="紫左蓝右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="2412:新生艾克斯迪司正在" SD="蓝左紫右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="240E:新生艾克斯迪司" SD="中央激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="240F:新生艾克斯迪司" SD="两侧激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2411:新生艾克斯迪司" SD="紫左蓝右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2412:新生艾克斯迪司" SD="蓝左紫右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
 
 ################ TTS - 门神 #####################
 
@@ -52,17 +52,22 @@ alertall "[T]ST一仇" before 2 sound "tts ST一仇"
 alertall "[D]砸LB" before 0 sound "tts 砸LB"
 alertall "[D]自杀背靠背" before 0 sound "tts 自杀背靠背"
 
-alertall "[H]至高无上" before 1 sound "tts AEO"
+alertall "[H]至高无上" before 1 sound "tts AOE"
 
 alertall "鸳鸯锅" before 1 sound "tts 鸳鸯锅"
 alertall "激光(中/侧)" before 1 sound "tts 激光"
 alertall "激光/鸳鸯锅" before 1 sound "tts 随机"
 alertall "光与暗" before 1 sound "tts 十字分散,分摊不动"
 
+################ Config ################
+
+hideall "本体开始"
+
 ################ Main - 门神 ################
 
 0 "[EGI]重置" sync /Removing combatant 艾克斯迪司/ window 10000 jump 0
 0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
+0 "本体开始" sync /新生艾克斯迪司正在发动“至高无上”/ window 1000,10 jump 1000
 
 # P1 - 二连冰火雷
 1 "[EGI]P1 - 二连冰火雷" sync /你们也消失于“虚无”吧/ window 10000
@@ -172,7 +177,7 @@ alertall "光与暗" before 1 sound "tts 十字分散,分摊不动"
 
 # P1
 1000 "[EGI]P1-阿尔法"
-1000 "[H]至高无上" sync /新生艾克斯迪司发动了“至高无上”/ window 1000,0
+1000 "[H]至高无上" duration 7 sync /新生艾克斯迪司发动了“至高无上”/ window 1000,0
 1011 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
 1020 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
 1023 "-- Boss瞬移 --"
