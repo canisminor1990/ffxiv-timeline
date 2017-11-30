@@ -41,7 +41,7 @@ alertall "[G]排队" before 2 sound "tts 排队"
 alertall "[G]真空波>半圆击退" before 2 sound "tts 躲开,半圆击退"
 
 alertall "[T]死刑-暴风" before 3 sound "tts MT死刑"
-alertall "[T][MT无敌]三角攻击" before 3 sound "tts MT无敌"
+alertall "[T][MT无敌]三角攻击" before 3 sound "tts MT无敌,冰火雷"
 alertall "[T][ST无敌]双重攻击" before 3 sound "tts ST无敌"
 alertall "[T][分摊]双重攻击" before 3 sound "tts T中央分摊"
 alertall "[T]大地摇动>一二仇两侧" before 2 sound "tts 一二仇两侧"
