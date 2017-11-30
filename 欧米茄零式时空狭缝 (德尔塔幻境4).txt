@@ -39,6 +39,7 @@ alertall "[G]大十字·欧米茄" before 2 sound "tts 放雷,3次随机"
 alertall "[G]无之失控-找角间" before 2 sound "tts 准备找角间"
 alertall "[G]排队" before 2 sound "tts 排队"
 alertall "[G]真空波>半圆击退" before 2 sound "tts 躲开,半圆击退"
+alertall "[G]中央集合" before 1 sound "tts 中央集合,准备混乱"
 
 alertall "[T]死刑-暴风" before 3 sound "tts MT死刑"
 alertall "[T][MT无敌]三角攻击" before 3 sound "tts MT无敌,冰火雷"
@@ -211,6 +212,7 @@ hideall "本体开始"
 1160 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
 ##
 1174 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
+1178 "[G]中央集合"
 1181 "光与暗" duration 4 sync /新生艾克斯迪司正在咏唱“光与暗”/ window 10
 1186 "--核弹x3 分摊x1--" duration 5
 ##
@@ -280,6 +282,7 @@ hideall "本体开始"
 1477 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
 ##
 1493 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
+1497 "[G]中央集合"
 1499 "光与暗" duration 4 sync /新生艾克斯迪司新生艾克斯迪司正在咏唱“光与暗”/ window 10
 1504 "--核弹x3 分摊x1--" duration 5
 ##
