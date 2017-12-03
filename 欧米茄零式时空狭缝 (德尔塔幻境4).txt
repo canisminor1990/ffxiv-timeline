@@ -68,8 +68,8 @@ hideall "本体开始"
 
 0 "[EGI]重置" sync /Removing combatant 艾克斯迪司/ window 10000 jump 0
 0 "[EGI]重置" sync /Removing combatant 新生艾克斯迪司/ window 10000 jump 0
-0 "本体开始" sync /新生艾克斯迪司正在发动“至高无上”/ window 1000,10 jump 1000
-0 "本体开始" sync /新生艾克斯迪司 starts using 至高无上/ window 1000,10 jump 1000
+0 "本体开始" sync /新生艾克斯迪司正在发动“至高无上”/ window 1000,100 jump 1000
+0 "本体开始" sync /新生艾克斯迪司 starts using 至高无上/ window 1000,100 jump 1000
 
 # P1 - 二连冰火雷
 1 "[EGI]P1 - 二连冰火雷" sync /你们也消失于“虚无”吧/ window 10000
