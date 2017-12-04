@@ -49,6 +49,8 @@ alertall "[T]大地摇动>一二仇两侧" before 2 sound "tts 一二仇两侧"
 
 alertall "[T]MT一仇" before 2 sound "tts MT一仇"
 alertall "[T]ST一仇" before 2 sound "tts ST一仇"
+alertall "[T]MT二仇" before 2 sound "tts MT二仇"
+alertall "[T]ST二仇" before 2 sound "tts ST二仇"
 
 alertall "[D]砸LB" before 0 sound "tts 砸LB"
 alertall "[D]自杀背靠背" before 0 sound "tts 自杀背靠背"
@@ -188,7 +190,7 @@ hideall "本体开始"
 1054 "-- 不许动 --" duration 2
 1055 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
-1063 "[T]ST一仇"
+1058 "[T]ST一仇"
 1067 "[T][ST无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
 
 # P2 - 德尔塔
@@ -196,7 +198,6 @@ hideall "本体开始"
 1080 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
 1085 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
-1092 "[T]MT一仇"
 1096 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
 ##
 1109 "[G]大十字·德尔塔" duration 5 sync /新生艾克斯迪司正在发动“大十字·德尔塔”/ window 10
@@ -204,11 +205,11 @@ hideall "本体开始"
 1109.2 "[T]雷T右,闲T分摊(面左上)" duration 10
 1109.3 "[D]集中,不许动(面上)" duration 10
 1122 "激光/鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
+1125 "[T]MT一仇"
 1130 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10
 ##
-1139 "[T]MT一仇"
 1143 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
-1149 "[T]ST一仇"
+1149 "[T]ST二仇"
 1153 "[T]大地摇动>一二仇两侧" duration 4 sync /新生艾克斯迪司正在发动“大地摇动”/ window 10
 1160 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
 ##
