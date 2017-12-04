@@ -4,10 +4,10 @@
 
 ################ Trigger ################
 
-# <Trigger R="240E:新生艾克斯迪司" SD="中央激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="240F:新生艾克斯迪司" SD="两侧激光" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="2411:新生艾克斯迪司" SD="紫左蓝右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
-# <Trigger R="2412:新生艾克斯迪司" SD="蓝左紫右" ST="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="240E:新生艾克斯迪司" SD="中央激光" 副T="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="240F:新生艾克斯迪司" SD="两侧激光" 副T="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2411:新生艾克斯迪司" SD="紫左蓝右" 副T="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
+# <Trigger R="2412:新生艾克斯迪司" SD="蓝左紫右" 副T="3" CR="F" C="O4S" T="F" TN="" Ta="F" />
 
 ################ TTS - 门神 #####################
 
@@ -41,16 +41,16 @@ alertall "[G]排队" before 2 sound "tts 排队"
 alertall "[G]真空波>半圆击退" before 2 sound "tts 躲开,半圆击退"
 alertall "[G]中央集合" before 1 sound "tts 中央集合,准备混乱"
 
-alertall "[T]死刑-暴风" before 3 sound "tts MT死刑"
-alertall "[T][MT无敌]三角攻击" before 3 sound "tts MT无敌,冰火雷"
-alertall "[T][ST无敌]双重攻击" before 3 sound "tts ST无敌"
+alertall "[T]死刑-暴风" before 3 sound "tts 主T死刑"
+alertall "[T][主T无敌]三角攻击" before 3 sound "tts 主T无敌,冰火雷"
+alertall "[T][副T无敌]双重攻击" before 3 sound "tts 副T无敌"
 alertall "[T][分摊]双重攻击" before 3 sound "tts T中央分摊"
 alertall "[T]大地摇动>一二仇两侧" before 2 sound "tts 一二仇两侧"
 
-alertall "[T]MT一仇" before 2 sound "tts MT一仇"
-alertall "[T]ST一仇" before 2 sound "tts ST一仇"
-alertall "[T]MT二仇" before 2 sound "tts MT二仇"
-alertall "[T]ST二仇" before 2 sound "tts ST二仇"
+alertall "[T]主T一仇" before 2 sound "tts 主T一仇"
+alertall "[T]副T一仇" before 2 sound "tts 副T一仇"
+alertall "[T]主T二仇" before 2 sound "tts 主T二仇"
+alertall "[T]副T二仇" before 2 sound "tts 副T二仇"
 
 alertall "[D]砸LB" before 0 sound "tts 砸LB"
 alertall "[D]自杀背靠背" before 0 sound "tts 自杀背靠背"
@@ -181,7 +181,7 @@ hideall "本体开始"
 1000 "[EGI]P1-阿尔法"
 1000 "[H]至高无上" duration 7
 1011 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
-1020 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1020 "[T][主T无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
 1023 "-- Boss瞬移 --"
 ##
 1036 "[G]大十字·阿尔法" duration 5 sync /新生艾克斯迪司正在发动“大十字·阿尔法”/ window 10
@@ -190,8 +190,8 @@ hideall "本体开始"
 1054 "-- 不许动 --" duration 2
 1055 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
-1058 "[T]ST一仇"
-1067 "[T][ST无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
+1058 "[T]副T一仇"
+1067 "[T][副T无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
 
 # P2 - 德尔塔
 1109 "[EGI]P2-德尔塔"
@@ -205,11 +205,11 @@ hideall "本体开始"
 1109.2 "[T]雷T右,闲T分摊(面左上)" duration 10
 1109.3 "[D]集中,不许动(面上)" duration 10
 1122 "激光/鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
-1125 "[T]MT一仇"
+1125 "[T]主T一仇"
 1130 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10
 ##
 1143 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
-1149 "[T]ST二仇"
+1149 "[T]副T二仇"
 1153 "[T]大地摇动>一二仇两侧" duration 4 sync /新生艾克斯迪司正在发动“大地摇动”/ window 10
 1160 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
 ##
@@ -227,13 +227,13 @@ hideall "本体开始"
 1219 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
 1232 "[H]一血-大漩涡" duration 5 sync /新生艾克斯迪司正在发动“大漩涡”/ window 20, 10
-1236 "[T]MT一仇"
+1236 "[T]主T一仇"
 1240 "[T][分摊]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
 1241 "[D]砸LB" duration 2
 1255 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10, 10
 ##
 1264 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
-1265 "[T]MT一仇"
+1265 "[T]主T一仇"
 1269 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
 ##
 1277 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
@@ -244,8 +244,8 @@ hideall "本体开始"
 1301 "-- 不许动 --" duration 2
 1302 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
-1310 "[T]MT一仇"
-1319 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1310 "[T]主T一仇"
+1319 "[T][主T无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
 1322 "-- Boss瞬移 --"
 1328 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 
@@ -268,7 +268,7 @@ hideall "本体开始"
 1396 "[EGI]P4-德尔塔"
 1397 "[G]无之失控-找角间" duration 2 sync /新生艾克斯迪司正在发动“无之失控”/
 1402 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
-1405 "[T]MT一仇"
+1405 "[T]主T一仇"
 1413 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
 ##
 1426 "[G]大十字·德尔塔" duration 5 sync /新生艾克斯迪司正在发动“大十字·德尔塔”/ window 10
@@ -276,12 +276,12 @@ hideall "本体开始"
 1426.2 "[T]雷T右,闲T分摊(面左上)" duration 10
 1426.3 "[D]集中,不许动(面上)" duration 10
 1439 "激光/鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
-1443 "[T]MT一仇"
+1443 "[T]主T一仇"
 1448 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10
 ##
 1461 "[T]死刑-暴风" duration 4 sync /新生艾克斯迪司正在咏唱“暴风”/ window 10
-1465 "[T]ST一仇"
-1467 "[T]MT二仇"
+1465 "[T]副T一仇"
+1467 "[T]主T二仇"
 1470 "[T]大地摇动>一二仇两侧" duration 4 sync /新生艾克斯迪司正在发动“大地摇动”/ window 10
 1477 "[G]真空波>半圆击退" duration 3 sync /新生艾克斯迪司正在发动“真空波”/ window 10
 ##
@@ -300,8 +300,8 @@ hideall "本体开始"
 1537 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 ##
 1550 "[H]一血-大漩涡" duration 5 sync /新生艾克斯迪司正在发动“大漩涡”/ window 20, 10
-1554 "[T]ST一仇"
-1558 "[T][ST无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
+1554 "[T]副T一仇"
+1558 "[T][副T无敌]双重攻击" duration 5 sync /新生艾克斯迪司正在发动“双重攻击”/ window 10
 1559 "[D]砸LB" duration 2
 1572 "[H]至高无上" duration 6 sync /新生艾克斯迪司正在发动“至高无上”/ window 10
 ##
@@ -315,9 +315,9 @@ hideall "本体开始"
 1611 "[G]排队" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
 1618 "-- 不许动 --" duration 2
 1619 "鸳鸯锅" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/
-1624 "[T]MT一仇"
+1624 "[T]主T一仇"
 ##
-1636 "[T][MT无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
+1636 "[T][主T无敌]三角攻击" duration 5 sync /新生艾克斯迪司正在发动“三角攻击”/ window 10
 1639 "-- Boss瞬移 --"
 1644 "激光(中/侧)" duration 5 sync /新生艾克斯迪司正在发动“无之泛滥”/ 
 
