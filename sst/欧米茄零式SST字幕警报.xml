@@ -12,7 +12,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
-    <ID>1</ID>
+    <ID>13</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt;gains the effect of.*?(569|弱不禁风).*?14</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?f(569|弱不禁风)</KeywordToHide>
@@ -42,7 +42,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>22480e10-e074-497e-95a0-4c987ddc208c</Guid>
-    <ID>2</ID>
+    <ID>14</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
@@ -72,7 +72,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>7fa87f67-2e42-4caf-b738-deffe031a47e</Guid>
-    <ID>3</ID>
+    <ID>15</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?16</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
@@ -102,7 +102,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>d6c82ba3-29b3-457a-b3a0-fa72be7c0e33</Guid>
-    <ID>4</ID>
+    <ID>16</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(568|加速度炸弹).*?9</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(568|加速度炸弹)</KeywordToHide>
@@ -132,7 +132,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>bd4ea3c9-f4b5-4e10-ad76-9c6e68ad8fc3</Guid>
-    <ID>5</ID>
+    <ID>17</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
@@ -162,7 +162,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>146148ab-4a50-483e-83c8-9bbe71fba20b</Guid>
-    <ID>6</ID>
+    <ID>18</ID>
     <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?34</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
@@ -192,7 +192,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
-    <ID>7</ID>
+    <ID>19</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(569|弱不禁风).*?14</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(569|弱不禁风)</KeywordToHide>
@@ -222,7 +222,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>22480e10-e074-497e-95a0-4c987ddc208c</Guid>
-    <ID>8</ID>
+    <ID>20</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
@@ -252,7 +252,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>7fa87f67-2e42-4caf-b738-deffe031a47e</Guid>
-    <ID>9</ID>
+    <ID>21</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt;.*?叉形闪电.*?8</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
@@ -282,7 +282,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>d6c82ba3-29b3-457a-b3a0-fa72be7c0e33</Guid>
-    <ID>10</ID>
+    <ID>22</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?16</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
@@ -312,7 +312,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>bd4ea3c9-f4b5-4e10-ad76-9c6e68ad8fc3</Guid>
-    <ID>11</ID>
+    <ID>23</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
@@ -342,7 +342,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>146148ab-4a50-483e-83c8-9bbe71fba20b</Guid>
-    <ID>12</ID>
+    <ID>24</ID>
     <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?34</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
@@ -372,7 +372,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
-    <ID>13</ID>
+    <ID>25</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt; gains the effect of.*?(569|弱不禁风).*?14</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of.*?(569|弱不禁风)</KeywordToHide>
@@ -402,7 +402,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>f13efde2-bdf1-4943-8c1d-34aee05bb9b4</Guid>
-    <ID>14</ID>
+    <ID>26</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
@@ -432,7 +432,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>928a4a2c-c20a-44cd-b0c6-7e674126ca3c</Guid>
-    <ID>15</ID>
+    <ID>27</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt;.*?叉形闪电.*?8</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
@@ -462,7 +462,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>f711c215-141a-409f-9eaf-6aa3cd7fa2ce</Guid>
-    <ID>16</ID>
+    <ID>28</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt;.*?水属性压缩.*?8</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 水属性压缩</KeywordToHide>
@@ -492,7 +492,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>8817c854-f2fa-4e5d-b9bb-aceae3f4cdc9</Guid>
-    <ID>17</ID>
+    <ID>29</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
@@ -522,7 +522,7 @@
     <FontColor>#FFC0CB</FontColor>
     <FontOutlineColor>#DC143C</FontOutlineColor>
     <Guid>c69aed19-4558-42e6-b806-bb0b32e6724b</Guid>
-    <ID>18</ID>
+    <ID>30</ID>
     <JobFilter>6,24,28,33</JobFilter>
     <Keyword>&lt;me&gt;.*?水属性压缩.*?11</Keyword>
     <KeywordToHide>&lt;me&gt; loses the effect of 水属性压缩</KeywordToHide>
@@ -553,7 +553,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>ec26f257-ce9c-4d6a-b993-30f6d053b287</Guid>
     <ID>31</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>2306:哈利卡纳苏斯</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -583,7 +583,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>e8457e57-c704-44c4-ad72-a19b5fe74ede</Guid>
     <ID>32</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>2308:哈利卡纳苏斯</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -613,7 +613,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>5109669f-7d9c-43f4-a284-b2951bca555d</Guid>
     <ID>33</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>230A:哈利卡纳苏斯</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -643,7 +643,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>2e49ab88-6b91-4e84-b65c-14ea21723465</Guid>
     <ID>34</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>230E:哈利卡纳苏斯</Keyword>
     <KeywordToHide />
     <Left>900</Left>
@@ -673,7 +673,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>356ad359-dabe-4b59-b212-d2abacdf0f30</Guid>
     <ID>35</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>240E:新生艾克斯迪司</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -703,7 +703,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>8632267f-e060-49fa-9659-5ab71d77b7e2</Guid>
     <ID>36</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>240F:新生艾克斯迪司</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -733,7 +733,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>f1d7b698-2f2c-4972-971b-746ce9dc2dac</Guid>
     <ID>37</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>2411:新生艾克斯迪司</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -763,7 +763,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>343483b0-7d8e-4577-a9aa-b46ba4eb162c</Guid>
     <ID>38</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
     <Keyword>2412:新生艾克斯迪司</Keyword>
     <KeywordToHide />
     <Left>911</Left>
@@ -793,7 +793,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>458591e7-9d39-43ac-9a8d-fc4e698b2a81</Guid>
     <ID>39</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>发动了“挑衅”</Keyword>
     <KeywordToHide />
     <Left>895</Left>
@@ -823,7 +823,7 @@
     <FontOutlineColor>#FFA500</FontOutlineColor>
     <Guid>659d0abd-eec0-4412-a34b-e1640a7efb8a</Guid>
     <ID>40</ID>
-    <JobFilter>32</JobFilter>
+    <JobFilter>1,3,19,21,32</JobFilter>
     <Keyword>发动了“退避”</Keyword>
     <KeywordToHide />
     <Left>895</Left>
