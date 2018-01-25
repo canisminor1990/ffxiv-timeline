@@ -44,7 +44,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙(?!的)/ window 0,400
+0 "[EGI]重置" sync /Removing combatant 神龙(?!的)/ window 400 jump 0
 
 # P1 地板阶段
 1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
