@@ -44,7 +44,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙(?!的)/ window 400
+0 "[EGI]重置" sync /Removing combatant 神龙(?!的)/ window 0,400
 
 # P1 地板阶段
 1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
@@ -147,6 +147,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 386 "[EGI]P2 小怪阶段"
 387 "暗物质" duration 3 sync /神龙正在发动“暗物质”/ window 10000
 423 "--动态演练--"
+430 " " sync /Removing combatant 神龙(?!的)/ window 0,500 jump 0
 ##
 434 "陨石冲击 (1)" duration 4
 441 "[T][M]大龙 x1"
@@ -216,4 +217,3 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 908 "[H]龙头 x4"
 ##
 1000 "[EGI][狂暴]大海啸" duration 50
-1001 "[EGI]重置" sync /Removing combatant 神龙(?!的)/ window 500 jump 0
