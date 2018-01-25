@@ -13,7 +13,7 @@ alertall "放龙蛋" before 2 sound "tts 分散放龙蛋,中间集合"
 alertall "神龙啸/黑暗吐息" before 2 sound "tts 中间集合"
 
 alertall "[G]转火核心" before 0 sound "tts 转火核心"
-alertall "[G]大海啸" before 0 sound "tts 海啸防击退"
+alertall "[G]大海啸" before 2 sound "tts 海啸击退"
 alertall "[G]召唤冰柱" before 1 sound "tts 看冰柱"
 alertall "[G]拉线" before 2 sound "tts 拉线,T左奶右,D对角"
 alertall "[G]分摊拉线" before 1 sound "tts 对角拉线,分摊"
@@ -47,16 +47,16 @@ hideall "----"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙/ window 400 jump 0
+0 "[EGI]重置" sync /Removing combatant 神龙/
 
 # P1 地板阶段
-1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000
+1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
 2 "[G]转火核心"
 ##
 2.1 "❖ By CanisMinor"
 2.2 "❖ 讨论群: 246243038"
 ##
-10 "大地之怒" duration 10 sync /神龙正在发动“大地之怒”/ window 10
+10 "大地之怒" duration 10 sync /神龙正在发动“大地之怒”/
 32 "[G]拉线" duration 2
 33 "[G]大海啸" duration 10 sync /神龙正在发动“大海啸”/ window 10
 ##
@@ -148,8 +148,8 @@ hideall "----"
 
 # P2 小怪阶段
 386 "[EGI]P2 小怪阶段"
-387 "暗物质" duration 3 sync /神龙正在发动“暗物质”/ window 388, 10
-423 "--动态演练--" sync /Removing combatant 神龙/ window 0, 1000 jump 0
+387 "暗物质" duration 3 sync /神龙正在发动“暗物质”/ window 10000
+423 "--动态演练--"
 ##
 434 "陨石冲击 (1)" duration 4
 441 "[T][M]大龙 x1"
