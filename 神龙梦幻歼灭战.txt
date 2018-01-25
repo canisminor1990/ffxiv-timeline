@@ -1,0 +1,222 @@
+# 欧米茄零式时空狭缝 德尔塔幻境4 - 艾克斯迪司
+# 参考菓子君攻略: bilibili.com/video/av18571134/
+# 作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038
+
+################ TTS #####################
+
+alertall "大地之怒" before 0 sound "tts 看裂纹"
+alertall "钻石星尘" before 2 sound "tts 钻石星尘"
+alertall "大气爆发" before 2 sound "tts 中间靠拢,大气爆发"
+alertall "陨石冲击 (1)" before 2 sound "tts MT大龙,ST小龙"
+alertall "陨石冲击 (2)" before 2 sound "tts MT中间大龙,ST其他,范围LB"
+alertall "放龙蛋" before 2 sound "tts 分散放龙蛋,中间集合"
+alertall "神龙啸/黑暗吐息" before 2 sound "tts 中间集合"
+
+alertall "[G]转火核心" before 0 sound "tts 转火核心"
+alertall "[G]大海啸" before 0 sound "tts 海啸防击退"
+alertall "[G]召唤冰柱" before 1 sound "tts 看冰柱"
+alertall "[G]拉线" before 2 sound "tts 拉线,T左奶右,D对角"
+alertall "[G]分摊拉线" before 1 sound "tts 对角拉线,分摊"
+alertall "[G]蓝圈左下角" before 1 sound "tts 蓝圈左下角"
+alertall "[G]上尾巴集合躲激光" before 1 sound "tts 别分散,集体行动"
+alertall "[G]A点集合" before 1 sound "tts A点集合"
+alertall "[G]吹雪" before 2 sound "tts A点集合,火不动,雷先合后散"
+
+alertall "[T][H]拉线" before 2 sound "tts T左奶右拉线"
+alertall "[T][分摊]死亡轮回" before 1 sound "tts 死刑,T分摊"
+alertall "[T][M无敌]死亡轮回" before 1 sound "tts MT死刑,无敌"
+alertall "[T][S无敌]死亡轮回" before 2 sound "tts ST挑衅,死刑无敌"
+alertall "[T][换T]万亿斩击" before 1 sound "tts 暴击死刑,读条换T"
+
+alertall "[H]拉线" before 2 sound "tts 副奶斜滑拉线"
+alertall "[H]放尾巴" before 0 sound "tts 奶妈尾巴"
+alertall "[H]吹雪" before 0 sound "tts AOE"
+alertall "[H][D]大地吐息" before 1 sound "tts 奶左D右,大地吐息"
+alertall "[H]龙头 x4" before 0 sound "tts 奶满龙头"
+
+alertall "[D]放尾巴" before 0 sound "tts DPS尾巴,闪电后再回"
+alertall "[D]近战LB" before 0 sound "tts 近战LB"
+alertall "[D]拉线" before 2 sound "tts DPS拉线,提前错开"
+
+alertall "--尾巴落下--" before 1 sound "tts 远程打尾巴"
+alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
+
+################ Config ################
+
+hideall "----"
+
+################ Main ################
+
+0 "[EGI]重置" sync /Removing combatant 神龙/ window 0, 400 jump 0
+
+# P1 地板阶段
+1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
+2 "[G]转火核心"
+##
+2.1 "❖ By CanisMinor"
+2.2 "❖ 讨论群: 246243038"
+##
+10 "大地之怒" duration 10 sync /神龙正在发动“大地之怒”/ window 10
+32 "[G]拉线" duration 2
+33 "[G]大海啸" duration 10 sync /神龙正在发动“大海啸”/ window 10
+##
+49 "[H]放尾巴"
+57 "--冰柱+闪电/超新星--"
+57.1 "[G]召唤冰柱" duration 3 sync /左翼正在发动“召唤冰柱”/ window 10
+61 "--尾巴落下--"
+62 "冰柱冲击 x3"
+66 "冰柱突刺 x3"
+71 "[G]闪电/超新星-进中坑" duration 7
+78 "[G]转火核心"
+##
+82 "--吹雪/龙掌--"
+88 "[H]吹雪" duration 5
+90 "龙掌" duration 3 sync /神龙正在发动“龙掌”/ window 10
+##
+103 "--[80]死亡轮回--"
+103.1 "[T][分摊]死亡轮回" duration 3 sync /神龙正在发动“死亡轮回”/ window 10
+108 "[T]死亡轮回 (1)"
+109 "光柱 x1" duration 5
+110 "[T]死亡轮回 (2)"
+111 "[T]死亡轮回 (3)"
+##
+111.1 "--冰柱+地狱之火炎/制裁之雷--"
+111.2 "[G]召唤冰柱" duration 3 sync /左翼正在发动“召唤冰柱”/ window 10
+112 "地狱之火炎/制裁之雷" duration 10
+116 "冰柱冲击 x3"
+120 "冰柱突刺 x3"
+##
+137 "[D]放尾巴"
+140 "闪电" duration 7 sync /翼正在发动“闪电”/ window 10
+149 "--尾巴落下--"
+157 "[H]吹雪" duration 5
+162 "[G]转火核心"
+##
+167 "[T][H]拉线" duration 2
+173 "[D][H]大地吐息" duration 5 sync /神龙正在发动“大地吐息”/ window 10
+##
+181 "--死亡轮回/吹雪--"
+182 "[T][M无敌]死亡轮回" duration 3 sync /神龙正在发动“死亡轮回”/ window 10
+186 "[H]吹雪" duration 5
+187 "[T]死亡轮回 (1)"
+188 "光柱 x2" duration 5
+189 "[T]死亡轮回 (2)"
+190 "[T]死亡轮回 (3)"
+##
+182 "--钻石星尘/锁链--"
+196 "钻石星尘" duration 10 sync /神龙正在发动“钻石星尘”/ window 10
+202 "[H]拉线" duration 2
+212 "[D]近战LB"
+223 "[H]龙头 x4"
+##
+231 "[T]尾巴"
+243 "--尾巴落下--"
+246 "[G]转火核心"
+261 "--冰柱+死亡轮回--"
+262 "[G]召唤冰柱" duration 3 sync /左翼正在发动“召唤冰柱”/ window 10
+266 "[T][S无敌]死亡轮回" duration 3 sync /神龙正在发动“死亡轮回”/ window 10
+267 "冰柱冲击 x3"
+271 "[T]死亡轮回 (1)"
+272 "冰柱突刺 x3"
+272 "光柱" duration 5
+273 "[T]死亡轮回 (2)"
+274 "[T]死亡轮回 (3)"
+##
+279 "大气爆发" duration 10 sync /神龙正在发动“大气爆发”/ window 10
+282 "[D]拉线"
+284 "吹飞 (1)"
+286 "吹飞 (2)"
+288 "吹飞 (3)"
+##
+310 "[H][D]大地吐息" duration 5 sync /神龙正在发动“大地吐息”/ window 10
+313 "[H]吹雪" duration 5
+##
+322 "--Boss上天/俯冲--"
+326 "[G]转火核心"
+339 "超新星" duration 7
+##
+355 "--[80]死亡轮回--"
+355 "[T]死亡轮回" duration 3 sync /神龙正在发动“死亡轮回”/ window 10
+360 "[T]死亡轮回 (1)"
+361 "光柱" duration 5
+362 "[T]死亡轮回 (2)"
+363 "[T]死亡轮回 (3)"
+364 "[T]死亡轮回 (4)"
+##
+366 "闪电" duration 7
+370 "[G]大海啸" duration 10 sync /神龙正在发动“大海啸”/ window 10
+
+# P2 小怪阶段
+386 "[EGI]P2 小怪阶段"
+387 "暗物质" duration 3 sync /神龙正在发动“暗物质”/ window 388, 10
+423 "--动态演练--"
+423 "----" sync /Removing combatant 神龙/ window 0, 1000 jump 0
+##
+434 "陨石冲击 (1)" duration 4
+441 "[T][M]大龙 x1"
+441 "[T][S]小龙 x4"
+##
+453 "陨石冲击 (2)" duration 4
+460 "[T][M]中间大龙"
+460 "[T][S]大龙+小龙 x3"
+##
+475 "放龙蛋"
+483 "陨石冲击 (3)" duration 4
+490 "[T]小龙 x5"
+
+# P3 最终回
+600 "[EGI]P3 最终回"
+600 "原恒星" duration 6 sync /距离原恒星发动还有6秒/ window 10000
+612 "[G]蓝圈左下角"
+639 "[G]上尾巴集合躲激光"
+## 万亿斩击 (1)
+645 "--尾巴左边标A--"
+656 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+661 "[G]A点集合"
+664 "[G]分摊拉线" duration 2
+671 "分摊判定 (1)"
+672 "分摊判定 (2)"
+673 "分摊判定 (3)"
+674 "分摊判定 (4)"
+675 "[G]A点集合"
+##
+680 "[G]吹雪" duration 6 sync /左翼正在发动“吹雪”/ window 10
+681 "火不动/雷先集合后散开" duration 5
+693 "神龙啸/黑暗吐息" duration 5
+## 万亿斩击 (2)
+704 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+712 "[H]龙头 x4"
+## 万亿斩击 (3)
+754 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+759 "[G]A点集合"
+762 "[G]分摊拉线" duration 2
+769 "分摊判定 (1)"
+770 "分摊判定 (2)"
+771 "分摊判定 (3)"
+772 "分摊判定 (4)"
+773 "[G]A点集合"
+##
+778 "[G]吹雪" duration 6 sync /左翼正在发动“吹雪”/ window 10
+779 "火不动/雷先合后散" duration 5
+791 "神龙啸/黑暗吐息" duration 5
+## 万亿斩击 (5)
+802 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+810 "[H]龙头 x4"
+## 万亿斩击 (6)
+852 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+857 "[G]A点集合"
+860 "[G]分摊拉线" duration 2
+867 "分摊判定 (1)"
+868 "分摊判定 (2)"
+869 "分摊判定 (3)"
+870 "分摊判定 (4)"
+871 "[G]A点集合"
+##
+876 "[G]吹雪" duration 6 sync /左翼正在发动“吹雪”/ window 10
+877 "火不动/雷先合后散" duration 5
+889 "神龙啸/黑暗吐息" duration 5
+##
+900 "[T][换T]万亿斩击" duration 4 sync /神龙正在发动“万亿斩击”/ window 10
+908 "[H]龙头 x4"
+##
+1000 "[EGI][狂暴]大海啸" duration 50
