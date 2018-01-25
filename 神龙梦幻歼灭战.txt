@@ -41,17 +41,14 @@ alertall "[D]拉线" before 2 sound "tts DPS拉线,提前错开"
 alertall "--尾巴落下--" before 1 sound "tts 远程打尾巴"
 alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 
-################ Config ################
-
-hideall "----"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙/
+0 "[EGI]重置" sync /Removing combatant 神龙/ window 400 jump 0
 
 # P1 地板阶段
 1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
-2 "[G]转火核心"
+5 "[G]转火核心"
 ##
 2.1 "❖ By CanisMinor"
 2.2 "❖ 讨论群: 246243038"
@@ -67,7 +64,7 @@ hideall "----"
 62 "冰柱冲击 x3"
 66 "冰柱突刺 x3"
 71 "[G]闪电/超新星-进中坑" duration 7
-78 "[G]转火核心"
+80 "[G]转火核心"
 ##
 82 "--吹雪/龙掌--"
 88 "[H]吹雪" duration 5
@@ -90,7 +87,7 @@ hideall "----"
 140 "闪电" duration 7 sync /翼正在发动“闪电”/ window 10
 149 "--尾巴落下--"
 157 "[H]吹雪" duration 5
-162 "[G]转火核心"
+164 "[G]转火核心"
 ##
 167 "[T][H]拉线" duration 2
 173 "[D][H]大地吐息" duration 5 sync /神龙正在发动“大地吐息”/ window 10
@@ -111,7 +108,7 @@ hideall "----"
 ##
 231 "[T]尾巴"
 243 "--尾巴落下--"
-246 "[G]转火核心"
+248 "[G]转火核心"
 261 "--冰柱+死亡轮回--"
 262 "[G]召唤冰柱" duration 3 sync /左翼正在发动“召唤冰柱”/ window 10
 266 "[T][S无敌]死亡轮回" duration 3 sync /神龙正在发动“死亡轮回”/ window 10
@@ -132,7 +129,7 @@ hideall "----"
 313 "[H]吹雪" duration 5
 ##
 322 "--Boss上天/俯冲--"
-326 "[G]转火核心"
+328 "[G]转火核心"
 339 "超新星" duration 7
 ##
 355 "--[80]死亡轮回--"
@@ -219,3 +216,4 @@ hideall "----"
 908 "[H]龙头 x4"
 ##
 1000 "[EGI][狂暴]大海啸" duration 50
+1001 "[EGI]重置" sync /Removing combatant 神龙/ window 500 jump 0
