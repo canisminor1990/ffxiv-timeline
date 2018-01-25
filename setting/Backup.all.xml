@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOnePointTelop xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>10</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#0000FF</FontOutlineColor>
+    <Guid>669aad2b-94ff-410c-96b7-1644242959d5</Guid>
+    <ID>1</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“暗技”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“暗技”状态效果消失了</KeywordToHide>
+    <Left>605</Left>
+    <MatchTextToSpeak />
+    <Message>技</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>A:暗技</Title>
+    <Top>540</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFF0F5</FontColor>
+    <FontOutlineColor>#8A2BE2</FontOutlineColor>
+    <Guid>ecc5972c-f7ce-4079-b00e-9f193688c885</Guid>
+    <ID>2</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“至黑之夜”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“至黑之夜”状态效果消失了</KeywordToHide>
+    <Left>817</Left>
+    <MatchTextToSpeak />
+    <Message>至黑之夜</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>至黑之夜</Title>
+    <Top>589</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>15</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFF0F5</FontColor>
+    <FontOutlineColor>#FF69B4</FontOutlineColor>
+    <Guid>5088f35c-1555-47e4-86da-cdb658dc43e9</Guid>
+    <ID>3</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“血债”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“血债”状态效果消失了</KeywordToHide>
+    <Left>683</Left>
+    <MatchTextToSpeak />
+    <Message>债</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>A:血债</Title>
+    <Top>540</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>15</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#DC143C</FontOutlineColor>
+    <Guid>2b384987-ec32-4e4d-bbe1-0548e9bf131c</Guid>
+    <ID>4</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“嗜血”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“嗜血”状态效果消失了</KeywordToHide>
+    <Left>644</Left>
+    <MatchTextToSpeak />
+    <Message>嗜</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>A:嗜血</Title>
+    <Top>540</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>10</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#FF0000</FontOutlineColor>
+    <Guid>4e912475-f220-4ff9-a245-7521a2d0f4e5</Guid>
+    <ID>5</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“行尸走肉”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“行尸走肉”状态效果消失了</KeywordToHide>
+    <Left>818</Left>
+    <MatchTextToSpeak />
+    <Message>行尸走肉</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>行尸走肉</Title>
+    <Top>587</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>10</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>9f4a5411-4250-4c4f-aa76-1135d22ea0df</Guid>
+    <ID>6</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>“死而不僵”的效果。</Keyword>
+    <KeywordToHide>“死而不僵”状态效果消失了</KeywordToHide>
+    <Left>817</Left>
+    <MatchTextToSpeak />
+    <Message>死而不僵</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>死而不僵</Title>
+    <Top>587</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
+    <ID>7</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt;gains the effect of.*?(569|弱不禁风).*?14</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?f(569|弱不禁风)</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>站人群</MatchTextToSpeak>
+    <Message>站人群</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 阿尔法 | 击退</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>22480e10-e074-497e-95a0-4c987ddc208c</Guid>
+    <ID>8</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>往后站</MatchTextToSpeak>
+    <Message>往后站</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 阿尔法 | 野火</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>7fa87f67-2e42-4caf-b738-deffe031a47e</Guid>
+    <ID>9</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?16</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>12点边缘 然后去死</MatchTextToSpeak>
+    <Message>12点边缘 然后去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 德尔塔 | 自杀</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>d6c82ba3-29b3-457a-b3a0-fa72be7c0e33</Guid>
+    <ID>10</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(568|加速度炸弹).*?9</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(568|加速度炸弹)</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>12点边缘</MatchTextToSpeak>
+    <Message>12点边缘 然后不动</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 德尔塔 | 不动</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>bd4ea3c9-f4b5-4e10-ad76-9c6e68ad8fc3</Guid>
+    <ID>11</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>9点放雷</MatchTextToSpeak>
+    <Message>8点放雷</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 欧米茄 | 放雷</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>146148ab-4a50-483e-83c8-9bbe71fba20b</Guid>
+    <ID>12</ID>
+    <JobFilter>2,4,20,22,29,30,34,5,23,31,7,25,26,27,35</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?34</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>12点分摊 第三次去死</MatchTextToSpeak>
+    <Message>12点分摊 第三次去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：D | 欧米茄 | 自杀</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
+    <ID>13</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(569|弱不禁风).*?14</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(569|弱不禁风)</KeywordToHide>
+    <Left>827</Left>
+    <MatchTextToSpeak>减伤站最前</MatchTextToSpeak>
+    <Message>减伤站最前</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 阿尔法 | 击退</Title>
+    <Top>332</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>22480e10-e074-497e-95a0-4c987ddc208c</Guid>
+    <ID>14</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
+    <Left>827</Left>
+    <MatchTextToSpeak>减伤站第二</MatchTextToSpeak>
+    <Message>减伤站第二</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 阿尔法 | 野火</Title>
+    <Top>332</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>7fa87f67-2e42-4caf-b738-deffe031a47e</Guid>
+    <ID>15</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt;.*?叉形闪电.*?8</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
+    <Left>851</Left>
+    <MatchTextToSpeak>2点放雷</MatchTextToSpeak>
+    <Message>2点放雷</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 德尔塔 | 放雷</Title>
+    <Top>332</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>d6c82ba3-29b3-457a-b3a0-fa72be7c0e33</Guid>
+    <ID>16</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?16</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
+    <Left>744</Left>
+    <MatchTextToSpeak>6点分摊 注意面向 然后去死</MatchTextToSpeak>
+    <Message>6点分摊 注意面向 然后去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 德尔塔 | 分摊</Title>
+    <Top>336</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>bd4ea3c9-f4b5-4e10-ad76-9c6e68ad8fc3</Guid>
+    <ID>17</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
+    <Left>857</Left>
+    <MatchTextToSpeak>放雷,疾跑</MatchTextToSpeak>
+    <Message>4点放雷</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 欧米茄 | 放雷</Title>
+    <Top>333</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFFFFF</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFE4E1</FontColor>
+    <FontOutlineColor>#FF1493</FontOutlineColor>
+    <Guid>146148ab-4a50-483e-83c8-9bbe71fba20b</Guid>
+    <ID>18</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(566|超越死亡).*?34</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(566|超越死亡)</KeywordToHide>
+    <Left>779</Left>
+    <MatchTextToSpeak>分摊,疾跑,第三次去死</MatchTextToSpeak>
+    <Message>12点分摊 疾跑 第三次去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：T | 欧米茄 | 分摊</Title>
+    <Top>334</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>dc75fd01-6c3e-4f38-a317-f9d6fa106674</Guid>
+    <ID>19</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt; gains the effect of.*?(569|弱不禁风).*?14</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of.*?(569|弱不禁风)</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>站人群</MatchTextToSpeak>
+    <Message>站人群</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 阿尔法 | 击退</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>f13efde2-bdf1-4943-8c1d-34aee05bb9b4</Guid>
+    <ID>20</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?亚拉戈领域.*?15</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 亚拉戈领域</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>往后站</MatchTextToSpeak>
+    <Message>往后站</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 阿尔法 | 野火</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>928a4a2c-c20a-44cd-b0c6-7e674126ca3c</Guid>
+    <ID>21</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?叉形闪电.*?8</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>10点朝外 单盾副奶 然后去死</MatchTextToSpeak>
+    <Message>10点朝外 单盾副奶 然后去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 德尔塔 | 自杀</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>f711c215-141a-409f-9eaf-6aa3cd7fa2ce</Guid>
+    <ID>22</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?水属性压缩.*?8</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 水属性压缩</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>6点朝外 单盾自己</MatchTextToSpeak>
+    <Message>6点朝外 单盾自己</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 德尔塔 | 水奶分摊</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>8817c854-f2fa-4e5d-b9bb-aceae3f4cdc9</Guid>
+    <ID>23</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?叉形闪电.*?11</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 叉形闪电</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>6点放雷  第三次去死</MatchTextToSpeak>
+    <Message>中央放雷  第三次去死</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 欧米茄 | 放雷</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>c69aed19-4558-42e6-b806-bb0b32e6724b</Guid>
+    <ID>24</ID>
+    <JobFilter>6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?水属性压缩.*?11</Keyword>
+    <KeywordToHide>&lt;me&gt; loses the effect of 水属性压缩</KeywordToHide>
+    <Left>854</Left>
+    <MatchTextToSpeak>12点分摊 躲避伤害</MatchTextToSpeak>
+    <Message>12点分摊 躲避伤害</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：H | 欧米茄 | 分摊</Title>
+    <Top>167</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>ec26f257-ce9c-4d6a-b993-30f6d053b287</Guid>
+    <ID>25</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2306:哈利卡纳苏斯</Keyword>
+    <KeywordToHide />
+    <Left>843</Left>
+    <MatchTextToSpeak>万变水波</MatchTextToSpeak>
+    <Message>万变水波</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o3s：万变水波</Title>
+    <Top>328</Top>
+    <ZoneFilter>697</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>e8457e57-c704-44c4-ad72-a19b5fe74ede</Guid>
+    <ID>26</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2308:哈利卡纳苏斯</Keyword>
+    <KeywordToHide />
+    <Left>842</Left>
+    <MatchTextToSpeak>荆棘连线</MatchTextToSpeak>
+    <Message>荆棘连线</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o3s：荆棘连线</Title>
+    <Top>324</Top>
+    <ZoneFilter>697</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>5109669f-7d9c-43f4-a284-b2951bca555d</Guid>
+    <ID>27</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>230A:哈利卡纳苏斯</Keyword>
+    <KeywordToHide />
+    <Left>843</Left>
+    <MatchTextToSpeak>蓝色地板</MatchTextToSpeak>
+    <Message>蓝色地板</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o3s：蓝色地板</Title>
+    <Top>324</Top>
+    <ZoneFilter>697</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>2e49ab88-6b91-4e84-b65c-14ea21723465</Guid>
+    <ID>28</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>230E:哈利卡纳苏斯</Keyword>
+    <KeywordToHide />
+    <Left>841</Left>
+    <MatchTextToSpeak>图书分散</MatchTextToSpeak>
+    <Message>图书分散</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o3s：图书分散</Title>
+    <Top>324</Top>
+    <ZoneFilter>697</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>356ad359-dabe-4b59-b212-d2abacdf0f30</Guid>
+    <ID>29</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>240E:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>833</Left>
+    <MatchTextToSpeak>中央激光</MatchTextToSpeak>
+    <Message>中央激光</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：中央激光</Title>
+    <Top>450</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>8632267f-e060-49fa-9659-5ab71d77b7e2</Guid>
+    <ID>30</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>240F:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>834</Left>
+    <MatchTextToSpeak>两侧激光</MatchTextToSpeak>
+    <Message>两侧激光</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：两侧激光</Title>
+    <Top>451</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#E6E6FA</FontColor>
+    <FontOutlineColor>#8A2BE2</FontOutlineColor>
+    <Guid>f1d7b698-2f2c-4972-971b-746ce9dc2dac</Guid>
+    <ID>31</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2411:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>713</Left>
+    <MatchTextToSpeak>紫左蓝右</MatchTextToSpeak>
+    <Message>紫左</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：紫左蓝右-紫左</Title>
+    <Top>397</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F0FFFF</FontColor>
+    <FontOutlineColor>#4169E1</FontOutlineColor>
+    <Guid>343483b0-7d8e-4577-a9aa-b46ba4eb162c</Guid>
+    <ID>32</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2412:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>713</Left>
+    <MatchTextToSpeak>蓝左紫右</MatchTextToSpeak>
+    <Message>蓝左</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：蓝左紫右-蓝左</Title>
+    <Top>399</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFFAF0</FontColor>
+    <FontOutlineColor>#FFA500</FontOutlineColor>
+    <Guid>458591e7-9d39-43ac-9a8d-fc4e698b2a81</Guid>
+    <ID>33</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>发动了“挑衅”</Keyword>
+    <KeywordToHide />
+    <Left>1224</Left>
+    <MatchTextToSpeak>挑衅</MatchTextToSpeak>
+    <Message>挑衅</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>false</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>T:挑衅</Title>
+    <Top>420</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFFAF0</FontColor>
+    <FontOutlineColor>#FFA500</FontOutlineColor>
+    <Guid>659d0abd-eec0-4412-a34b-e1640a7efb8a</Guid>
+    <ID>34</ID>
+    <JobFilter>1,3,19,21,32</JobFilter>
+    <Keyword>发动了“退避”</Keyword>
+    <KeywordToHide />
+    <Left>1291</Left>
+    <MatchTextToSpeak>退避</MatchTextToSpeak>
+    <Message>退避</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>false</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>T:退避</Title>
+    <Top>419</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#FFA500</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>10</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFFACD</FontColor>
+    <FontOutlineColor>#FF8C00</FontOutlineColor>
+    <Guid>c7d0774f-1fcb-4ca2-8a44-a927f8514429</Guid>
+    <ID>35</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>发动了“攻其不备”</Keyword>
+    <KeywordToHide />
+    <Left>541</Left>
+    <MatchTextToSpeak />
+    <Message>背刺</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>A:背刺</Title>
+    <Top>541</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>999</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="40" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F0FFFF</FontColor>
+    <FontOutlineColor>#4169E1</FontOutlineColor>
+    <Guid>788fb360-cfba-4649-a1ae-92f258be1e28</Guid>
+    <ID>36</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?(陷入了“生者之伤”效果|附加了“生者之伤”的效果)</Keyword>
+    <KeywordToHide>&lt;me&gt;.*?(陷入了“死者之伤”效果|附加了“死者之伤”的效果)</KeywordToHide>
+    <Left>863</Left>
+    <MatchTextToSpeak />
+    <Message>蓝</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：蓝</Title>
+    <Top>387</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>999</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="40" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#E6E6FA</FontColor>
+    <FontOutlineColor>#8A2BE2</FontOutlineColor>
+    <Guid>8801804f-9782-4344-b20c-2b35c82b35df</Guid>
+    <ID>37</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>&lt;me&gt;.*?(陷入了“死者之伤”效果|附加了“死者之伤”的效果)</Keyword>
+    <KeywordToHide>&lt;me&gt;.*?(陷入了“生者之伤”效果|附加了“生者之伤”的效果)</KeywordToHide>
+    <Left>862</Left>
+    <MatchTextToSpeak />
+    <Message>紫</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：紫</Title>
+    <Top>386</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#E6E6FA</FontColor>
+    <FontOutlineColor>#8A2BE2</FontOutlineColor>
+    <Guid>fc02a6cc-796e-44de-85d0-91d951b1899d</Guid>
+    <ID>38</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2412:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>999</Left>
+    <MatchTextToSpeak />
+    <Message>紫右</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：蓝左紫右-紫右</Title>
+    <Top>399</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>8</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F0FFFF</FontColor>
+    <FontOutlineColor>#4169E1</FontOutlineColor>
+    <Guid>ceb9d952-f58e-4627-8754-19a454cb6ca1</Guid>
+    <ID>39</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>2411:新生艾克斯迪司</Keyword>
+    <KeywordToHide />
+    <Left>1001</Left>
+    <MatchTextToSpeak />
+    <Message>蓝右</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>o4s：紫左蓝右-蓝右</Title>
+    <Top>400</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>2b98a165-caad-473d-9ce6-1d2c3dfc2094</Guid>
+    <ID>40</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>冰柱:25EF.*?-25</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>冰柱去右侧</MatchTextToSpeak>
+    <Message>冰柱去右侧</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：冰柱右</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>e50fe311-a455-465b-9394-a9680ace1c29</Guid>
+    <ID>41</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>冰柱:25EF.*?-15</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>冰柱去右侧</MatchTextToSpeak>
+    <Message>冰柱去左侧</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：冰柱左</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>cccd23f3-7a57-400a-87c2-f07252e69766</Guid>
+    <ID>42</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>14:25E8</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>集合,P1进水,P3不动</MatchTextToSpeak>
+    <Message>超新星：集合 | P1进水 | P3不动</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：超新星</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>af338475-a984-4195-8bf6-5846100ed295</Guid>
+    <ID>43</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>神龙 starts using 地狱之火炎</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>地狱火炎,进水</MatchTextToSpeak>
+    <Message>地狱火炎：进水</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：地狱之火炎</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>999956d6-8af5-4ee6-bc68-a570593f2be2</Guid>
+    <ID>44</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>14:25EA</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>闪电,分散</MatchTextToSpeak>
+    <Message>闪电：分散</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：闪电</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>dcd6f561-d3eb-4b20-a5f6-3b7a261071d1</Guid>
+    <ID>45</ID>
+    <JobFilter>0,1,3,19,21,32,2,4,20,22,29,30,34,5,23,31,7,25,26,27,35,6,24,28,33</JobFilter>
+    <Keyword>神龙 starts using 制裁之雷</Keyword>
+    <KeywordToHide />
+    <Left>854</Left>
+    <MatchTextToSpeak>制裁之雷：出圈</MatchTextToSpeak>
+    <Message>制裁之雷：出圈</Message>
+    <ProgressBarEnabled>false</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>神龙：制裁之雷</Title>
+    <Top>167</Top>
+    <ZoneFilter>730</ZoneFilter>
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+</ArrayOfOnePointTelop>

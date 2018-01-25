@@ -1,4 +1,4 @@
-# 神龙梦幻歼灭战 - 神龙
+﻿# 神龙梦幻歼灭战 - 神龙
 # 参考菓子君攻略: bilibili.com/video/av18571134/
 # 作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038
 
@@ -47,10 +47,10 @@ hideall "----"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙/ window 0, 400 jump 0
+0 "[EGI]重置" sync /Removing combatant 神龙/ window 400 jump 0
 
 # P1 地板阶段
-1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
+1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000
 2 "[G]转火核心"
 ##
 2.1 "❖ By CanisMinor"
@@ -149,8 +149,7 @@ hideall "----"
 # P2 小怪阶段
 386 "[EGI]P2 小怪阶段"
 387 "暗物质" duration 3 sync /神龙正在发动“暗物质”/ window 388, 10
-423 "--动态演练--"
-423 "----" sync /Removing combatant 神龙/ window 0, 1000 jump 0
+423 "--动态演练--" sync /Removing combatant 神龙/ window 0, 1000 jump 0
 ##
 434 "陨石冲击 (1)" duration 4
 441 "[T][M]大龙 x1"
