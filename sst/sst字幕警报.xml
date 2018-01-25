@@ -36,6 +36,36 @@
     <BackgroundColor>#000000</BackgroundColor>
     <Delay>0</Delay>
     <DelayTextToSpeak />
+    <DisplayTime>5</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#FFF0F5</FontColor>
+    <FontOutlineColor>#8A2BE2</FontOutlineColor>
+    <Guid>ecc5972c-f7ce-4079-b00e-9f193688c885</Guid>
+    <ID>2</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“至黑之夜”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“至黑之夜”状态效果消失了</KeywordToHide>
+    <Left>817</Left>
+    <MatchTextToSpeak />
+    <Message>至黑之夜</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>至黑之夜</Title>
+    <Top>589</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
     <DisplayTime>15</DisplayTime>
     <Enabled>true</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
@@ -96,8 +126,68 @@
     <BackgroundColor>#000000</BackgroundColor>
     <Delay>0</Delay>
     <DelayTextToSpeak />
-    <DisplayTime>4</DisplayTime>
+    <DisplayTime>10</DisplayTime>
     <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#FF0000</FontOutlineColor>
+    <Guid>4e912475-f220-4ff9-a245-7521a2d0f4e5</Guid>
+    <ID>5</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>对&lt;me&gt;附加了“行尸走肉”的效果。</Keyword>
+    <KeywordToHide>&lt;me&gt;的“行尸走肉”状态效果消失了</KeywordToHide>
+    <Left>818</Left>
+    <MatchTextToSpeak />
+    <Message>行尸走肉</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>行尸走肉</Title>
+    <Top>587</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>10</DisplayTime>
+    <Enabled>true</Enabled>
+    <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
+    <FontColor>#F5FFFA</FontColor>
+    <FontOutlineColor>#556B2F</FontOutlineColor>
+    <Guid>9f4a5411-4250-4c4f-aa76-1135d22ea0df</Guid>
+    <ID>6</ID>
+    <JobFilter>32</JobFilter>
+    <Keyword>“死而不僵”的效果。</Keyword>
+    <KeywordToHide>“死而不僵”状态效果消失了</KeywordToHide>
+    <Left>817</Left>
+    <MatchTextToSpeak />
+    <Message>死而不僵</Message>
+    <ProgressBarEnabled>true</ProgressBarEnabled>
+    <RegexEnabled>true</RegexEnabled>
+    <TimersMustRunningForStart />
+    <TimersMustStoppingForStart />
+    <Title>死而不僵</Title>
+    <Top>587</Top>
+    <ZoneFilter />
+    <NotifyToDiscord>false</NotifyToDiscord>
+    <DelaySound />
+    <MatchSound />
+  </OnePointTelop>
+  <OnePointTelop>
+    <AddMessageEnabled>false</AddMessageEnabled>
+    <BackgroundAlpha>150</BackgroundAlpha>
+    <BackgroundColor>#000000</BackgroundColor>
+    <Delay>0</Delay>
+    <DelayTextToSpeak />
+    <DisplayTime>4</DisplayTime>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -127,7 +217,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -157,7 +247,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -187,7 +277,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -217,7 +307,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -247,7 +337,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -457,7 +547,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -487,7 +577,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -517,7 +607,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -547,7 +637,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -577,7 +667,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -607,7 +697,7 @@
     <Delay>0</Delay>
     <DelayTextToSpeak />
     <DisplayTime>4</DisplayTime>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Font FontFamily="Microsoft YaHei" Size="25" Stretch="Normal" Style="Normal" Weight="Bold" />
     <FontColor>#F5FFFA</FontColor>
     <FontOutlineColor>#556B2F</FontOutlineColor>
@@ -1127,7 +1217,7 @@
     <Keyword>冰柱:25EF.*?-15</Keyword>
     <KeywordToHide />
     <Left>854</Left>
-    <MatchTextToSpeak>冰柱去右侧</MatchTextToSpeak>
+    <MatchTextToSpeak>冰柱去左侧</MatchTextToSpeak>
     <Message>冰柱去左侧</Message>
     <ProgressBarEnabled>false</ProgressBarEnabled>
     <RegexEnabled>true</RegexEnabled>
