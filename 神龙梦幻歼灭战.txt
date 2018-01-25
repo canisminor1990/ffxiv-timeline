@@ -1,4 +1,4 @@
-﻿# 神龙梦幻歼灭战 - 神龙
+# 神龙梦幻歼灭战 - 神龙
 # 参考菓子君攻略: bilibili.com/video/av18571134/
 # 作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038
 
@@ -44,7 +44,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙/ window 400 jump 0
+0 "[EGI]重置" sync /Removing combatant 神龙/
 
 # P1 地板阶段
 1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
