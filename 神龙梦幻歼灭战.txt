@@ -44,7 +44,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 
 ################ Main ################
 
-0 "[EGI]重置" sync /Removing combatant 神龙/
+0 "[EGI]重置" sync /Removing combatant 神龙 / window 400
 
 # P1 地板阶段
 1 "[EGI]P1 地板阶段" sync /领略驾驭众神的力量吧/ window 10000 jump 10
@@ -55,7 +55,7 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 ##
 10 "大地之怒" duration 10 sync /神龙正在发动“大地之怒”/
 32 "[G]拉线" duration 2
-33 "[G]大海啸" duration 10 sync /神龙正在发动“大海啸”/ window 10
+33 "[G]大海啸" duration 10 sync /神龙正在发动“大海啸”/ window 50
 ##
 49 "[H]放尾巴"
 57 "--冰柱+闪电/超新星--"
@@ -216,4 +216,4 @@ alertall "--尾巴左边标A--" before 0 sound "tts 尾巴左边标A"
 908 "[H]龙头 x4"
 ##
 1000 "[EGI][狂暴]大海啸" duration 50
-1001 "[EGI]重置" sync /Removing combatant 神龙/ window 500 jump 0
+1001 "[EGI]重置" sync /Removing combatant 神龙 / window 500 jump 0
