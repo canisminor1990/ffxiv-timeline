@@ -1,6 +1,6 @@
 # Hojoring Timeline
 
-
+<br />
 
 ## 头部申明
 
@@ -24,7 +24,7 @@
 | `<zone/>`        | string | 时间轴区域，用于自动匹配时间轴 |
 | `<locale/>`      | string | 语言，国服为CN                 |
 
-
+<br />
 
 ## 本体部分
 
@@ -42,7 +42,7 @@
 | `<entry/>` | string | 战斗开始跳转，跳转对应 `<a name="xxx"/>` |
 | `<start/>` | string | 战斗开始日志匹配                         |
 
-
+<br />
 
 ### `<a/>`
 
@@ -84,7 +84,7 @@
 | ` icon`     | string       | 图片名称，需要扩展名                                        |
 | ` enabled`  | bool         | 默认值true, 启用开关                                        |
 
-
+<br />
 
 ### `<t/>`
 
@@ -116,7 +116,7 @@
 | ` notice-d`   | enum   | 默认值Both, Both/Main/Sub , ` TTSYukkuri` 播放设备           |
 | ` enabled`    | bool   | 默认值true, 启用开关                                         |
 
-
+<br />
 
 ### `<t><load/></t>`
 
@@ -137,7 +137,7 @@
 | ` truncate` | bool   | 默认值false，是否初始化                  |
 | ` enabled`  | bool   | 默认值true, 启用开关                     |
 
-
+<br />
 
 ### `<t/><v-notice/></t>`
 
@@ -162,7 +162,7 @@
 | ` icon`             | string | 图片名称，需要扩展名                                         |
 | ` enabled`          | bool   | 默认值true, 启用开关                                         |
 
-
+<br />
 
 ### `<t/><i-notice/></t>`
 
@@ -188,7 +188,7 @@
 | ` top`        | number | 默认值-1, 定位                             |
 | ` enabled`    | bool   | 默认值true, 启用开关                       |
 
-
+<br />
 
 ### `<s/>`
 
@@ -211,7 +211,7 @@
 | `name`    | string | 用于 `goto/call`     |
 | `enabled` | bool   | 默认值true, 启用开关 |
 
-
+<br />
 
 ### `<default/>`
 
@@ -232,7 +232,7 @@
 | ` value`          | string | 设置的默认值                           |
 | ` enabled`        | bool   | 默认值true, 启用开关                   |
 
-
+<br />
 
 ## ASP.NET Razor
 
@@ -248,7 +248,7 @@
 }
 ```
 
-
+<br />
 
 ### EX:
 
@@ -259,7 +259,7 @@
 </timeline>
 ```
 
-
+<br />
 
 ### 全局变量
 
