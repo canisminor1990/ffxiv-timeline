@@ -153,7 +153,7 @@
 
 | name                | type   | desc                                                         |
 | ------------------- | ------ | ------------------------------------------------------------ |
-| `<v-notice/>`       |        | 出发时显示，消息浮层                                         |
+| `<v-notice/>`       |        | 触发时显示消息浮层                                           |
 | ` text`             | string | 通知内容，` \n` 换行, `{text}` 调用父级text, `{notice}`调用父级notice |
 | ` duration`         | number | 默认值3, 持续时间                                            |
 | ` duration-visible` | bool   | 默认值true, 通知重叠时是否可见                               |
@@ -180,7 +180,7 @@
 
 | name          | type   | desc                                       |
 | ------------- | ------ | ------------------------------------------ |
-| `<i-notice/>` |        | 触发时，显示图片                           |
+| `<i-notice/>` |        | 触发时显示图片                             |
 | `image`       | string | 图片名称，调用` resources\images` 下方图片 |
 | ` duration`   | number | 默认值5, 持续时间                          |
 | ` scale`      | number | 默认值1.0, 缩放倍率                        |
