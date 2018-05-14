@@ -242,9 +242,10 @@
 @using ACT.SpecialSpellTimer.RaidTimeline
 @{
 	var data = Model as TimelineRazorModel;
-    if (Model.Player.InJob("PLD", "WAR", "DRK")) {
-        do something...
-    }
+
+	if (Model.Player.InJob("PLD", "WAR", "DRK")) {
+		do something...
+	}
 }
 ```
 
