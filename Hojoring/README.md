@@ -18,13 +18,13 @@
 </timeline>
 ```
 
-| name             | type   | desc                           |
-| ---------------- | ------ | ------------------------------ |
-| `<name/>`        | string | 时间轴名称                     |
-| `<rev/>`         | string | 时间轴版本号                   |
-| `<description/>` | string | 时间轴说明                     |
-| `<zone/>`        | string | 时间轴区域，用于自动匹配时间轴 |
-| `<locale/>`      | string | 语言，国服为CN                 |
+| name             | type   | desc                                                |
+| ---------------- | ------ | --------------------------------------------------- |
+| `<name/>`        | string | 时间轴名称                                          |
+| `<rev/>`         | string | 时间轴版本号                                        |
+| `<description/>` | string | 时间轴说明                                          |
+| `<zone/>`        | string | 时间轴区域，用于自动匹配时间轴，` {GLOBAL}`时为全局 |
+| `<locale/>`      | string | 语言，国服为CN                                      |
 
 <br />
 
