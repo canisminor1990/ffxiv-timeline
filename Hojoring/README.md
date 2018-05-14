@@ -1,5 +1,7 @@
 # Hojoring Timeline
 
+- [本体部分](#本体部分)
+
 <br />
 
 ## 头部申明
@@ -243,9 +245,16 @@
 @{
 	var data = Model as TimelineRazorModel;
 
-	if (Model.Player.InJob("PLD", "WAR", "DRK")) {
-		do something...
-	}
+	// Zone过滤
+    if (Model.Zone == "Sigmascape") {}
+	if Model.InZone(["xxx", "xxx"]){}
+
+	// Job/Role过滤
+	if (Model.Player.InJob("PLD", "WAR", "DRK")) {}
+	if (Model.Player.InRole("Healer")) {}
+
+	// 引入Json文件
+	Model.ParseJsonFile("./path")
 }
 ```
 
