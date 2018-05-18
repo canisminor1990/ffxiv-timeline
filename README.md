@@ -2,8 +2,9 @@
 
 ![](http://qn.canisminor.cc/2017-11-17-timeline.png)
 
-- **注意1:** 使用 `Hojoring.Timeline` 不兼容 `FZ.Timeline`
-- **注意2:** `Hojoring.Timeline` 为新整合版自带，即 `SpecialSpellTimer`，功能插件 > 计时器字幕 > 时间轴
+- **QNA1:** 使用 `Hojoring.Timeline` 不兼容 `FZ.Timeline`
+- **QNA2:** `Hojoring.Timeline` 为新整合版自带，即 `SpecialSpellTimer`，功能插件 > 计时器字幕 > 时间轴
+- **QNA3:** 窗口不显示的，检查X,Y坐标是否超出显示器范围
 
 ## 使用
 
