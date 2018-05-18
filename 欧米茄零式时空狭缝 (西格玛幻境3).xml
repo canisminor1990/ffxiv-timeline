@@ -195,7 +195,7 @@
 
 	<s name="A:P3-1">
 		<!-- 加载达达 -->
-		<a time="000" notice="加载达达"/>
+		<a time="000" notice="加载达达,准备击退"/>
 		<a time="008" text="加载达达" sync="守护者:(275C|2773)" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="011" text="震荡波(击退)" sync="守护者:2783"/>
 		<a time="015" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
@@ -234,9 +234,9 @@
 
 	<s name="A:P3-2">
 		<!-- 加载图书 -->
-		<a time="000" notice="加载图书"/>
+		<a time="000" notice="加载图书,分组踩塔"/>
 		<a time="008" text="加载图书" sync="守护者:(275C|2773)"/>
-		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
+		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="踩塔,T近南西,H远北东"/>
 		<a time="017" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="031" text="ST拉到BOSS旁" sync="守护者:276F" notice="ST拉到BOSS旁" style="TANK" icon="注意.png"/>
 		<a time="038" text="等离子扩散/n➜ ST无敌,DPS集火小怪或LB" sync="守护者:278B" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
@@ -290,15 +290,15 @@
 		<a time="079" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 分支 -->
 		<a time="090" text="加载/跳过" sync="守护者:(275C|2773)"/>
-		<t text="分支:加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书 分组踩塔" icon="分支.png" goto="B:P3-1"/>
-		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛" notice="加载达达 防击退" icon="分支.png" goto="B:P3-2"/>
+		<t text="分支:加载图书" sync="守护者 gains the effect of 永世珍本" icon="分支.png" goto="B:P3-1"/>
+		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛" icon="分支.png" goto="B:P3-2"/>
 	</s>
 
 	<s name="B:P3-1">
 		<!-- 加载图书 -->
-		<a time="000" notice="加载图书"/>
+		<a time="000" notice="加载图书,分组踩塔"/>
 		<a time="008" text="加载图书" sync="守护者:(275C|2773)"/>
-		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
+		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="踩塔,T近南西,H远北东"/>
 		<a time="017" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="031" text="ST拉到BOSS旁" sync="守护者:276F" notice="ST拉到BOSS旁" style="TANK" icon="注意.png"/>
 		<a time="038" text="等离子扩散/n➜ ST无敌,DPS集火小怪或LB" sync="守护者:278B" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
@@ -342,7 +342,7 @@
 
 	<s name="B:P3-2">
 		<!-- 加载达达 -->
-		<a time="000" notice="加载达达"/>
+		<a time="000" notice="加载达达,准备击退"/>
 		<a time="008" text="加载达达" sync="守护者:(275C|2773)" notice="防击退,背朝角" icon="击退.png"/>
 		<a time="011" text="震荡波(击退)" sync="守护者:2783" notice=""/>
 		<a time="015" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
