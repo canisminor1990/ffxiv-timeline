@@ -9,7 +9,7 @@
 #### 安装
 
 - 关闭ACT
-- 复制 [`resources`](https://github.com/canisminor1990/ffxiv-timeline/blob/master/resources.zip) 文件夹覆盖 `ACT目录/plugin/ACT.Hojoring/resources`
+- 复制 [`resources`](https://github.com/canisminor1990/ffxiv-timeline/raw/master/resources.zip) 文件夹覆盖 `ACT目录/plugin/ACT.Hojoring/resources`
 - 重启ACT > 功能插件 > 计时器字幕 > 时间轴 > 打开目录
 - 复制 `xxxx.xml` 时间轴文件到目录
 - 重载目录
