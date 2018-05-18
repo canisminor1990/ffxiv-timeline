@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d427d518-ab48-44e6-b0a4-b7cc3f6bce14" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/白虎诗魂战.xml" afterPath="$PROJECT_DIR$/白虎诗魂战.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="415967" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="白虎诗魂战.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/白虎诗魂战.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doc.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1304">
+                <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+                <folding>
+                  <marker date="1526644472000" expanded="true" signature="362:512" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="1099:1179" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="1488:1792" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="1507:1780" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="3224:3445" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="3243:3433" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="4405:4562" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="4438:4550" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="4990:5185" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="5059:5173" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="5085:5167" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="6147:6366" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="6187:6354" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="6225:6345" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="7023:7276" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="7043:7264" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="7555:7669" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="7595:7657" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="8612:8661" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="8703:8713" ph="@(data.LT)" />
+                  <marker date="1526644472000" expanded="true" signature="8723:8735" ph="@(data.Zone)" />
+                  <marker date="1526644472000" expanded="true" signature="8745:8759" ph="@(data.Locale)" />
+                  <marker date="1526644472000" expanded="true" signature="8777:8798" ph="@(data.Pl…er.Number)" />
+                  <marker date="1526644472000" expanded="true" signature="8815:8834" ph="@(data.Player.Name)" />
+                  <marker date="1526644472000" expanded="true" signature="8851:8869" ph="@(data.Player.Job)" />
+                  <marker date="1526644472000" expanded="true" signature="8886:8905" ph="@(data.Player.Role)" />
+                  <marker date="1526644472000" expanded="true" signature="8907:9269" ph="Party : &lt;8 keys&gt;" />
+                  <marker date="1526644472000" expanded="true" signature="8937:8960" ph="@(data.Pa…0].Number)" />
+                  <marker date="1526644472000" expanded="true" signature="8983:9004" ph="@(data.Pa…y[0].Name)" />
+                  <marker date="1526644472000" expanded="true" signature="9027:9047" ph="@(data.Party[0].Job)" />
+                  <marker date="1526644472000" expanded="true" signature="9070:9091" ph="@(data.Pa…y[0].Role)" />
+                  <marker date="1526644472000" expanded="true" signature="9115:9138" ph="@(data.Pa…1].Number)" />
+                  <marker date="1526644472000" expanded="true" signature="9161:9182" ph="@(data.Pa…y[1].Name)" />
+                  <marker date="1526644472000" expanded="true" signature="9205:9225" ph="@(data.Party[1].Job)" />
+                  <marker date="1526644472000" expanded="true" signature="9248:9269" ph="@(data.Pa…y[1].Role)" />
+                  <marker date="1526644472000" expanded="true" signature="9285:9292" ph="more..." />
+                  <marker date="1526644472000" expanded="true" signature="9294:9346" ph="Job  : [7 items]" />
+                  <marker date="1526644472000" expanded="true" signature="9302:9307" ph="PLD" />
+                  <marker date="1526644472000" expanded="true" signature="9309:9314" ph="WAR" />
+                  <marker date="1526644472000" expanded="true" signature="9316:9321" ph="DRK" />
+                  <marker date="1526644472000" expanded="true" signature="9323:9328" ph="WHM" />
+                  <marker date="1526644472000" expanded="true" signature="9330:9335" ph="SCH" />
+                  <marker date="1526644472000" expanded="true" signature="9337:9342" ph="AST" />
+                  <marker date="1526644472000" expanded="true" signature="9342:9345" ph="..." />
+                  <marker date="1526644472000" expanded="true" signature="9347:9431" ph="Role : [7 items]" />
+                  <marker date="1526644472000" expanded="true" signature="9355:9361" ph="Tank" />
+                  <marker date="1526644472000" expanded="true" signature="9363:9371" ph="Healer" />
+                  <marker date="1526644472000" expanded="true" signature="9373:9383" ph="MeleeDPS" />
+                  <marker date="1526644472000" expanded="true" signature="9385:9395" ph="RangeDPS" />
+                  <marker date="1526644472000" expanded="true" signature="9397:9407" ph="MagicDPS" />
+                  <marker date="1526644472000" expanded="true" signature="9409:9418" ph="Crafter" />
+                  <marker date="1526644472000" expanded="true" signature="9420:9430" ph="Gatherer" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/n ➜</find>
+      <find>次は、酸雨。</find>
+      <find>换</find>
+      <find>死刑</find>
+      <find>AOE</find>
+      <find>starts u</find>
+      <find>フェーズ６(黄ピンク)</find>
+      <find>デモニックシアー</find>
+      <find>デモニックペイン</find>
+      <find>恶魔查达路库正在</find>
+      <find>全体攻撃</find>
+      <find>解除</find>
+      <find>チャダルヌーク・デーモン starts using 絵画憑依</find>
+      <find>吹</find>
+      <find>notice=&quot;次は、ハウル。&quot;</find>
+      <find>吻</find>
+      <find>台风</find>
+      <find>チャダルヌーク・デーモン starts using 出画</find>
+      <find>实体化</find>
+      <find>闪光</find>
+      <find>摇篮曲</find>
+      <find>は「实体化」の構え</find>
+      <find>恶魔风暴</find>
+      <find>恶魔台风</find>
+      <find>/n</find>
+      <find>恶魔痛</find>
+      <find>\name</find>
+      <find>“恶魔</find>
+      <find>2点</find>
+      <find>正在发动“风雷波动”</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>魔界汽发动了“魔界汽笛”</replace>
+      <replace>幽灵路障</replace>
+      <replace>路障</replace>
+      <replace>(直线幽灵)</replace>
+      <replace>直线分摊</replace>
+      <replace>-魔界汽笛</replace>
+      <replace>伤害分摊.png</replace>
+      <replace>标记.png</replace>
+      <replace>HoT.png</replace>
+      <replace>击退.png</replace>
+      <replace>治疗.png</replace>
+      <replace>魔列车发动了“魔界前照灯”</replace>
+      <replace>魔列车正在发动“魔界前照灯”</replace>
+      <replace>魔列车正在发动“魔界汽笛”</replace>
+      <replace>分摊</replace>
+      <replace>魔列车正在发动“追尾”</replace>
+      <replace>/n➜</replace>
+      <replace>AOE</replace>
+      <replace>酸雨AOE</replace>
+      <replace>恶魔斩</replace>
+      <replace>恶魔痛</replace>
+      <replace>治疗</replace>
+      <replace>恶魔查达路库 starts using 附身画像</replace>
+      <replace>notice=&quot;AOE&quot; style=&quot;HEAL&quot;</replace>
+      <replace>恶魔查达路库 starts using 附身解除</replace>
+      <replace>恶魔查达路库正在发动“实体化”</replace>
+      <replace>\n</replace>
+      <replace>/name</replace>
+      <replace>P6(黄粉)</replace>
+      <replace>正在咏唱“风雷波动”</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hojoring/极白虎诗魂战.xml" />
+        <option value="$PROJECT_DIR$/Hojoring/欧米茄零式时空狭缝 (西格玛幻境3).xml" />
+        <option value="$PROJECT_DIR$/Hojoring/欧米茄零式时空狭缝 (西格玛幻境4).xml" />
+        <option value="$PROJECT_DIR$/../ACT一键整合2/Plugin/ACT.Hojoring/resources/时间轴文件/Timeline.config" />
+        <option value="$PROJECT_DIR$/Hojoring/欧米茄零式时空狭缝 (西格玛幻境1).xml" />
+        <option value="$PROJECT_DIR$/Hojoring/欧米茄零式时空狭缝 (西格玛幻境2).xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/白虎诗魂战.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="3866" />
+    <option name="height" value="2106" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ffxiv-timeline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffxiv-timeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d427d518-ab48-44e6-b0a4-b7cc3f6bce14" name="Default" comment="" />
+      <created>1526438108430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526438108430</updated>
+      <workItem from="1526438109682" duration="18704000" />
+      <workItem from="1526460964974" duration="1072000" />
+      <workItem from="1526644461729" duration="514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20290000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16618383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993776" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/backup/欧米茄零式时空狭缝 (西格玛幻境2).xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hojoring/白虎诗魂战.xml" />
+    <entry file="file://$PROJECT_DIR$/Hojoring/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="396">
+            <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/欧米茄零式时空狭缝 (德尔塔幻境1).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/欧米茄零式时空狭缝 (西格玛幻境3).xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/欧米茄零式时空狭缝 (西格玛幻境4).xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/极白虎诗魂战.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ACT一键整合2/Plugin/ACT.Hojoring/resources/时间轴文件/Timeline.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3340">
+          <caret line="151" column="30" lean-forward="true" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/欧米茄零式时空狭缝 (德尔塔幻境3).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2808">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/欧米茄零式时空狭缝 (西格玛幻境1).xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="3864" column="23" lean-forward="true" selection-start-line="3864" selection-start-column="23" selection-end-line="3864" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/欧米茄零式时空狭缝 (西格玛幻境2).xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="109" column="50" lean-forward="false" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1304">
+            <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <folding>
+              <marker date="1526644472000" expanded="true" signature="362:512" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="1099:1179" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="1488:1792" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="1507:1780" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="3224:3445" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="3243:3433" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="4405:4562" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="4438:4550" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="4990:5185" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="5059:5173" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="5085:5167" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="6147:6366" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="6187:6354" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="6225:6345" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="7023:7276" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="7043:7264" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="7555:7669" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="7595:7657" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="8612:8661" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="8703:8713" ph="@(data.LT)" />
+              <marker date="1526644472000" expanded="true" signature="8723:8735" ph="@(data.Zone)" />
+              <marker date="1526644472000" expanded="true" signature="8745:8759" ph="@(data.Locale)" />
+              <marker date="1526644472000" expanded="true" signature="8777:8798" ph="@(data.Pl…er.Number)" />
+              <marker date="1526644472000" expanded="true" signature="8815:8834" ph="@(data.Player.Name)" />
+              <marker date="1526644472000" expanded="true" signature="8851:8869" ph="@(data.Player.Job)" />
+              <marker date="1526644472000" expanded="true" signature="8886:8905" ph="@(data.Player.Role)" />
+              <marker date="1526644472000" expanded="true" signature="8907:9269" ph="Party : &lt;8 keys&gt;" />
+              <marker date="1526644472000" expanded="true" signature="8937:8960" ph="@(data.Pa…0].Number)" />
+              <marker date="1526644472000" expanded="true" signature="8983:9004" ph="@(data.Pa…y[0].Name)" />
+              <marker date="1526644472000" expanded="true" signature="9027:9047" ph="@(data.Party[0].Job)" />
+              <marker date="1526644472000" expanded="true" signature="9070:9091" ph="@(data.Pa…y[0].Role)" />
+              <marker date="1526644472000" expanded="true" signature="9115:9138" ph="@(data.Pa…1].Number)" />
+              <marker date="1526644472000" expanded="true" signature="9161:9182" ph="@(data.Pa…y[1].Name)" />
+              <marker date="1526644472000" expanded="true" signature="9205:9225" ph="@(data.Party[1].Job)" />
+              <marker date="1526644472000" expanded="true" signature="9248:9269" ph="@(data.Pa…y[1].Role)" />
+              <marker date="1526644472000" expanded="true" signature="9285:9292" ph="more..." />
+              <marker date="1526644472000" expanded="true" signature="9294:9346" ph="Job  : [7 items]" />
+              <marker date="1526644472000" expanded="true" signature="9302:9307" ph="PLD" />
+              <marker date="1526644472000" expanded="true" signature="9309:9314" ph="WAR" />
+              <marker date="1526644472000" expanded="true" signature="9316:9321" ph="DRK" />
+              <marker date="1526644472000" expanded="true" signature="9323:9328" ph="WHM" />
+              <marker date="1526644472000" expanded="true" signature="9330:9335" ph="SCH" />
+              <marker date="1526644472000" expanded="true" signature="9337:9342" ph="AST" />
+              <marker date="1526644472000" expanded="true" signature="9342:9345" ph="..." />
+              <marker date="1526644472000" expanded="true" signature="9347:9431" ph="Role : [7 items]" />
+              <marker date="1526644472000" expanded="true" signature="9355:9361" ph="Tank" />
+              <marker date="1526644472000" expanded="true" signature="9363:9371" ph="Healer" />
+              <marker date="1526644472000" expanded="true" signature="9373:9383" ph="MeleeDPS" />
+              <marker date="1526644472000" expanded="true" signature="9385:9395" ph="RangeDPS" />
+              <marker date="1526644472000" expanded="true" signature="9397:9407" ph="MagicDPS" />
+              <marker date="1526644472000" expanded="true" signature="9409:9418" ph="Crafter" />
+              <marker date="1526644472000" expanded="true" signature="9420:9430" ph="Gatherer" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/白虎诗魂战.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
