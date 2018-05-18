@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.0.7</rev>
+	<rev>v1.0.8</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -9,7 +9,7 @@
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
-	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-o" value="-2"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<!--
@@ -36,7 +36,7 @@
 	<s name="A:P1">
 		<a time="000" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
 		<!-- 加载达达 -->
-		<a time="08" text="加载达达" sync="守护者:2773"/>
+		<a time="008" text="加载达达" sync="守护者:2773"/>
 		<a time="011" text="震荡波(击退)" sync="守护者:2783" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="018" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹,注意踩圈" icon="环形散开.png"/>
 		<a time="033" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈" icon="环形散开.png"/>
@@ -75,7 +75,8 @@
 	<!-- B:达达分支 -->
 	<s name="B:P1">
 		<!-- 加载达达 -->
-		<a time="002" text="震荡波(击退)" sync="守护者:2783" notice="加载达达,防击退" icon="击退.png"/>
+		<a time="000" notice="加载达达"/>
+		<a time="002" text="震荡波(击退)" sync="守护者:2783" notice="防击退,背朝角" icon="击退.png"/>
 		<a time="009" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="023" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
 		<a time="026" text="ST拉达达" sync="守护者:276F" notice="ST减伤 DPS转火达达"/>
@@ -195,6 +196,7 @@
 
 	<s name="A:P3-1">
 		<!-- 加载达达 -->
+		<a time="000" notice="加载达达"/>
 		<a time="008" text="加载达达" sync="守护者:(275C|2773)" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="011" text="震荡波(击退)" sync="守护者:2783"/>
 		<a time="015" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
@@ -233,6 +235,7 @@
 
 	<s name="A:P3-2">
 		<!-- 加载图书 -->
+		<a time="000" notice="加载图书"/>
 		<a time="008" text="加载图书" sync="守护者:(275C|2773)"/>
 		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
 		<a time="017" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
@@ -294,6 +297,7 @@
 
 	<s name="B:P3-1">
 		<!-- 加载图书 -->
+		<a time="000" notice="加载图书"/>
 		<a time="008" text="加载图书" sync="守护者:(275C|2773)"/>
 		<a time="009" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
 		<a time="017" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
@@ -339,7 +343,8 @@
 
 	<s name="B:P3-2">
 		<!-- 加载达达 -->
-		<a time="008" text="加载达达" sync="守护者:(275C|2773)" notice="防击退，背朝角" icon="击退.png"/>
+		<a time="000" notice="加载达达"/>
+		<a time="008" text="加载达达" sync="守护者:(275C|2773)" notice="防击退,背朝角" icon="击退.png"/>
 		<a time="011" text="震荡波(击退)" sync="守护者:2783" notice=""/>
 		<a time="015" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="021" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
