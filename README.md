@@ -5,6 +5,7 @@
 - **QNA1:** 使用 `Hojoring.Timeline` 不兼容 `FZ.Timeline`
 - **QNA2:** `Hojoring.Timeline` 为新整合版自带，即 `SpecialSpellTimer`，功能插件 > 计时器字幕 > 时间轴
 - **QNA3:** 窗口不显示的，检查X,Y坐标是否超出显示器范围
+- **QNA4:** 触发时间轴，必须使用倒计时开战
 
 ## 使用
 

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境2)</name>
-	<rev>v1.0.6</rev>
+	<rev>v1.0.7</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境2)</zone>
 	<locale>CN</locale>
 	<entry>P1(蓝)</entry>
-	<start>“恶魔哮”</start>
+	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
 	<default target-element="Activity" target-attr="notice-o" value="-4"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<s name="P1(蓝)">
-		<a time="000" goto="check-point"/>
-		<a time="005" text="恶魔哮" name="check-point" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="005" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="016" text="恶魔斩" sync="正在发动“恶魔斩”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<!-- 第一次入画 -->
 		<a time="030" text="入画:火+风\n➜ 蓝瀑布+ST无敌单吃" sync="恶魔查达路库 starts using 附身画像" notice="蓝瀑布" icon="火.png"/>
