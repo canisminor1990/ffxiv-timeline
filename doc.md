@@ -1,6 +1,4 @@
-# Hojoring Timeline
-
-语法文档
+# Hojoring.Timeline 语法文档
 
 - [头部申明](#头部申明)
 - [本体部分](#本体部分)
@@ -312,3 +310,10 @@ Job  : ["PLD", "WAR", "DRK", "WHM", "SCH", "AST"...]
 Role : ["Tank", "Healer", "MeleeDPS", "RangeDPS", "MagicDPS", "Crafter", "Gatherer"]
 ```
 
+## Copyright
+
+- **Author:** CanisMinor
+- **ID:** 男孩纸榨汁机(紫水)
+- **E-Mail:** <i@canisminor.cc>
+- **讨论群:** 246243038
+- **License:** MIT
