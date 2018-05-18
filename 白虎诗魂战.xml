@@ -20,7 +20,7 @@
 		<a time="037" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
 		<a time="055" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
 		<a time="060" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="067" text="妖风" notice="妖风"/>
+		<a time="067" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
 		<a time="072" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="086" sync="半身分离，助我杀敌！ 向胆敢抵抗的家伙们露出你的爪牙！"/>
 		<a time="088" text="半兽舞踏(ST)" notice="ST6点单吃" style="TANK" icon="死刑.png"/>
@@ -51,7 +51,7 @@
 		<a time="090" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
 		<a time="095" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="104" text="爆弹低气压\n➜T-A, D-B, H-C" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="110" text="妖风" notice="妖风"/>
+		<a time="110" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
 		<a time="114" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="123" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="134" text="半兽舞踏" sync="半身分离，助我杀敌" notice="ST准备LB" icon="LB.png"/>
@@ -80,7 +80,7 @@
 		<a time="330" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
 		<a time="335" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="344" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="350" text="妖风" notice="妖风"/>
+		<a time="350" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
 		<a time="355" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="364" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="379" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
