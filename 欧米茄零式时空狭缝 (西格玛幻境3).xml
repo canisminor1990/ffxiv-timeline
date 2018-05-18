@@ -79,7 +79,7 @@
 		<a time="002" text="震荡波(击退)" sync="守护者:2783" notice="防击退,背朝角" icon="击退.png"/>
 		<a time="009" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="023" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
-		<a time="026" text="ST拉达达" sync="守护者:276F" notice="ST减伤 DPS转火达达"/>
+		<a time="026" text="ST拉达达" sync="守护者:276F" notice="ST减伤拉达达,DPS转火"/>
 		<a time="039" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
 		<a time="044" text="点名第一次" sync="守护者:2788" notice="点名1去9点"/>
 		<a time="054" text="点名第二次" sync="守护者:2788" notice="点名2去9点"/>
@@ -89,11 +89,10 @@
 		<!-- 加载图书 -->
 		<a time="084" text="加载图书" sync="守护者:2773" notice="分组踩塔"/>
 		<a time="094" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
-		<a time="112" text="加载飞机" sync="守护者:2774" notice="远离BOSS"/>
-		<a time="115" text="扩散激光" sync="守护者:2780" notice="远离"/>
-		<a time="123" text="复制飞机" sync="守护者:2775" notice=""/>
-		<a time="130" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<!-- 加载飞机 -->
+		<a time="112" text="加载飞机" sync="守护者:2774" notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="115" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
+		<a time="130" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
 		<a time="140" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
 		<a time="154" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="155" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
@@ -219,8 +218,8 @@
 		<a time="141" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="147" text="同步" sync="(275C|2773):守护者" notice="加载飞机"/>
 		<!-- 加载飞机 -->
-		<a time="152" text="加载飞机" sync="守护者:(275C|2773)"/>
-		<a time="155" text="扩散激光" sync="守护者:2780" notice="远离BOSS" icon="分散.png"/>
+		<a time="152" text="加载飞机" sync="守护者:(275C|2773)" notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="155" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
 		<a time="158" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="165" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="177" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
@@ -258,8 +257,8 @@
 		<a time="142" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="147" text="同步" sync="(275C|2773):守护者" notice="加载飞机"/>
 		<!-- 加载飞机 -->
-		<a time="152" text="加载飞机" sync="守护者:(275C|2773)" notice=""/>
-		<a time="155" text="扩散激光" sync="守护者:2780" notice="远离BOSS" icon="分散.png"/>
+		<a time="152" text="加载飞机" sync="守护者:(275C|2773)" notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="155" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
 		<a time="158" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="165" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="177" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
@@ -279,8 +278,8 @@
 		<a time="009" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="017" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 加载飞机 -->
-		<a time="025" text="加载飞机" sync="守护者:2776" notice="加载飞机"/>
-		<a time="028" text="扩散激光" sync="守护者:2780" notice="远离BOSS" icon="分散.png"/>
+		<a time="025" text="加载飞机" sync="守护者:2776" notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="028" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
 		<a time="031" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="040" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="050" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
