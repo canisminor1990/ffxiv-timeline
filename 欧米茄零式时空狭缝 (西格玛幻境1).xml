@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>欧米茄零式时空狭缝 (西格玛幻境1)</name>
+	<rev>v1.0.5</rev>
+	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
+	<zone>欧米茄零式时空狭缝 (西格玛幻境1)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+
+	<s name="P1">
+		<!-- P1.1 -->
+		<a time="012" text="路障" icon="标记.png" notice="路障"/>
+		<a time="028" text="圣光射线\n➜ 1点放圣光" sync="魔列车发动了“圣光射线”" notice="1点放圣光" icon="1号.png"/>
+		<a time="030" text="击退幽灵-魔界汽笛\n➜ 防击退, 骑士保护MT" sync="魔列车正在发动“魔界汽笛”" notice="防击退,骑士保护MT" icon="击退.png"/>
+		<!-- P1.2 -->
+		<a time="047" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="056" text="追尾/魔界风" sync="魔列车正在发动“追尾”" notice="追尾" icon="下6点集合.png"/>
+		<a time="067" text="酸雨" sync="魔列车发动了“酸雨”" notice="酸雨AOE" style="HEAL" icon="治疗.png"/>
+		<a time="078" text="直线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="直线幽灵,注意走位" icon="躲避.png"/>
+		<!-- P1.3 -->
+		<a time="099" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<a time="114" text="连线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="连线幽灵,圣光打转" icon="连线.png"/>
+		<a time="134" text="圣光射线" sync="魔列车发动了“圣光射线”" icon="1号.png"/>
+		<!-- P1.4 -->
+		<a time="140" text="魔界光(MT+H)\n➜ 读条换T" sync="魔列车 starts using 魔界光" notice="魔界光,读条换T" style="TANK" icon="换T.png"/>
+		<a time="147" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="154" text="酸雨" sync="魔列车发动了“酸雨”" style="HEAL" notice="酸雨AOE" goto="P2" icon="治疗.png"/>
+	</s>
+
+	<s name="P2">
+		<a time="100" text="僵尸小怪\n魔界风x2\n魔烟囱"/>
+		<a time="100" text="大黄 ➜ T\n中红 ➜ DPS\n小白 ➜ DPS"/>
+		<t sync="魔列车正在发动“魔界前照灯”" goto="P3"/>
+		<!-- 防止晚出来的人无法跳转 -->
+		<t sync="魔列车发动了“圣光射线”" goto="check-point"/>
+	</s>
+
+	<s name="P3">
+		<!-- P3.1 -->
+		<a time="000" text="路障" icon="标记.png"/>
+		<a time="001" text="魔界之光/魔界前照灯\n➜ 治疗后侧放圈,其余分摊" sync="魔列车正在发动“魔界前照灯”" notice="治疗后侧放圈,其余分摊" icon="分摊.png"/>
+		<!-- 圣光 + 魔灵击 -->
+		<a time="005" text="圣光射线\n➜ 1点放圣光" sync="魔列车发动了“圣光射线”" notice="1点放圣光" icon="1号.png" name="check-point"/>
+		<a time="018" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<!-- 连线幽灵 + 圣光 -->
+		<a time="030" text="连线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="连线幽灵,圣光打转" icon="连线.png"/>
+		<a time="047" text="圣光射线\n➜ 1点放圣光" sync="魔列车发动了“圣光射线”" notice="1点放圣光" icon="1号.png"/>
+		<!-- 击退幽灵 + 前照灯 -->
+		<a time="053" text="击退幽灵-魔界汽笛\n➜ 防击退, 骑士保护MT" sync="魔列车正在发动“魔界汽笛”" notice="防击退,骑士保护MT" icon="击退.png"/>
+		<a time="062" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<a time="077" text="追尾" sync="魔列车正在发动“追尾”" notice="追尾" icon="下6点集合.png"/>
+
+		<!-- P3.2 -->
+		<a time="085" text="路障" icon="标记.png" notice="路障"/>
+		<a time="096" text="圣光射线\n➜ 1点放圣光" sync="魔列车发动了“圣光射线”" notice="1点放圣光" icon="1号.png"/>
+		<!-- 直线幽灵 + 前照灯 + 魔界之风 -->
+		<a time="102" text="直线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="直线幽灵,注意走位" icon="躲避.png"/>
+		<a time="106" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<a time="113" text="魔界风x4" sync="魔列车 starts using 魔界风" icon="分散.png"/>
+		<!-- 连线幽灵 + 圣光 + 魔界之风 -->
+		<a time="119" text="连线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="连线幽灵,圣光打转" icon="连线.png"/>
+		<a time="136" text="圣光射线/魔界风x2" sync="魔列车发动了“圣光射线”" icon="标记.png"/>
+		<!-- 魔界光 + 魔灵击 + 酸雨 -->
+		<a time="138" text="魔界光(MT+H)\n➜ 读条换T" sync="魔列车 starts using 魔界光" notice="魔界光,读条换T" style="TANK" icon="换T.png"/>
+		<a time="145" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="152" text="酸雨" sync="魔列车发动了“酸雨”" notice="酸雨AOE" icon="治疗.png"/>
+		<!--  -->
+		<a time="165" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<a time="173" text="酸雨 + 圣光" sync="魔列车发动了“酸雨”" notice="酸雨AOE加圣光" style="HEAL" icon="治疗.png"/>
+
+		<!-- P3.3 -->
+		<a time="190" text="连线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="连线幽灵,圣光打转" icon="连线.png"/>
+		<a time="192" text="路障" icon="标记.png" notice="路障"/>
+		<a time="211" text="魔界风x2" icon="散开.png"/>
+		<!-- 酸雨 + 魔界光 + 魔灵击 -->
+		<a time="211" text="魔界光(MT+H) + 酸雨\n➜ 读条换T" sync="魔列车发动了“酸雨”" notice="魔界光加酸雨,读条换T" style="TANK" icon="换T.png"/>
+		<a time="218" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<!-- 击退幽灵 + 前照灯 -->
+		<a time="233" text="击退幽灵-魔界汽笛\n➜ 防击退, 骑士保护MT" sync="魔列车正在发动“魔界汽笛”" notice="防击退, 骑士保护MT" icon="击退.png"/>
+		<a time="242" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<!-- 追尾 + 魔界之风 + 酸雨 -->
+		<a time="255" text="追尾 + 魔界风" sync="魔列车正在发动“追尾”" notice="追尾加魔界风" icon="下6点集合.png"/>
+		<a time="266" text="酸雨" sync="魔列车发动了“酸雨”" notice="酸雨AOE" style="HEAL" icon="治疗.png"/>
+
+		<!-- P3.4 -->
+		<a time="277" text="路障x4" icon="标记.png" notice="路障"/>
+		<!-- 直线幽灵 + 前照灯 + 魔界之风 -->
+		<a time="283" text="直线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="直线幽灵,注意走位" icon="躲避.png"/>
+		<a time="287" text="魔界前照灯" sync="魔列车正在发动“魔界前照灯”" notice="直线分摊" icon="分摊.png"/>
+		<a time="300" text="魔界风x4" icon="散开.png"/>
+		<!-- 狂暴 -->
+		<a time="304" text="狂暴" sync="魔列车发动了“圣光射线”" icon="时间结束.png"/>
+	</s>
+</timeline>
