@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.0.6</rev>
+	<rev>v1.0.7</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -104,10 +104,10 @@
 		<a time="182" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
 		<a time="198" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="207" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="211" text="触手实体化" notice="T拉到东北角"/>
+		<a time="211" text="触手实体化\n➜ MT拉东北角" sync="守护者:275E" notice="MT拉东北角" style="TANK" icon="躲避.png"/>
 		<a time="217" text="冲击" notice="冲击"/>
-		<a time="219" text="拉住章鱼去东南" sync="守护者:276F" notice="打断章鱼读条"/>
-		<a time="226" text="打断石肤" notice="st打断石肤"/>
+		<a time="219" text="ST拉章鱼准备打断" sync="守护者:276F" notice="ST拉章鱼准备打断"/>
+		<a time="226" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
 		<a time="228" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="235" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
 		<a time="241" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
@@ -319,15 +319,15 @@
 		<a time="152" text="加载章鱼" sync="守护者:(275C|2773)" icon="环形散开.png"/>
 		<a time="153" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
 		<a time="160" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="164" text="触手实体化" notice="T拉到东北角"/>
+		<a time="164" text="触手实体化\n➜ MT拉东北角" sync="守护者:275E" notice="MT拉东北角" style="TANK" icon="躲避.png"/>
 		<a time="166" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="170" text="冲击" notice="冲击"/>
 		<a time="175" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
 		<a time="180" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
 		<a time="189" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="199" text="拉住章鱼去东南" sync="守护者:276F" notice="打断章鱼读条"/>
+		<a time="199" text="ST拉章鱼准备打断" sync="守护者:276F" notice="ST拉章鱼准备打断"/>
 		<a time="205" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
-		<a time="208" text="打断石肤" notice="st打断石肤"/>
+		<a time="208" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
 		<a time="208" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="215" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
 		<a time="221" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
@@ -364,7 +364,7 @@
 		<a time="152" text="加载章鱼" sync="守护者:(275C|2773)" icon="环形散开.png"/>
 		<a time="153" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
 		<a time="160" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="164" text="触手实体化" notice="T拉到东北角"/>
+		<a time="164" text="ST拉章鱼准备打断" sync="守护者:276F" notice="ST拉章鱼准备打断"/>
 		<a time="166" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="170" text="冲击" notice="冲击"/>
 		<a time="175" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
