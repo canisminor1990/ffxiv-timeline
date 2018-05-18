@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>白虎诗魂战</name>
-	<rev>v1.0.6</rev>
+	<rev>v1.0.7</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>白虎诗魂战</zone>
 	<locale>CN</locale>
@@ -80,7 +80,7 @@
 		<a time="330" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
 		<a time="335" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="344" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="30" text="妖风" notice="妖风"/>
+		<a time="350" text="妖风" notice="妖风"/>
 		<a time="355" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="364" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="379" text="风雷波动" sync="正在发动“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
