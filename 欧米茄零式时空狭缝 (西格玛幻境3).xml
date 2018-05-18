@@ -9,7 +9,7 @@
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
-	<default target-element="Activity" target-attr="notice-o" value="-2"/>
+	<default target-element="Activity" target-attr="notice-o" value="-3"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<!--
