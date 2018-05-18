@@ -26,8 +26,8 @@
 		<a time="040" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
 		<a time="049" text="加载屏幕" sync="守护者:275C" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 分支 -->
-		<t text="加载➜图书" sync="1B:守护者 gains the effect of 永世珍本" icon="分支.png" goto="A:P1"/>
-		<t text="加载➜达达" sync="1B:守护者 gains the effect of 达达鲁玛模拟程序" icon="分支.png" goto="B:P1"/>
+		<t text="加载➜图书" sync="守护者 gains the effect of 永世珍本" icon="分支.png" goto="A:P1"/>
+		<t text="加载➜达达" sync="守护者 gains the effect of 达达鲁玛模拟程序" icon="分支.png" goto="B:P1"/>
 	</s>
 
 	<!-- ============================= P1分支 ============================= -->
@@ -288,8 +288,8 @@
 		<a time="079" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 分支 -->
 		<a time="090" text="加载/跳过" sync="守护者:(275C|2773)"/>
-		<t text="加载图书" sync="1B:守护者 gains the effect of 永世珍本" notice="加载图书 分组踩塔" icon="分支.png" goto="B:P3-1"/>
-		<t text="加载达达" sync="1B:守护者 gains the effect of 达达鲁玛" notice="加载达达 防击退" icon="分支.png" goto="B:P3-2"/>
+		<t text="加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书 分组踩塔" icon="分支.png" goto="B:P3-1"/>
+		<t text="加载达达" sync="守护者 gains the effect of 达达鲁玛" notice="加载达达 防击退" icon="分支.png" goto="B:P3-2"/>
 	</s>
 
 	<s name="B:P3-1">
