@@ -18,6 +18,12 @@
 ## 编写时间轴
 
 - [语法说明](doc.md)
+- 播报时间调整
+
+```xml
+<!-- -4为提前4秒播报，可按需更改 -->
+<default target-element="Activity" target-attr="notice-o" value="-4"/>
+```
 
 <br />
 
