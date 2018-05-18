@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境2)</name>
-	<rev>v1.0.5</rev>
+	<rev>v1.0.6</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境2)</zone>
 	<locale>CN</locale>
 	<entry>P1(蓝)</entry>
-	<start>恶魔查达路库正在发动“恶魔哮”</start>
+	<start>“恶魔哮”</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
 	<default target-element="Activity" target-attr="notice-o" value="-4"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<s name="P1(蓝)">
-		<a time="000" goto="战斗开始"/>
-		<a time="005" text="恶魔哮" name="战斗开始" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="016" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="000" goto="check-point"/>
+		<a time="005" text="恶魔哮" name="check-point" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="016" text="恶魔斩" sync="正在发动“恶魔斩”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<!-- 第一次入画 -->
 		<a time="030" text="入画:火+风\n➜ 蓝瀑布+ST无敌单吃" sync="恶魔查达路库 starts using 附身画像" notice="蓝瀑布" icon="火.png"/>
 		<a time="049" text="闪光焰(蓝瀑布)" sync="发动了“闪光焰”" icon="火.png"/>
 		<a time="056" text="闪光风(ST无敌)" sync="发动了“闪光风”" notice="ST无敌单吃" style="TANK" icon="无敌.png"/>
 		<!-- -->
-		<a time="060" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="060" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
 		<a time="068" text="死神连线(H)\n➜ 盯-背对-盯" notice="死神连线,盯-背对-盯" style="HEAL" icon="连线.png"/>
-		<a time="075" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="075" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="079" text="女神的诱惑" notice="背对" icon="背对.png"/>
 		<!-- -->
-		<a time="83" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="89" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="恶魔查达路库正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
-		<a time="104" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="83" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="89" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
+		<a time="104" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<t sync="恶魔查达路库 starts using 附身解除" goto="P2(粉)"/>
 	</s>
 
@@ -37,20 +37,20 @@
 		<!-- 第二次入画 -->
 		<a time="005" text="入画:岩+风\n➜ 粉提丰+1号放AOE" sync="恶魔查达路库 starts using 附身画像" notice="1号放AOE" icon="1号.png"/>
 		<a time="018" text="恶魔台风(D诗)\n➜ 提丰吹羽毛" sync="狂风大作的“风之画作”" notice-o="0" icon="击退.png"/>
-		<a time="024" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="034" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="024" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="034" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="038" text="羽毛判定" icon="爆炸.png"/>
 		<!-- -->
-		<a time="041" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="041" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="059" text="死亡之吻(D)\n➜ A点传给ST(减伤)" notice="死亡之吻,A点传给ST" style="DPS" icon="A点.png"/>
 		<!-- -->
 		<a time="068" text="死神连线(H)\n➜ 盯-背对-盯" notice="死神连线,盯-背对-盯" style="HEAL" icon="连线.png"/>
-		<a time="068" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="078" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="068" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="078" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="079" text="女神的诱惑" notice="背对" icon="背对.png"/>
 		<!-- -->
-		<a time="083" text="恶魔台风" sync="恶魔查达路库正在发动“恶魔台风" notice="分摊" notice-o="-1" icon="分摊.png"/>
-		<a time="089" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="083" text="恶魔台风" sync="正在发动“恶魔台风" notice="分摊" notice-o="-1" icon="分摊.png"/>
+		<a time="089" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<t sync="恶魔查达路库 starts using 附身解除" goto="P3(蓝黑)"/>
 	</s>
 
@@ -60,19 +60,19 @@
 		<a time="020" text="恶魔地震" icon="2号.png"/>
 		<a time="026" text="2号躲避大范围AOE" icon="2号.png"/>
 		<!-- -->
-		<a time="030" text="实体化" sync="恶魔查达路库正在发动“实体化”"/>
-		<a time="040" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="恶魔查达路库正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
+		<a time="030" text="实体化" sync="正在发动“实体化”"/>
+		<a time="040" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
 		<!-- -->
 		<a time="042" text="塞壬小组准备" style="RED" notice="塞壬小组准备" icon="集合.png"/>
 		<!-- -->
 		<a time="046" text="摇篮曲➜激活塞壬" notice="激活塞壬" notice-o="-5" icon="注意.png"/>
 		<a time="056" text="恶魔哮" style="HEAL" icon="治疗.png"/>
 		<a time="062" text="恶魔哮" style="HEAL" icon="治疗.png"/>
-		<a time="068" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="068" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="082" text="恶魔飞石(D)" sync="恶魔查达路库发动了“恶魔飞石" notice="死刑" style="DPS" icon="躲避.png"/>
 		<!-- -->
 		<a time="094" text="死亡之吻(D)\n➜ B点传给ST(减伤)" notice="死亡之吻,B点传给ST" style="DPS" icon="B点.png"/>
-		<a time="095" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="095" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<t sync="恶魔查达路库 starts using 附身解除" goto="P4(黄粉)"/>
 	</s>
 
@@ -82,19 +82,19 @@
 		   notice-o="0" icon="1号.png"/>
 		<a time="015" text="恶魔台风➜1号叠AOE,吹羽毛" icon="1号.png" notice="诗人吹羽毛"/>
 		<a time="020" text="恶魔海啸➜岩石后"/>
-		<a time="025" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="025" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="031" text="羽毛判定" icon="爆炸.png"/>
 		<!-- -->
-		<a time="035" text="实体化" sync="恶魔查达路库正在发动“实体化”" notice="1号放AOE,A点放AOE,再分摊"/>
+		<a time="035" text="实体化" sync="正在发动“实体化”" notice="1号放AOE,A点放AOE,再分摊"/>
 		<a time="044" text="恶魔喷流➜A点叠AOE" icon="A点.png"/>
 		<a time="049" text="恶魔喷流➜1号叠AOE" icon="1号.png"/>
 		<a time="052" text="再分摊" notice="分摊" icon="分摊.png"/>
-		<a time="066" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="076" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="恶魔查达路库正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
+		<a time="066" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="076" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
 		<a time="087" text="死亡之吻(D)\n➜ A点传给ST(减伤)" notice="死亡之吻,A点传给ST" style="DPS" icon="A点.png"/>
 		<a time="088" text="直线AOE" notice="直线AOE" icon="回避.png"/>
-		<a time="095" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="110" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="095" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="110" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
 		<t sync="恶魔查达路库 starts using 附身解除" goto="P5(蓝黒)"/>
 	</s>
 
@@ -103,18 +103,18 @@
 		<a time="005" text="入画:火岩+风\n➜ 蓝瀑布黑飞机" sync="恶魔查达路库 starts using 附身画像"/>
 		<a time="020" text="恶魔地震"/>
 		<a time="025" text="闪光风(ST无敌)" sync="发动了“闪光风”" notice="ST无敌单吃" style="TANK" icon="无敌.png"/>
-		<a time="028" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="038" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="028" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="038" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
 		<!-- -->
-		<a time="046" text="实体化" sync="恶魔查达路库正在发动“实体化”"/>
+		<a time="046" text="实体化" sync="正在发动“实体化”"/>
 		<a time="053" text="恶魔飞石(D)" sync="恶魔查达路库发动了“恶魔飞石" notice="死刑" style="DPS" icon="躲避.png"/>
 		<!-- -->
 		<a time="064" text="死神连线(H)\n➜ 盯-背对-盯" notice="死神连线,盯-背对-盯" style="HEAL" icon="连线.png"/>
 		<a time="069" text="女神的诱惑" notice="背对" icon="背对.png"/>
-		<a time="070" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="077" text="恶魔斩" sync="恶魔查达路库正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="087" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="恶魔查达路库正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
-		<a time="097" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="070" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="077" text="恶魔斩" sync="正在发动“恶魔斩" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="087" text="恶魔痛(DT连线)\n➜ DPS拉开" sync="正在发动“恶魔痛”" notice="T,DPS拉开" style="DPS" icon="连线.png"/>
+		<a time="097" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<t sync="恶魔查达路库 starts using 附身解除" goto="P6(黄粉)"/>
 	</s>
 
@@ -124,11 +124,11 @@
 		   notice-o="0" icon="1号.png"/>
 		<a time="015" text="恶魔台风➜1号叠AOE,吹羽毛" icon="1号.png" notice="诗人吹羽毛"/>
 		<a time="025" text="恶魔海啸➜岩石后"/>
-		<a time="031" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="031" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="037" text="羽毛判定" icon="爆炸.png"/>
-		<a time="041" text="实体化" sync="恶魔查达路库正在发动“实体化”"/>
+		<a time="041" text="实体化" sync="正在发动“实体化”"/>
 		<!-- -->
-		<a time="048" text="恶魔哮" sync="恶魔查达路库正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="058" text="狂暴" sync="恶魔查达路库正在发动“恶魔哮”" icon="时间结束.png"/>
+		<a time="048" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="058" text="狂暴" sync="正在发动“恶魔哮”" icon="时间结束.png"/>
 	</s>
 </timeline>
