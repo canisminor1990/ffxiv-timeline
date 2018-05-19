@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境2)</name>
-	<rev>v1.0.7</rev>
+	<rev>v1.1.0</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境2)</zone>
 	<locale>CN</locale>
@@ -13,6 +13,7 @@
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<s name="P1(蓝)">
+		<a time="000" text="倒计时20时开怪" icon="注意.png"/>
 		<a time="005" text="恶魔哮" sync="正在发动“恶魔哮”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="016" text="恶魔斩" sync="正在发动“恶魔斩”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<!-- 第一次入画 -->
