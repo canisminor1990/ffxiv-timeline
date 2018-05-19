@@ -5,89 +5,87 @@
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>白虎诗魂战</zone>
 	<locale>CN</locale>
-	<entry>P1</entry>
+	<entry>白虎诗魂战</entry>
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
 	<default target-element="Activity" target-attr="notice-o" value="-4"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
-	<s name="P1">
-		<a time="006" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="012" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="022" text="咒缚雷" notice="准备咒缚雷"/>
-		<a time="027" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
-		<a time="037" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
-		<a time="055" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
-		<a time="060" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="067" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
-		<a time="072" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="086" sync="半身分离，助我杀敌！ 向胆敢抵抗的家伙们露出你的爪牙！"/>
-		<a time="088" text="半兽舞踏(ST)" notice="ST6点单吃" style="TANK" icon="死刑.png"/>
-		<a time="098" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="103" text="铁爪斩" sync="正在发动“铁爪斩”" notice="ST死刑" style="TANK" icon="死刑.png"/>
-		<a time="108" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="109" text="铁爪斩" sync="正在发动“铁爪斩”" notice="铁爪斩" style="TANK" icon="死刑.png"/>
-		<a time="119" text="远雷" notice="靠近BOSS" icon="集合.png"/>
-		<a time="123" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="128" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="138" text="雷轰" notice="雷轰开始,法奶撞球" style="ORANGE" icon="爆炸.png"/>
-		<t sync="0044:我的愤怒有如无尽箭雨" goto="P2"/>
-	</s>
-
-	<s name="P2">
-		<a time="020" text="弹幕游戏，注意AOE和白帝"/>
-		<t sync="0044:竟然能承受下来" goto="P3"/>
-	</s>
-
-	<s name="P3">
-		<a time="038" text="天雷掌" sync="发动了“天雷掌”" notice="死刑" style="TANK" sync-s="-38" sync-e="38" icon="死刑.png"/>
-		<a time="049" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
-		<a time="050" text="咒缚雷" notice="准备抓人" icon="注意.png"/>
-		<a time="055" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
-		<a time="066" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
-		<a time="074" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
-		<a time="090" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
-		<a time="095" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="104" text="爆弹低气压\n➜T-A, D-B, H-C" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="110" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
-		<a time="114" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="123" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="134" text="半兽舞踏" sync="半身分离，助我杀敌" notice="ST准备LB" icon="LB.png"/>
-		<a time="149" text="远雷" notice="靠近BOSS" icon="集合.png"/>
-		<a time="154" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="157" text="远雷" notice="靠近BOSS" icon="集合.png"/>
-		<a time="162" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="170" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="174" text="铁爪斩" sync="正在发动“铁爪斩”" notice="ST死刑" style="TANK" icon="死刑.png"/>
-		<a time="182" text="雷声" notice="雷声"/>
-		<a time="184" text="雷轰" notice="雷轰"/>
-		<a time="190" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="205" text="雷轰" sync="游戏到此为止！" notice="雷轰"/>
-		<a time="213" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="228" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="243" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="245" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
-		<a time="249" text="咒缚雷" notice="准备抓人" icon="注意.png"/>
-		<a time="254" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
-		<a time="264" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
-		<a time="273" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
-		<a time="287" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="297" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="309" text="远雷" notice="靠近BOSS" icon="集合.png"/>
-		<a time="316" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="330" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
-		<a time="335" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="344" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
-		<a time="350" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
-		<a time="355" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="364" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
-		<a time="379" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="392" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
-		<a time="393" text="咒缚雷" notice="准备抓人" icon="注意.png"/>
-		<a time="400" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
-		<a time="408" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
-		<a time="417" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
-		<a time="432" text="狂暴" sync="化为灰烬吧" notice="狂暴" icon="时间结束.png"/>
+	<s name="白虎诗魂战">
+		<a time="00:06" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="00:12" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="00:22" text="咒缚雷" notice="准备抓人"/>
+		<a time="00:22" text="咒缚雷" notice="准备抓人"/>
+		<a time="00:27" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
+		<a time="00:37" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
+		<a time="00:55" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
+		<a time="01:00" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="01:07" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
+		<a time="01:12" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="01:26" sync="半身分离，助我杀敌！ 向胆敢抵抗的家伙们露出你的爪牙！"/>
+		<a time="01:28" text="半兽舞踏(ST)" notice="ST6点单吃" style="TANK" icon="死刑.png"/>
+		<a time="01:38" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="01:43" text="铁爪斩" sync="正在发动“铁爪斩”" notice="ST死刑" style="TANK" icon="死刑.png"/>
+		<a time="01:48" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="01:49" text="铁爪斩" sync="正在发动“铁爪斩”" notice="ST死刑" style="TANK" icon="死刑.png"/>
+		<a time="01:59" text="远雷" notice="靠近BOSS" icon="集合.png"/>
+		<a time="02:02" text="白帝冲" notice="白帝冲"/>
+		<a time="02:03" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="02:08" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="02:16" text="雷轰" notice="雷轰开始,法奶撞球" style="ORANGE" icon="爆炸.png"/>
+		<a time="03:06" sync="0044:我的愤怒有如无尽箭雨"/>
+		<a time="03:22" text="弹幕游戏，注意AOE和白帝"/>
+		<a time="04:28" sync="0044:竟然能承受下来"/>
+		<a time="04:38" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="04:49" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
+		<a time="04:50" text="咒缚雷" notice="准备抓人"/>
+		<a time="04:55" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
+		<a time="05:07" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
+		<a time="05:14" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
+		<a time="05:28" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
+		<a time="05:30" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
+		<a time="05:35" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="05:44" text="爆弹低气压\n➜T-A, D-B, H-C" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
+		<a time="05:50" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
+		<a time="05:54" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="06:03" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="06:12" text="半兽舞踏" sync="半身分离，助我杀敌" notice="ST准备LB" icon="LB.png"/>
+		<a time="06:29" text="远雷" notice="靠近BOSS" icon="集合.png"/>
+		<a time="06:32" text="白帝冲" notice="白帝冲"/>
+		<a time="06:34" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="06:37" text="远雷" notice="靠近BOSS" icon="集合.png"/>
+		<a time="06:42" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="06:50" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="06:54" text="铁爪斩" sync="正在发动“铁爪斩”" notice="ST死刑" style="TANK" icon="死刑.png"/>
+		<a time="07:02" text="雷声" notice="雷声"/>
+		<a time="07:04" text="雷轰" notice="雷轰"/>
+		<a time="07:10" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="07:24" text="雷轰" sync="游戏到此为止！" notice="雷轰"/>
+		<a time="07:33" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="07:48" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="08:03" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
+		<a time="08:05" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
+		<a time="08:09" text="咒缚雷" notice="准备抓人" icon="注意.png"/>
+		<a time="08:14" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
+		<a time="08:25" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
+		<a time="08:33" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
+		<a time="08:47" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="08:57" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="09:09" text="远雷" notice="靠近BOSS" icon="集合.png"/>
+		<a time="09:16" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="09:30" text="无间地狱" sync="咆哮吧!" notice="弹幕躲避" icon="躲避.png"/>
+		<a time="09:35" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="09:44" text="爆弹低气压\n➜T-A, D-B, H-C" sync="天风狂啸，汹涌怒号" notice="放紫圈,TA,DB,HC" iocn="标记.png"/>
+		<a time="09:50" text="妖风(红球)" notice="红球注意回避" icon="躲避.png"/>
+		<a time="09:55" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="10:04" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
+		<a time="10:19" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="10:31" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>
+		<a time="10:33" text="咒缚雷" notice="准备抓人" icon="注意.png"/>
+		<a time="10:38" text="乾坤一掷\n➜ 1组分摊, ST挑衅" sync="抓住你了！死吧！" notice="1组分摊, ST挑衅" icon="1号.png"/>
+		<a time="10:48" text="乾坤一掷\n➜ 2组分摊, MT挑衅" sync="还没完！以为这样就完了吗！" notice="分摊, MT挑衅" icon="2号.png"/>
+		<a time="10:57" text="旋体脚" notice="boss背面集合" style="ORANGE" icon="在BOSS背面集合.png"/>
+		<a time="11:12" text="狂暴" sync="化为灰烬吧" notice="狂暴" icon="时间结束.png"/>
 	</s>
 </timeline>
