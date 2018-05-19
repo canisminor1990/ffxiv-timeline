@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.0</rev>
+	<rev>v1.1.1</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -35,7 +35,7 @@
 	</s>
 
 	<s name="加载达达">
-		<a time="000" text="震荡波(击退)" sync="守护者:2783" notice="防击退,背朝角" notice-o="0" icon="击退.png"/>
+		<a time="000" text="震荡波(击退)" sync="守护者:2783" notice="防击退,背朝角" icon="击退.png"/>
 		<a time="003" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="013" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
 		<a time="020" text="ST拉达达" sync="守护者:276F" notice="ST减伤拉达达,DPS转火"/>
