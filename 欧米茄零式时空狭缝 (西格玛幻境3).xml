@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.3</rev>
+	<rev>v1.1.4</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -166,7 +166,7 @@
 		<a time="021" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
 		<a time="029" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
 		<a time="037" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="047" text="ST东北角拉章鱼" sync="守护者:276F" notice="ST东北角拉章鱼,准备打断" icon="躲避.png"/>
+		<a time="047" text="ST西南角拉章鱼" sync="守护者:276F" notice="ST西南角拉章鱼,准备打断" icon="躲避.png"/>
 		<a time="053" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="057" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
 		<a time="059" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
