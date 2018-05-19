@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.1</rev>
+	<rev>v1.1.2</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -21,13 +21,13 @@
 		<a time="044" text="加载屏幕" sync="守护者:275C" notice="加载屏幕" icon="分支.png"/>
 		<a time="054" text="分支判断" icon="分岐.png"/>
 
-		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛模拟程序" notice="加载达达">
+		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛模拟程序" notice="加载达达,防击退,背朝角">
 			<load target="加载达达" truncate="true"/>
 			<load target="加载病毒"/>
 			<load target="加载飞机"/>
 		</t>
 
-		<t text="分支:加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书">
+		<t text="分支:加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书,准备踩塔">
 			<load target="加载图书" truncate="true"/>
 			<load target="加载病毒"/>
 			<load target="加载章鱼"/>
@@ -35,7 +35,7 @@
 	</s>
 
 	<s name="加载达达">
-		<a time="000" text="震荡波(击退)" sync="守护者:2783" notice="防击退,背朝角" icon="击退.png"/>
+		<a time="000" text="震荡波(击退)" sync="守护者:2783" notice="击退" icon="击退.png"/>
 		<a time="003" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="013" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
 		<a time="020" text="ST拉达达" sync="守护者:276F" notice="ST减伤拉达达,DPS转火"/>
@@ -75,7 +75,7 @@
 	</s>
 
 	<s name="加载图书">
-		<a time="000" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
+		<a time="000" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="踩塔,T近南西,H远北东"/>
 		<!-- 加载达达 -->
 		<a time="010" text="加载达达" sync="守护者:2773"/>
 		<a time="013" text="震荡波(击退)" sync="守护者:2783" notice="防击退，背朝角" icon="击退.png"/>
@@ -190,8 +190,9 @@
 	</s>
 
 	<s name="图书→达达">
+		<!-- 加载图书 -->
 		<a time="000" notice="加载图书,T近南西,H远北东"/>
-		<a time="06" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
+		<a time="006" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="018" text="ST拉到BOSS旁" sync="守护者:276F" notice="ST拉到BOSS旁" style="TANK" icon="注意.png"/>
 		<a time="025" text="等离子扩散x3/n➜ ST无敌,DPS集火小怪或LB" sync="守护者:278B" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
 		<a time="032" text="等离子扩散" sync="守护者:278B"/>
@@ -213,7 +214,8 @@
 	</s>
 
 	<s name="达达→图书">
-		<a time="000" text="达达→图书"/>
+		<!-- 加载达达 -->
+		<a time="000" text="加载达达" sync="守护者:(275C|2773)" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="003" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="006" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="012" text="原子射线\n➜ DPS一字放球" sync="守护者:278D" notice="DPS一字放球，MT往南拉" style="DPS" icon="标记.png"/>
@@ -221,6 +223,7 @@
 		<a time="036" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
 		<a time="037" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
 		<a time="045" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<!-- 加载图书 -->
 		<a time="055" text="加载图书" notice="加载图书"/>
 		<a time="060" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="图书踩踏,T近南西,H远北东"/>
 		<a time="066" text="雷达扫描" notice="禁止移动" style="ORANGE" icon="禁止移动.png"/>
