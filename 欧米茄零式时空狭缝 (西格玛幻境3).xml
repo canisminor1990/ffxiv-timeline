@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.6</rev>
+	<rev>v1.1.7</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -12,7 +12,7 @@
 	<default target-element="Activity" target-attr="notice-o" value="-4"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
-
+	<!-- 触发器 -->
 	<t text="燃烧弹:${_mex}" sync="守护者:278A:导弹:[0-9A-Z]+:[mex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
@@ -45,8 +45,60 @@
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
+	<!-- -->
+
+	<t text="磁力+" sync="gains the effect of 磁力（+）">
+		<v-notice duration="20" icon="磁力.png" />
+	</t>
+
+	<t text="磁力-" sync="gains the effect of 磁力（-）">
+		<v-notice duration="20" icon="磁力.png" />
+	</t>
+
+	<t text="灼热" sync="gains the effect of 灼热" notice="auto">
+		<v-notice duration="15" icon="火.png" />
+	</t>
+
+	<t text="孤独感" sync="gains the effect of 孤独感">
+		<v-notice duration="20" icon="集合.png" />
+	</t>
 
 
+	<!-- -->
+
+	<t text="病毒:${_mex}" sync="[mex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+	
+	<t text="病毒:${_2ex}" sync="[2ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_3ex}" sync="[3ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_4ex}" sync="[4ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_5ex}" sync="[5ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_6ex}" sync="[6ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_7ex}" sync="[7ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<t text="病毒:${_8ex}" sync="[8ex] gains the effect of 以太病毒" notice="auto">
+		<v-notice duration="15" icon="病毒.png" />
+	</t>
+
+	<!-- 时间轴 -->
 	<s name="P1">
 		<a time="000" text="BOSS面向朝南\n➜ DPS背部输出" notice="BOSS面向朝南,DPS背部输出"/>
 		<a time="007" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
