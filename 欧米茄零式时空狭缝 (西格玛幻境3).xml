@@ -13,29 +13,11 @@
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<!-- 触发器 -->
-	
-
-
-	<t text="正级" sync="[mex] gains the effect of 磁力（+）">
-		<v-notice duration="20" icon="磁力.png" />
-	</t>
-
-	<t text="负极" sync="[mex] gains the effect of 磁力（-）">
-		<v-notice duration="20" icon="磁力.png" />
-	</t>
-
-	<t text="灼热" sync="[mex] gains the effect of 灼热" notice="auto">
-		<v-notice duration="15" icon="火.png" />
-	</t>
-
-	<t text="孤独" sync="[mex] gains the effect of 孤独感" notice="孤独">
-		<v-notice duration="20" icon="集合.png" />
-	</t>
-
-	<t text="病毒" sync="[mex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
+	<t text="正级" sync="[mex] gains the effect of 磁力（+）"><v-notice duration="20" icon="磁力.png" /></t>
+	<t text="负极" sync="[mex] gains the effect of 磁力（-）"><v-notice duration="20" icon="磁力.png" /></t>
+	<t text="灼热" sync="[mex] gains the effect of 灼热" notice="auto"><v-notice duration="15" icon="火.png" /></t>
+	<t text="孤独" sync="[mex] gains the effect of 孤独感" notice="孤独"><v-notice duration="20" icon="集合.png" /></t>
+	<t text="病毒" sync="[mex] gains the effect of 以太病毒" notice="auto"><v-notice duration="15" icon="病毒.png" /></t>
 
 	<!-- 时间轴 -->
 	<s name="P1">
