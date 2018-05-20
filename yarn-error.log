@@ -2,7 +2,7 @@ Arguments:
   C:\Program Files\nodejs\node.exe C:\Users\i\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
 
 PATH: 
-  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\i\AppData\Local\Microsoft\WindowsApps;C:\Users\i\AppData\Roaming\npm;
+  C:\Program Files (x86)\Google\Chrome\Application;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\i\AppData\Local\Microsoft\WindowsApps;C:\Users\i\AppData\Roaming\npm;
 
 Yarn version: 
   1.5.1
@@ -15,15 +15,16 @@ Platform:
 
 npm manifest: 
   {
-    "name": "ffxiv-timeline",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "git@github.com:canisminor1990/ffxiv-timeline.git",
-    "author": "canisminor1990 <i@canisminor.cc>",
-    "license": "MIT",
-    "scripts": {
-      "test": "copy %cd%\\*.xml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\resources\\时间轴文件"
-    }
+  	"name"      : "ffxiv-timeline",
+  	"version"   : "1.0.0",
+  	"repository": "git@github.com:canisminor1990/ffxiv-timeline.git",
+  	"author"    : "canisminor1990 <i@canisminor.cc>",
+  	"license"   : "MIT",
+  	"scripts"   : {
+  		"test": "yarn xml && yarn cshtml",
+  		"xml": "copy %cd%\\*.xml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\\resources\\时间轴文件",
+  		"cshtml": "copy %cd%\\*.cshtml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\\resources\\时间轴文件"
+  	}
   }
 
 yarn manifest: 
@@ -36,7 +37,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c copy %cd%\*.xml %cd%\..\ACT一键整合2\Plugin\ACT.Hojoringesources\时间轴文件
+  Arguments: /d /s /c yarn xml && yarn cshtml
   Directory: G:\FF14\ffxiv-timeline
   Output:
   

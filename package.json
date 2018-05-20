@@ -5,6 +5,7 @@
 	"author"    : "canisminor1990 <i@canisminor.cc>",
 	"license"   : "MIT",
 	"scripts"   : {
-		"test": "copy %cd%\\*.xml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\\resources\\时间轴文件"
+		"test": "yarn xml",
+		"xml": "copy %cd%\\*.xml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\\resources\\时间轴文件"
 	}
 }
