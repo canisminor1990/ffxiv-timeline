@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.7</rev>
+	<rev>v1.1.8</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -9,39 +9,39 @@
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
-	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-o" value="-5"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<!-- 触发器 -->
-	<t text="燃烧弹:${_mex}" sync="守护者:278A:导弹:[0-9A-Z]+:[mex]:" notice="auto">
+	<t text="燃烧弹:${_mex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[mex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 	
-	<t text="燃烧弹:${_2ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[2ex]:" notice="auto">
+	<t text="燃烧弹:${_2ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[2ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_3ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[3ex]:" notice="auto">
+	<t text="燃烧弹:${_3ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[3ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_4ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[4ex]:" notice="auto">
+	<t text="燃烧弹:${_4ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[4ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_5ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[5ex]:" notice="auto">
+	<t text="燃烧弹:${_5ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[5ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_6ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[6ex]:" notice="auto">
+	<t text="燃烧弹:${_6ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[6ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_7ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[7ex]:" notice="auto">
+	<t text="燃烧弹:${_7ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[7ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
-	<t text="燃烧弹:${_8ex}" sync="守护者:278A:导弹:[0-9A-Z]+:[8ex]:" notice="auto">
+	<t text="燃烧弹:${_8ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[8ex]:" notice="auto">
 		<v-notice duration="15" icon="治疗.png" />
 	</t>
 
@@ -101,11 +101,11 @@
 	<!-- 时间轴 -->
 	<s name="P1">
 		<a time="000" text="BOSS面向朝南\n➜ DPS背部输出" notice="BOSS面向朝南,DPS背部输出"/>
-		<a time="007" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="016" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="024" text="原子射线\n➜ DPS一字放球" sync="守护者:278D" notice="DPS一字放球，MT往南拉" style="DPS" icon="标记.png"/>
-		<a time="041" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="044" text="加载屏幕" sync="守护者:275C" notice="加载屏幕" icon="分支.png"/>
+		<a time="007" text="魔导激光" sync="守护者正在发动“魔导激光”" notice="直线AOE" icon="躲避.png"/>
+		<a time="016" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="024" text="原子射线\n➜ DPS一字放球" sync="守护者正在发动“原子射线”" notice="DPS一字放球，MT往南拉" style="DPS" icon="标记.png"/>
+		<a time="041" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="044" text="加载屏幕" sync="守护者正在发动“加载”" notice="加载屏幕" icon="分支.png"/>
 		<a time="054" text="分支判断" icon="分岐.png"/>
 
 		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛模拟程序" notice="加载达达,防击退,背朝角">
@@ -122,115 +122,115 @@
 	</s>
 
 	<s name="P1加载达达">
-		<a time="000" text="震荡波(击退)" sync="守护者 gains the effect of 达达鲁玛模拟程序" icon="击退.png"/>
-		<a time="003" text="飞弹模拟" sync="守护者:2764" notice="躲飞弹踩圈" icon="环形散开.png"/>
-		<a time="013" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
-		<a time="020" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者:276F" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
-		<a time="033" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="037" text="点名第一次" sync="守护者:2788" notice="点名去1号" icon="1号.png"/>
-		<a time="047" text="点名第二次" sync="守护者:2788" notice="点名去1号" icon="1号.png"/>
-		<a time="049" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="066" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="071" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
+		<a time="000" text="冲击波(击退)" sync="守护者 gains the effect of 达达鲁玛模拟程序" icon="击退.png"/>
+		<a time="003" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲飞弹踩圈" icon="环形散开.png"/>
+		<a time="013" text="脉轮爆发(踩圈)"  notice="8人踩圈"/>
+		<a time="020" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
+		<a time="033" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="037" text="点名第一次" sync="守护者 starts using 魔导激光" notice="点名去1号" icon="1号.png"/>
+		<a time="047" text="点名第二次" sync="守护者 starts using 魔导激光" notice="点名去1号" icon="1号.png"/>
+		<a time="049" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="066" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="071" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<!-- 加载图书 -->
-		<a time="078" text="加载图书" sync="守护者:2773" notice="分组踩塔"/>
+		<a time="078" text="加载图书"  notice="分组踩塔"/>
 		<a time="086" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="4人塔,T近南西,H远北东"/>
 		<!-- 加载飞机 -->
-		<a time="096" text="加载飞机" sync="守护者:2774" notice="加载飞机,远离BOSS" icon="散开.png"/>
-		<a time="104" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
+		<a time="096" text="加载飞机"  notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="104" text="扩散射线" sync="starts using 扩散射线" notice="扩散射线" icon="散开.png"/>
 		<a time="107" text="复制" notice="复制"/>
-		<a time="115" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
-		<a time="125" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
-		<a time="140" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="115" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="躲避.png"/>
+		<a time="125" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者 starts using 实体化程序" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
+		<a time="140" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="141" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
-		<a time="150" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="159" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
+		<a time="150" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="159" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<!-- 加载章鱼 -->
-		<a time="165" text="加载章鱼" sync="守护者:2774" notice="章鱼墨汁,快散开" style="ORANGE" icon="环形散开.png"/>
-		<a time="183" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
-		<a time="193" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="200" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="205" text="触手实体化\n➜ MT拉C点" sync="守护者:275E" notice="MT拉C点" style="TANK" icon="C点.png"/>
+		<a time="165" text="加载章鱼"  notice="章鱼墨汁,快散开" style="ORANGE" icon="环形散开.png"/>
+		<a time="183" text="墨汁攻击➜环形散开"  icon="环形散开.png"/>
+		<a time="193" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="200" text="触手模拟" sync="守护者正在发动“加载腕足模拟程序”" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
+		<a time="205" text="触手实体化\n➜ MT拉C点"  notice="MT拉C点" style="TANK" icon="C点.png"/>
 		<a time="207" text="冲击" notice="冲击"/>
-		<a time="215" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="218" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="215" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
+		<a time="218" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="224" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="227" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
-		<a time="230" text="BOSS落地\n➜ MT拉回中间朝北" sync="守护者:2938" notice="MT拉回中间朝北"/>
-		<a time="241" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="227" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="230" text="BOSS落地\n➜ MT拉回中间朝北"  notice="MT拉回中间朝北"/>
+		<a time="241" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="248" text="加载病毒" sync="守护者 gains the effect of 病毒模拟" notice="加载病毒" icon="注意.png"/>
 	</s>
 
 	<s name="P1加载图书">
 		<a time="000" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者 gains the effect of 永世珍本" notice="4人塔,T近南西,H远北东"/>
 		<!-- 加载达达 -->
-		<a time="010" text="加载达达" sync="守护者:2773"/>
-		<a time="013" text="震荡波(击退)" sync="守护者:2783" notice="防击退，背朝角" icon="击退.png"/>
-		<a time="022" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
-		<a time="031" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
-		<a time="039" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者:276F" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
-		<a time="052" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="056" text="点名第一次" sync="守护者:2788" notice="点名去1号" icon="1号.png"/>
-		<a time="066" text="点名第一次" sync="守护者:2788" notice="点名去1号" icon="1号.png"/>
-		<a time="068" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="085" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="090" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
+		<a time="010" text="加载达达" />
+		<a time="013" text="冲击波(击退)" sync="守护者发动了“冲击波”" notice="防击退，背朝角" icon="击退.png"/>
+		<a time="022" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="躲避.png"/>
+		<a time="031" text="脉轮爆发(踩圈)"  notice="8人踩圈"/>
+		<a time="039" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
+		<a time="052" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="056" text="点名第一次"  notice="点名去1号" icon="1号.png"/>
+		<a time="066" text="点名第一次"  notice="点名去1号" icon="1号.png"/>
+		<a time="068" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="085" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="090" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<!-- 加载章鱼 -->
-		<a time="096" text="加载章鱼" sync="守护者:2774" notice="章鱼墨汁,快散开" style="ORANGE" icon="环形散开.png"/>
-		<a time="115" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
-		<a time="125" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="132" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="137" text="触手实体化\n➜ MT拉B点" sync="守护者:275E" notice="MT拉B点" style="TANK" icon="B点.png"/>
-		<a time="147" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="149" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="096" text="加载章鱼"  notice="章鱼墨汁,快散开" style="ORANGE" icon="环形散开.png"/>
+		<a time="115" text="墨汁攻击➜环形散开"  icon="环形散开.png"/>
+		<a time="125" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="132" text="触手模拟" sync="守护者正在发动“加载腕足模拟程序”" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
+		<a time="137" text="触手实体化\n➜ MT拉B点" notice="MT拉B点" style="TANK" icon="B点.png"/>
+		<a time="147" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
+		<a time="149" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="156" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="159" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
-		<a time="163" text="BOSS落地\n➜ MT拉回中间朝北" sync="守护者:2938" notice="MT拉回中间朝北"/>
-		<a time="173" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="159" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="163" text="BOSS落地\n➜ MT拉回中间朝北"  notice="MT拉回中间朝北"/>
+		<a time="173" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 加载飞机 -->
-		<a time="180" text="加载飞机" sync="守护者:275C" notice="加载飞机,远离BOSS" icon="散开.png"/>
-		<a time="188" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
-		<a time="200" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
-		<a time="210" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
-		<a time="225" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="180" text="加载飞机" sync="守护者正在发动“加载”" notice="加载飞机,远离BOSS" icon="散开.png"/>
+		<a time="188" text="扩散射线" sync="starts using 扩散射线" notice="扩散射线" icon="散开.png"/>
+		<a time="200" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="210" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者 starts using 实体化程序" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
+		<a time="225" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="226" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
-		<a time="235" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="243" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
+		<a time="235" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="243" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<a time="250" text="加载病毒" sync="守护者 gains the effect of 病毒模拟" notice="加载病毒" icon="注意.png"/>
 	</s>
 
 	<s name="P2加载病毒">
 		<a time="000" text="远程远离,近战靠近\nMT热风则换T。" sync="守护者 gains the effect of 病毒模拟" notice="远程远离,近战靠近,MT热风则换T" icon="注意.png"/>
-		<a time="001" text="加载病毒\n近→近→孤H→热H→D3→D4→孤T" sync="守护者:2773" icon="病毒.png"/>
+		<a time="001" text="加载病毒\n近→近→孤H→热H→D3→D4→孤T"  icon="病毒.png"/>
 		<a time="004" text="以太腐朽" notice="病毒开始" icon="病毒.png"/>
-		<a time="014" text="吸引排斥" sync="守护者:2779" notice="吸引排斥" icon="磁力.png"/>
-		<a time="027" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="056" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="039" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="014" text="吸引排斥"  notice="吸引排斥" icon="磁力.png"/>
+		<a time="027" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="056" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="039" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
-		<a time="062" text="病毒武器" sync="守护者:277C" notice="传毒结束,全体集合" style="ORANGE" icon="集合.png"/>
-		<a time="064" text="短暂指示" notice="目押回避" icon="躲避.png"/>
-		<a time="068" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="071" text="BOSS上天" sync="守护者:2937" notice="各凭本事" iocn="躲避.png"/>
+		<a time="062" text="病毒兵器" sync="守护者正在发动“病毒兵器”" notice="传毒结束,全体集合" style="ORANGE" icon="集合.png"/>
+		<a time="064" text="目押回避" notice="目押回避" icon="躲避.png"/>
+		<a time="068" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="071" text="BOSS上天" notice="各凭本事" iocn="躲避.png"/>
 		<a time="082" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="085" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
+		<a time="085" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
 		<a time="090" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="093" text="BOSS落地\n➜ MT拉回中心朝北" sync="守护者:2938" notice="MT拉回中心朝北" style="TANK" icon="分支.png"/>
-		<a time="095" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="103" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="093" text="BOSS落地\n➜ MT拉回中心朝北"  notice="MT拉回中心朝北" style="TANK" icon="分支.png"/>
+		<a time="095" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="103" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="110" text="粘贴" sync="粘贴"/>
 	</s>
 
 	<s name="P3加载飞机">
 		<a time="000" text="加载飞机" sync="守护者 gains the effect of 空军装甲" notice="加载飞机,远离BOSS" icon="散开.png"/>
-		<a time="009" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
+		<a time="009" text="扩散射线" sync="starts using 扩散射线" notice="扩散射线" icon="散开.png"/>
 		<a time="011" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="016" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="026" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
-		<a time="033" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="016" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="026" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者 starts using 实体化程序" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
+		<a time="033" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="044" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
-		<a time="047" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="055" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="047" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="055" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
 		<a time="064" text="加载屏幕" notice="加载屏幕" icon="分支.png"/>
 		<a time="074" text="分支判断" icon="分岐.png"/>
@@ -248,19 +248,19 @@
 
 	<s name="P3加载章鱼">
 		<a time="000" text="加载章鱼" sync="守护者 gains the effect of 奥尔特罗斯" notice="章鱼墨汁,快散开" style="ORANGE" icon="环形散开.png"/>
-		<a time="010" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="015" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
-		<a time="021" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
-		<a time="029" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="037" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="047" text="D点ST拉章鱼" sync="守护者:276F" notice="ST,D点拉章鱼,准备打断" icon="D点.png"/>
-		<a time="053" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
-		<a time="057" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="059" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="010" text="触手模拟" sync="守护者正在发动“加载腕足模拟程序”" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
+		<a time="015" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="021" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
+		<a time="029" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="037" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="047" text="D点ST拉章鱼" sync="守护者 starts using 实体化程序" notice="ST,D点拉章鱼,准备打断" icon="D点.png"/>
+		<a time="053" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="057" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
+		<a time="059" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="065" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="068" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
-		<a time="071" text="BOSS落地" sync="守护者:2938" notice="MT拉住boss朝北"/>
-		<a time="080" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="068" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="071" text="BOSS落地"  notice="MT拉住boss朝北"/>
+		<a time="080" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
 		<a time="088" text="加载屏幕" notice="加载屏幕" icon="分支.png"/>
 		<a time="098" text="分支判断" icon="分岐.png"/>
@@ -280,23 +280,23 @@
 		<!-- 加载图书 -->
 		<a time="000" sync="守护者 gains the effect of 永世珍本" notice="4人塔,T近南西,H远北东"/>
 		<a time="006" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="018" text="A点刷怪/n➜ ST拉到BOSS旁" sync="守护者:276F" notice="A点,ST拉到BOSS旁" style="TANK" icon="A点.png"/>
-		<a time="025" text="等离子扩散x3/n➜ ST无敌,DPS集火小怪或LB" sync="守护者:278B" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
-		<a time="032" text="等离子扩散" sync="守护者:278B"/>
-		<a time="038" text="等离子扩散" sync="守护者:278B"/>
-		<a time="052" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="057" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="065" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="018" text="A点刷怪/n➜ ST拉到BOSS旁" sync="守护者 starts using 实体化程序" notice="A点,ST拉到BOSS旁" style="TANK" icon="A点.png"/>
+		<a time="025" text="扩散离子x3/n➜ ST无敌,DPS集火小怪或LB" sync="守护者 starts using 扩散离子" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
+		<a time="032" text="扩散离子" sync="守护者 starts using 扩散离子"/>
+		<a time="038" text="扩散离子" sync="守护者 starts using 扩散离子"/>
+		<a time="052" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="057" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="065" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 加载达达 -->
 		<a time="075" text="加载达达" sync="守护者 gains the effect of 达达鲁玛" notice="防击退，背朝角" icon="击退.png"/>
-		<a time="084" text="震荡波(击退)" sync="守护者:2783"/>
+		<a time="084" text="冲击波(击退)" sync="守护者发动了“冲击波”"/>
 		<a time="087" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="090" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
-		<a time="096" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
-		<a time="104" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈" icon="环形散开.png"/>
-		<a time="120" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="121" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="129" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="090" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="096" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
+		<a time="104" text="脉轮爆发(踩圈)"  notice="8人踩圈" icon="环形散开.png"/>
+		<a time="120" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="121" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="129" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="140" text="分支判断" icon="分岐.png"/>
 	</s>
 
@@ -304,58 +304,58 @@
 		<!-- 加载达达 -->
 		<a time="000" text="加载达达" sync="守护者 gains the effect of 达达鲁玛" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="003" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="006" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
-		<a time="012" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
-		<a time="020" text="斗气爆发(踩圈)" sync="守护者:2787" notice="8人踩圈"/>
-		<a time="036" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="037" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="045" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="006" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="012" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
+		<a time="020" text="脉轮爆发(踩圈)"  notice="8人踩圈"/>
+		<a time="036" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="037" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="045" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 加载图书 -->
 		<a time="055" text="加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书"/>
 		<a time="060" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="4人塔,T近南西,H远北东"/>
 		<a time="066" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="078" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者:276F" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
-		<a time="085" text="等离子扩散/n➜ ST无敌,远程LB" sync="守护者:278B" notice="ST无敌,远程LB" icon="无敌.png"/>
-		<a time="092" text="等离子扩散" sync="守护者:278B"/>
-		<a time="098" text="等离子扩散" sync="守护者:278B"/>
-		<a time="112" text="燃烧弹(点名D)" sync="守护者:278A" notice="DPS大伤害，注意回复" style="HEAL" icon="治疗.png"/>
-		<a time="117" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="125" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="078" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
+		<a time="085" text="扩散离子/n➜ ST无敌,远程LB" sync="守护者 starts using 扩散离子" notice="ST无敌,远程LB" icon="无敌.png"/>
+		<a time="092" text="扩散离子" sync="守护者 starts using 扩散离子"/>
+		<a time="098" text="扩散离子" sync="守护者 starts using 扩散离子"/>
+		<a time="112" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
+		<a time="117" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="125" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="136" text="分支判断" icon="分岐.png"/>
 	</s>
 
 	<s name="P3章鱼→结束">
 		<a time="000" text="加载章鱼" sync="守护者 gains the effect of 奥尔特罗斯" notice="章鱼墨汁,快散开" icon="环形散开.png"/>
-		<a time="002" text="墨汁攻击➜环形散开" sync="守护者:277D" icon="环形散开.png"/>
-		<a time="010" text="触手模拟" sync="守护者:275E" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
-		<a time="016" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="002" text="墨汁攻击➜环形散开"  icon="环形散开.png"/>
+		<a time="010" text="触手模拟" sync="守护者正在发动“加载腕足模拟程序”" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
+		<a time="016" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="018" text="冲击" notice="冲击"/>
-		<a time="022" text="原子射线\n➜ DPS四角放球" sync="守护者:278D" notice="DPS四角放球" style="DPS" icon="标记.png"/>
-		<a time="030" text="魔导激光" sync="守护者:2788" notice="直线AOE" icon="躲避.png"/>
-		<a time="039" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="050" text="触手实体化\n➜ MT拉B点" sync="守护者:275E" notice="MT拉B点" style="TANK" icon="B点.png"/>
+		<a time="022" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
+		<a time="030" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
+		<a time="039" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="050" text="触手实体化\n➜ MT拉B点" notice="MT拉B点" style="TANK" icon="B点.png"/>
 		<a time="052" text="冲击" notice="冲击"/>
-		<a time="056" text="飞弹模拟" sync="守护者:2764" notice="躲避飞弹" icon="躲避.png"/>
-		<a time="060" text="ST章鱼➜打断石肤" sync="守护者:276F" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="062" text="BOSS上天(疾跑)" sync="守护者:2937" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="056" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="躲避.png"/>
+		<a time="060" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
+		<a time="062" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="069" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="072" text="主炮" sync="守护者:2790" notice="躲避主炮"/>
-		<a time="075" text="BOSS落地" sync="守护者:2938" notice="BOSS落地"/>
-		<a time="082" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="072" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="075" text="BOSS落地"  notice="BOSS落地"/>
+		<a time="082" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="092" text="开始同步" sync="2791:守护者" notice="读条狂暴"/>
 		<a time="102" text="狂暴" icon="时间结束.png"/>
 	</s>
 
 	<s name="P3飞机→结束">
 		<a time="000" text="加载飞机" sync="守护者 gains the effect of 空军装甲" notice="加载飞机,远离BOSS" icon="散开.png"/>
-		<a time="008" text="扩散激光" sync="守护者:2780" notice="扩散激光" icon="散开.png"/>
+		<a time="008" text="扩散射线" sync="starts using 扩散射线" notice="扩散射线" icon="散开.png"/>
 		<a time="011" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="015" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
-		<a time="025" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者:276F" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
-		<a time="032" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者:2762" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
+		<a time="015" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="025" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者 starts using 实体化程序" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
+		<a time="032" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="043" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
-		<a time="046" text="重臂锤" sync="守护者:2789" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="054" text="等离子扩散" sync="守护者:278B" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="046" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="054" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="064" text="开始同步" sync="2791:守护者" notice="读条狂暴"/>
 		<a time="074" text="狂暴" icon="时间结束.png"/>
 	</s>
