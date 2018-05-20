@@ -1,0 +1,21 @@
+{
+    "version"   :  {
+		"updater": 1,
+		"pack": 1
+	},
+    "url": "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
+    "actions":[
+        {
+            "name": "copy",
+            "from": [
+                "欧米茄零式时空狭缝 (西格玛幻境1).xml",
+                "欧米茄零式时空狭缝 (西格玛幻境2).xml",
+                "欧米茄零式时空狭缝 (西格玛幻境3).xml",
+                "欧米茄零式时空狭缝 (西格玛幻境4).xml",
+                "白虎诗魂战.xml"
+            ],
+            "to"    : "Plugin/ACT.Hojoring/resources/时间轴文件/"
+        }
+    ]
+}
+
