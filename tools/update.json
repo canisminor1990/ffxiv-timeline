@@ -1,9 +1,13 @@
 {
     "version"   :  {
-		"updater": 1,
-		"pack": 1
+        "pack": 1,
+		"updater": 1
 	},
-    "url": "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
+    "url": {
+        "pack": "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
+        "updater": "https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip",
+        "feedback": "http://bbs.ngacn.cc/read.php?tid=12766323"
+    },
     "actions":[
         {
             "name": "copy",
