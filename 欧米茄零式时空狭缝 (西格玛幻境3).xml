@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.8</rev>
+	<rev>v1.1.9</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -9,101 +9,39 @@
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
-	<default target-element="Activity" target-attr="notice-o" value="-5"/>
+	<default target-element="Activity" target-attr="notice-o" value="-3"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<!-- 触发器 -->
-	<t text="燃烧弹:${_mex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[mex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
 	
-	<t text="燃烧弹:${_2ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[2ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
 
-	<t text="燃烧弹:${_3ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[3ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
 
-	<t text="燃烧弹:${_4ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[4ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
-
-	<t text="燃烧弹:${_5ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[5ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
-
-	<t text="燃烧弹:${_6ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[6ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
-
-	<t text="燃烧弹:${_7ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[7ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
-
-	<t text="燃烧弹:${_8ex}" sync="守护者:278A:导弹:导弹:[0-9A-Z]+:[8ex]:" notice="auto">
-		<v-notice duration="15" icon="治疗.png" />
-	</t>
-
-	<!-- -->
-
-	<t text="磁力+" sync="gains the effect of 磁力（+）">
+	<t text="磁力+" sync="[mex] gains the effect of 磁力（+）">
 		<v-notice duration="20" icon="磁力.png" />
 	</t>
 
-	<t text="磁力-" sync="gains the effect of 磁力（-）">
+	<t text="磁力-" sync="[mex] gains the effect of 磁力（-）">
 		<v-notice duration="20" icon="磁力.png" />
 	</t>
 
-	<t text="灼热" sync="gains the effect of 灼热" notice="auto">
+	<t text="灼热" sync="[mex] gains the effect of 灼热" notice="auto">
 		<v-notice duration="15" icon="火.png" />
 	</t>
 
-	<t text="孤独感" sync="gains the effect of 孤独感">
+	<t text="孤独感" sync="[mex] gains the effect of 孤独感">
 		<v-notice duration="20" icon="集合.png" />
 	</t>
-
-
-	<!-- -->
 
 	<t text="病毒:${_mex}" sync="[mex] gains the effect of 以太病毒" notice="auto">
 		<v-notice duration="15" icon="病毒.png" />
 	</t>
-	
-	<t text="病毒:${_2ex}" sync="[2ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
 
-	<t text="病毒:${_3ex}" sync="[3ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
-	<t text="病毒:${_4ex}" sync="[4ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
-	<t text="病毒:${_5ex}" sync="[5ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
-	<t text="病毒:${_6ex}" sync="[6ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
-	<t text="病毒:${_7ex}" sync="[7ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
-
-	<t text="病毒:${_8ex}" sync="[8ex] gains the effect of 以太病毒" notice="auto">
-		<v-notice duration="15" icon="病毒.png" />
-	</t>
 
 	<!-- 时间轴 -->
 	<s name="P1">
-		<a time="000" text="BOSS面向朝南\n➜ DPS背部输出" notice="BOSS面向朝南,DPS背部输出"/>
 		<a time="007" text="魔导激光" sync="守护者正在发动“魔导激光”" notice="直线AOE" icon="躲避.png"/>
 		<a time="016" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="024" text="原子射线\n➜ DPS一字放球" sync="守护者正在发动“原子射线”" notice="DPS一字放球，MT往南拉" style="DPS" icon="标记.png"/>
+		<a time="024" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
 		<a time="041" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
 		<a time="044" text="加载屏幕" sync="守护者正在发动“加载”" notice="加载屏幕" icon="分支.png"/>
 		<a time="054" text="分支判断" icon="分岐.png"/>
