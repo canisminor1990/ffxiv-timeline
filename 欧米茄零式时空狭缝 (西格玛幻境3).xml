@@ -65,8 +65,8 @@
 		<a time="013" text="脉轮爆发(踩圈)"  notice="8人踩圈"/>
 		<a time="020" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
 		<a time="033" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
-		<a time="037" text="点名第一次" sync="守护者 starts using 魔导激光" notice="点名去1号" icon="1号.png"/>
-		<a time="047" text="点名第二次" sync="守护者 starts using 魔导激光" notice="点名去1号" icon="1号.png"/>
+		<a time="037" text="点名第一次" sync="守护者 starts using 魔导激光" notice="点名去9点" icon="注意.png"/>
+		<a time="047" text="点名第二次" sync="守护者 starts using 魔导激光" notice="点名去9点" icon="注意.png"/>
 		<a time="049" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="066" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
 		<a time="071" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
@@ -91,10 +91,10 @@
 		<a time="205" text="触手实体化\n➜ MT拉C点"  notice="MT拉C点" style="TANK" icon="C点.png"/>
 		<a time="207" text="冲击" notice="冲击"/>
 		<a time="215" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="218" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
-		<a time="224" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="227" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
-		<a time="230" text="BOSS落地\n➜ MT拉回中间朝北"  notice="MT拉回中间朝北"/>
+		<a time="218" text="BOSS上天(疾跑)" notice-o="0" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="224" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
+		<a time="227" text="主加农炮" notice-o="0" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="230" text="BOSS落地\n➜ MT拉回中间朝北" notice-o="0"  notice="MT拉回中间朝北"/>
 		<a time="241" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="248" text="加载病毒" sync="守护者 gains the effect of 病毒模拟" notice="加载病毒" icon="注意.png"/>
 	</s>
@@ -108,8 +108,8 @@
 		<a time="031" text="脉轮爆发(踩圈)"  notice="8人踩圈"/>
 		<a time="039" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK" icon="A点.png"/>
 		<a time="052" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
-		<a time="056" text="点名第一次"  notice="点名去1号" icon="1号.png"/>
-		<a time="066" text="点名第一次"  notice="点名去1号" icon="1号.png"/>
+		<a time="056" text="点名第一次"  notice="点名去9点" icon="注意.png"/>
+		<a time="066" text="点名第一次"  notice="点名去9点" icon="注意.png"/>
 		<a time="068" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="085" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
 		<a time="090" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
@@ -120,10 +120,10 @@
 		<a time="132" text="触手模拟" sync="守护者正在发动“加载腕足模拟程序”" notice="BOSS身后集合" icon="在BOSS背面集合.png"/>
 		<a time="137" text="触手实体化\n➜ MT拉B点" notice="MT拉B点" style="TANK" icon="B点.png"/>
 		<a time="147" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="149" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
-		<a time="156" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="159" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
-		<a time="163" text="BOSS落地\n➜ MT拉回中间朝北"  notice="MT拉回中间朝北"/>
+		<a time="149" text="BOSS上天(疾跑)" notice-o="0" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="156" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
+		<a time="159" text="主加农炮" notice-o="0" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="163" text="BOSS落地\n➜ MT拉回中间朝北" notice-o="0"  notice="MT拉回中间朝北"/>
 		<a time="173" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- 加载飞机 -->
 		<a time="180" text="加载飞机" sync="守护者正在发动“加载”" notice="加载飞机,远离BOSS" icon="散开.png"/>
@@ -150,8 +150,8 @@
 		<a time="064" text="目押回避" notice="目押回避" icon="躲避.png"/>
 		<a time="068" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<a time="071" text="BOSS上天" notice="各凭本事" iocn="躲避.png"/>
-		<a time="082" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="085" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="082" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
+		<a time="085" text="主加农炮" notice-o="0" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
 		<a time="090" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
 		<a time="093" text="BOSS落地\n➜ MT拉回中心朝北"  notice="MT拉回中心朝北" style="TANK" icon="分支.png"/>
 		<a time="095" text="臂锤" sync="守护者正在发动“臂锤”" notice="死刑" style="TANK" icon="死刑.png"/>
@@ -194,9 +194,9 @@
 		<a time="047" text="D点ST拉章鱼" sync="守护者 starts using 实体化程序" notice="ST,D点拉章鱼,准备打断" icon="D点.png"/>
 		<a time="053" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
 		<a time="057" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="059" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
-		<a time="065" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="068" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="059" text="BOSS上天(疾跑)" notice-o="0" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="065" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
+		<a time="068" text="主加农炮" notice-o="0" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
 		<a time="071" text="BOSS落地"  notice="MT拉住boss朝北"/>
 		<a time="080" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
@@ -275,9 +275,9 @@
 		<a time="052" text="冲击" notice="冲击"/>
 		<a time="056" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="躲避.png"/>
 		<a time="060" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
-		<a time="062" text="BOSS上天(疾跑)" notice="疾跑去对角" iocn="躲避.png"/>
-		<a time="069" text="链式炮" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
-		<a time="072" text="主加农炮" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
+		<a time="062" text="BOSS上天(疾跑)" notice-o="0" notice="疾跑去对角" iocn="躲避.png"/>
+		<a time="069" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
+		<a time="072" text="主加农炮" notice-o="0" sync="守护者 starts using 主加农炮" notice="躲避主炮"/>
 		<a time="075" text="BOSS落地"  notice="BOSS落地"/>
 		<a time="082" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="092" text="开始同步" sync="2791:守护者" notice="读条狂暴"/>
