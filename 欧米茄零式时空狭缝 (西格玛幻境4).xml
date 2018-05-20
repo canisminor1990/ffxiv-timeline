@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>欧米茄零式时空狭缝 (西格玛幻境4)</name>
+	<rev>v1.0.0</rev>
+	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
+	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	<default target-element="Activity" target-attr="sync-s" value="-10"/>
+	<default target-element="Activity" target-attr="sync-e" value="10"/>
+
+	<s name="P1">
+		<a time="000" text="施工中..."/>
+	</s>
+
+</timeline>
