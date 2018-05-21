@@ -43,12 +43,12 @@
 <br />
 
 ## Contributors
-- **更新器:** FanHua
+- **更新器:** [FanHua](https://github.com/imfanhua)
 
 
 ## Copyright
 
-- **Author:** CanisMinor
+- **Author:** [CanisMinor](https://github.com/canisminor1990)
 - **ID:** 男孩纸榨汁机(紫水)
 - **E-Mail:** <i@canisminor.cc>
 - **讨论群:** 246243038
