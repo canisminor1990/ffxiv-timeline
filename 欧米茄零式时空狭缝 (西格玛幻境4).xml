@@ -240,7 +240,7 @@
 	</s>
 
 	<s name="P6">
-		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 退踩踏准备" notice="击退踩踏准备" notice-o="1"/>
+		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 击退踩塔准备" notice="击退踩塔准备" notice-o="1"/>
 		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="016" text="击退" sync="众神之像:28DD" notice="击退" icon="击退.png"/>
 		<a time="019" text="踩塔" sync=":28EA:" notice="踩塔" icon="集合.png"/>
@@ -270,7 +270,7 @@
 	</s>
 
 	<s name="P8">
-		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 退踩踏准备" notice="击退踩踏准备" notice-o="1"/>
+		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 击退踩塔准备" notice="击退踩塔准备" notice-o="1"/>
 		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="016" text="击退" sync="众神之像:28DD" notice="击退" icon="击退.png"/>
 		<a time="019" text="踩塔" sync=":28EA:" notice="踩塔" icon="集合.png"/>
