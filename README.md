@@ -13,11 +13,11 @@
 
 #### 安装
 
+- 下载[时间轴更新工具](https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip)
+- 奖更新工具放入**ACT根目录**中 ( 与 `Advanced Combat Tracker.exe` 同级 )
 - 关闭ACT
-- 复制 [`resources`](https://github.com/canisminor1990/ffxiv-timeline/releases/download/1.0.0/resources.zip) 文件夹覆盖 `ACT目录/plugin/ACT.Hojoring/resources`
-- 重启ACT > 功能插件 > 计时器字幕 > 时间轴 > 打开目录
-- 复制 `xxxx.xml` 时间轴文件到目录
-- 重载目录
+- 启动更新程序
+- 重启ACT > 功能插件 > 计时器字幕 > 时间轴
 
 ## 编写时间轴
 
