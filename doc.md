@@ -4,11 +4,12 @@
 - [本体部分](#本体部分)
 	- [`<a/>`](#a)
 	- [`<t/>`](#t)
-	- [`<t><load/></t>`](#tloadt)
-	- [`<t/><v-notice/></t>`](#tv-noticet)
-	- [`<t/><i-notice/></t>`](#ti-noticet)
+		- [`<load/>`](#tloadt)
+		- [`<v-notice/>`](#tv-noticet)
+		- [`<i-notice/>`](#ti-noticet)
 	- [`<s/>`](#s)
 	- [`<default/>`](#default)
+- [正则扩展](#正则扩展)	
 - [Razor](#aspnet-razor)
 	- [`全局变量`](#全局变量)
 
@@ -83,7 +84,7 @@
 | ----------- | ------------ | ----------------------------------------------------------- |
 | `name`      | string       | 用于 `goto/call`                                            |
 | `time`      | number/mm:ss | 时间轴时间，如存在父级 `<s/>` 则与其对齐                    |
-| ` text`     | string       | 时间轴文字，使用`${_name}` 抓取sync中`[name]`内容           |
+| ` text`     | string       | 时间轴文字容           |
 | ` sync`     | regEx        | 正则匹配日志，用于同步时间轴                                |
 | ` sync-s`   | number       | 默认值-12, `sync` 前匹配秒数                                |
 | ` sync-e`   | number       | 默认值12, `sync` 后匹配秒数                                 |
@@ -119,7 +120,7 @@
 | name          | type   | desc                                                         |
 | ------------- | ------ | ------------------------------------------------------------ |
 | `name`        | string | 用于 `goto/call`                                             |
-| `text`        | string | 时间轴文字，使用`${_name}` 抓取sync中`[name]`内容            |
+| `text`        | string | 时间轴文字          |
 | `sync`        | regEx  | 正则匹配日志，用于同步时间轴                                 |
 | ` sync-count` | number | 默认值0, 匹配计数器，0每次, 1仅第一次匹配触发, 2仅第二次匹配触发.. |
 | ` goto`       | string | 跳转指定 `name`                                              |
@@ -245,6 +246,15 @@
 | ` enabled`        | bool   | 默认值true, 启用开关                   |
 
 <br />
+
+## 正则扩展
+
+| text              | sync   | desc                                   |
+| ----------------- | ------ | -------------------------------------- |
+| `{_mex}` | `[mex]`   | 我的昵称 |
+| `{_2ex}`～`{_8ex}`    | `[2ex]`～`[8ex]` | 队友昵称                       |
+| `{_JOB1}`～`{_JOB8}`         | `[JOB1]`～`[JOB8]` | 1-8职业 PLD/DRK/... |
+| `{_ROLE1}`～`{_ROLE8}`       | `[ROLE1]`～`[ROLE8]`   | 1-8类型 TANK/HEALER/DPS/MELEE/RANGE/MAGIC                   |
 
 ## ASP.NET Razor
 
