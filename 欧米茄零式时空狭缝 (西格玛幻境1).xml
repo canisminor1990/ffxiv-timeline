@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境1)</name>
-	<rev>v1.1.1</rev>
+	<rev>v1.1.2</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境1)</zone>
 	<locale>CN</locale>
@@ -37,7 +37,7 @@
 		<a time="100" text="大黄 ➜ T\n中红 ➜ DPS\n小白 ➜ DPS"/>
 		<t sync="魔列车正在发动“魔界前照灯”" notice="治疗后侧放圈,其余分摊" goto="P3"/>
 		<!-- 防止晚出来的人无法跳转 -->
-		<t sync="魔列车发动了“圣光射线”" goto="check-point"/>
+		<t sync="魔列车发动了“圣光射线”" notice="1点放圣光" goto="P3"/>
 	</s>
 
 	<s name="P3">
@@ -45,9 +45,8 @@
 		<a time="000" text="路障" icon="标记.png"/>
 		<a time="000" text="魔界之光/魔界前照灯\n➜ 治疗后侧放圈,其余分摊" icon="分摊.png"/>
 		<!-- 圣光 + 魔灵击 -->
-		<a time="005" name="check-point"/>
 		<a time="005" text="圣光射线\n➜ 1点放圣光" notice="1点放圣光" icon="1号.png"/>
-		<a time="018" text="魔灵击" sync="魔列车正在发动“魔灵击”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="018" text="魔灵击" sync="魔列车正在发动“魔灵击”" sync-s="-18" sync-e="18" notice="死刑" style="TANK" icon="死刑.png"/>
 		<!-- 连线幽灵 + 圣光 -->
 		<a time="030" text="连线幽灵-魔界汽笛" sync="魔列车正在发动“魔界汽笛”" notice="连线幽灵,圣光打转" icon="连线.png"/>
 		<a time="047" text="圣光射线\n➜ 1点放圣光" sync="魔列车发动了“圣光射线”" notice="1点放圣光" icon="1号.png"/>
