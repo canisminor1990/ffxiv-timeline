@@ -20,12 +20,18 @@
 		{
 			"name": "copy",
 			"from": [
-				"ffxiv-timeline-master/resources/时间轴文件/Timeline.config",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境1).xml",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境2).xml",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境3).xml",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境4).xml",
 				"ffxiv-timeline-master/白虎诗魂战.xml"
+			],
+			"to"  : "Plugin/ACT.Hojoring/resources/时间轴文件/"
+		},
+		{
+			"name": "copy",
+			"from": [
+				"ffxiv-timeline-master/resources/时间轴文件/Timeline.config"
 			],
 			"to"  : "Plugin/ACT.Hojoring/resources/时间轴文件/"
 		},
