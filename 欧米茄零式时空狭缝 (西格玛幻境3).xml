@@ -110,7 +110,7 @@
 		<!-- 加载飞机 -->
 		<a time="180" text="加载飞机" sync="守护者正在发动“加载”" notice="加载飞机,远离BOSS" icon="散开.png"/>
 		<a time="188" text="扩散射线" sync="starts using 扩散射线" notice="扩散射线" icon="散开.png"/>
-		<a time="200" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="200" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="环形散开.png"/>
 		<a time="210" text="召唤飞机x4\n➜ DPS拉4角朝外" sync="守护者 starts using 实体化程序" notice="召唤飞机,DPS拉4角朝外" style="DPS" icon="分散.png"/>
 		<a time="225" text="设置炸弹\n➜ H1:南/东 H2:北/西 " sync="守护者正在发动“设置炸弹”" notice="奶妈拆弹,MT注意位置" style="HEAL" icon="炸弹.png"/>
 		<a time="226" text="飞机激光" notice="激光DPS注意面向" style="DPS" icon="注意.png"/>
