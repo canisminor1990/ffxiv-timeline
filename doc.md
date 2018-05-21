@@ -9,6 +9,7 @@
 	- [`<t/><i-notice/></t>`](#ti-noticet)
 	- [`<s/>`](#s)
 	- [`<default/>`](#default)
+- [正则扩展](#正则扩展)	
 - [Razor](#aspnet-razor)
 	- [`全局变量`](#全局变量)
 
