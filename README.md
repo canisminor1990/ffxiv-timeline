@@ -13,6 +13,8 @@
 
 #### 安装
 
+<img src="https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/preview.png" witdh="320px" />
+
 - 下载[时间轴更新工具](https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip)
 - 奖更新工具放入**ACT根目录**中 ( 与 `Advanced Combat Tracker.exe` 同级 )
 - 关闭ACT
