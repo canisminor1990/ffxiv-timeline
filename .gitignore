@@ -8,8 +8,6 @@
 # misc
 .DS_Store
 npm-debug.log*
-
-*.zip
 !resources.zip
 yarn.lock
 backup
