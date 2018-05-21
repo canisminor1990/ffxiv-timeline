@@ -55,7 +55,7 @@
 		<a time="000" text="冲击波(击退)" sync="守护者 gains the effect of 达达鲁玛模拟程序" icon="击退.png"/>
 		<a time="003" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲飞弹踩圈" icon="环形散开.png"/>
 		<a time="013" text="脉轮爆发(踩圈)" notice="8人踩圈"/>
-		<a time="020" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
+		<a time="020" text="A点刷怪\n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
 		   icon="A点.png"/>
 		<a time="033" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<a time="037" text="点名第一次" sync="守护者 starts using 魔导激光" notice="点名去9点" icon="注意.png"/>
@@ -100,7 +100,7 @@
 		<a time="013" text="冲击波(击退)" sync="守护者发动了“冲击波”" notice="防击退，背朝角" icon="击退.png"/>
 		<a time="022" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="躲避.png"/>
 		<a time="031" text="脉轮爆发(踩圈)" notice="8人踩圈"/>
-		<a time="039" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
+		<a time="039" text="A点刷怪\n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
 		   icon="A点.png"/>
 		<a time="052" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<a time="056" text="点名第一次" notice="点名去9点" icon="注意.png"/>
@@ -216,9 +216,9 @@
 		<!-- 加载图书 -->
 		<a time="000" sync="守护者 gains the effect of 永世珍本" notice="4人塔,T近南西,H远北东"/>
 		<a time="006" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="018" text="A点刷怪/n➜ ST拉到BOSS旁" sync="守护者 starts using 实体化程序" notice="A点,ST拉到BOSS旁" style="TANK"
+		<a time="018" text="A点刷怪\n➜ ST拉到BOSS旁" sync="守护者 starts using 实体化程序" notice="A点,ST拉到BOSS旁" style="TANK"
 		   icon="A点.png"/>
-		<a time="025" text="扩散离子x3/n➜ ST无敌,DPS集火小怪或LB" sync="守护者 starts using 扩散离子" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
+		<a time="025" text="扩散离子x3\n➜ ST无敌,DPS集火小怪或LB" sync="守护者 starts using 扩散离子" notice="ST无敌,DPS集火小怪或LB" icon="无敌.png"/>
 		<a time="032" text="扩散离子" sync="守护者 starts using 扩散离子"/>
 		<a time="038" text="扩散离子" sync="守护者 starts using 扩散离子"/>
 		<a time="052" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
@@ -251,9 +251,9 @@
 		<a time="055" text="加载图书" sync="守护者 gains the effect of 永世珍本" notice="加载图书"/>
 		<a time="060" text="妖异模拟(踩塔):\n T近：南➜西\n H远：北➜东" sync="守护者:2B36" notice="4人塔,T近南西,H远北东"/>
 		<a time="066" text="雷达扫描" notice="别动" style="ORANGE" icon="禁止移动.png"/>
-		<a time="078" text="A点刷怪/n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
+		<a time="078" text="A点刷怪\n➜ ST拉到BOSS旁,转火" sync="守护者 starts using 实体化程序" notice="A点刷怪,ST拉到BOSS旁,转火" style="TANK"
 		   icon="A点.png"/>
-		<a time="085" text="扩散离子/n➜ ST无敌,远程LB" sync="守护者 starts using 扩散离子" notice="ST无敌,远程LB" icon="无敌.png"/>
+		<a time="085" text="扩散离子\n➜ ST无敌,远程LB" sync="守护者 starts using 扩散离子" notice="ST无敌,远程LB" icon="无敌.png"/>
 		<a time="092" text="扩散离子" sync="守护者 starts using 扩散离子"/>
 		<a time="098" text="扩散离子" sync="守护者 starts using 扩散离子"/>
 		<a time="112" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>

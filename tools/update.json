@@ -1,14 +1,22 @@
 {
-	"version": {
+	"version"   : {
 		"pack"   : 1,
 		"updater": 1
 	},
-	"url"    : {
+	"desc"      : "请将本更新程序放在ACT根目录运行",
+	"url"       : {
 		"pack"    : "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
 		"updater" : "https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip",
 		"feedback": "http://bbs.ngacn.cc/read.php?tid=12766323"
 	},
-	"actions": [
+	"preActions": [
+		{
+			"name" : "check",
+			"file" : "Advanced Combat Tracker.exe",
+			"alert": "请将本更新程序放在ACT根目录运行"
+		}
+	],
+	"actions"   : [
 		{
 			"name": "copy",
 			"from": [

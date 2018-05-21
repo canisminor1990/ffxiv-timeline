@@ -20,7 +20,7 @@
 	</t>
 
 	<t sync="凯夫卡 starts using 无心天使" sync-count="1">
-		<load target="本体P1" truncate="true"/>
+		<load target="P1" truncate="true"/>
 	</t>
 
 	<s name="分支判断">
@@ -85,7 +85,7 @@
 		<a time="055" text="第一乐章" style="PURPLE"/>
 		<!-- 第一次神像 -->
 		<a time="056" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面集合,黄圈散开" icon="在BOSS背面集合.png"/>
-		<a time="056" text="扩散盾/幕帘/摆脱" notice="扩散盾/幕帘/摆脱" notice-o="0" icon="治疗.png"/>
+		<a time="056" text="扩散盾/幕帘" notice="扩散盾/幕帘" notice-o="0" icon="治疗.png"/>
 		<a time="065" text="波动弹x2组" sync="众神之像 starts using 波动弹"/>
 		<a time="065" text="连线x4" notice="连线去A，没有去C" icon="连线.png"/>
 		<a time="065" text="分摊" icon="分摊.png"/>
@@ -177,7 +177,116 @@
 	</t>
 
 	<!-- 本体时间轴 -->
-	<s name="本体P1">
-		<a time="0" text="施工中..." style="PURPLE"/>
+	<s name="P1">
+		<a time="000" text="普通1血(无心天使)" sync="凯夫卡正在发动“究极”" notice="1血" style="HEAL" icon="强制HP为1.png"/>
+		<a time="006" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="013" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>/>
+		<a time="021" text="三星环" sync="凯夫卡正在发动“三星”" notice="三星环" icon="躲避.png"/>
+		<a time="023" text="雷冰➜圆十字" sync="凯夫卡:290A" notice="圆十字" icon="电.png"/>
+		<a time="025" text="爆炎➜DPS站位" sync="凯夫卡:290B" notice="DPS站位" style="DPS" icon="火.png"/>
+		<a time="031" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<t text="P2" sync="凯夫卡正在发动“遗弃末世”" notice="转场AOE,MT血仇" icon="分支.png" goto="P2"/>
+	</s>
+
+	<s name="P2">
+		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇" icon="治疗.png"/>
+		<a time="011" text="强化1血(无心大天使)" sync="凯夫卡正在发动“无心大天使”" notice="1血踩塔" style="HEAL" icon="强制HP为1.png"/>
+		<a time="014" text="预读群疗➜准备撞头" sync=":28EA:" notice="预读群疗准备撞头" style="HEAL" icon="强制HP为1.png"/>
+		<a time="025" text="破坏之翼\n➜ MT无敌,ST减伤" sync="凯夫卡正在发动“破坏之翼”" notice="MT无敌,ST减伤"/>
+		<a time="031" text="究极" sync="凯夫卡正在发动“究极”" notice="全体攻撃、HP全快させて" style="HEAL" icon="治疗.png"/>
+		<a time="041" text="强化1血(无心大天使)" sync="凯夫卡正在发动“无心大天使”" notice="1血踩塔" style="HEAL" icon="强制HP为1.png"/>
+		<a time="044" text="预读群疗➜准备撞头" sync=":28EA:" notice="预读群疗准备撞头" style="HEAL" icon="强制HP为1.png"/>
+		<a time="056" text="制裁之光\n➜ AOE,ST血仇,换T" sync="凯夫卡正在发动“制裁之光”" notice="AOE,MT血仇,换T" style="TANK" icon="换T.png"/>
+		<t text="P3" sync="凯夫卡正在发动“异三角”" notice="小三角,看顺序" icon="分支.png" goto="P3"/>
+	</s>
+
+	<s name="P3">
+		<a time="000" text="小三角(看顺序)" icon="躲避.png"/>
+		<a time="006" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
+		<a time="018" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" sync="凯夫卡:2900" notice="MT朝场外,ST跑远,其余中间" icon="注意.png"/>
+		<a time="035" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="042" text="过去/未来\n➜ 背面集合,双T减伤" sync="凯夫卡:28(EF|F1)" icon="在BOSS背面集合.png"/>
+		<a time="053" text="终末双腕" sync="凯夫卡正在发动“终末双腕”" notice="ST无敌单吃" style="TANK" icon="无敌.png"/>
+		<a time="060" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="067" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="069" text="换T" notice="换T" style="TANK" icon="换T.png"/>
+		<a time="083" text="遗弃末世\n➜ 转场AOE,MT血仇" sync="凯夫卡正在发动“遗弃末世”"
+		   notice="转场AOE,MT血仇,远程BD诱导,T奶12踩塔,其余C等黄圈" notice-o="-5" icon="治疗.png"/>
+		<t text="P4\n➜ 远程BD诱导(给再生)\n➜ T奶12踩塔\n➜ 其余C等黄圈" sync="凯夫卡正在发动“妖星乱舞”" icon="分支.png" goto="P4"/>
+	</s>
+
+	<s name="P4">
+		<a time="000" text="妖星乱舞\n➜ 远程BD诱导(给再生)\n➜ T奶12踩塔\n➜ 其余C等黄圈" notice="妖星乱舞" icon="注意.png"/>
+		<a time="005" text="过去/未来" sync="凯夫卡:28F(5|8)" icon="注意.png"/>
+		<a time="014" text="消灭之脚\n➜ 引导AOE,注意面向" sync="凯夫卡正在发动“消灭之脚”" notice="引导AOE" icon="注意.png"/>
+		<a time="019" text="陨石AOE" sync="凯夫卡:2905" notice="AOE" style="TANK" icon="治疗.png"/>
+		<a time="023" text="制裁之光➜ST血仇" sync="凯夫卡正在发动“制裁之光”" notice="AOE,ST血仇" style="TANK" icon="治疗.png"/>
+		<t text="P5" sync="凯夫卡正在发动“三星”" goto="P5"/>
+	</s>
+
+	<s name="P5">
+		<a time="000" text="三星环" sync="凯夫卡正在发动“三星”" notice="三星环くるよ" notice-o="1"/>
+		<a time="002" text="雷冰➜圆十字" sync="凯夫卡:290A" notice="圆十字" icon="电.png"/>
+		<a time="004" text="爆炎➜DPS站位" sync="凯夫卡:290B" notice="DPS站位" style="DPS" icon="火.png"/>
+		<a time="009" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" style="躲避.png"/>
+		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="033" text="大三角\n➜ 检查中央小三角" sync="凯夫卡正在发动“异三角”" notice="站中心或去空地" icon="躲避.png"/>
+		<a time="040" text="过去/未来" sync="凯夫卡:28(EF|F1)" icon="在BOSS背面集合.png"/>
+		<a time="053" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" sync="凯夫卡:2900" notice="MT朝场外,ST跑远,其余中间" icon="注意.png"/>
+		<a time="058" text="终末双腕\n➜ 分摊,全减伤+牵制" sync="凯夫卡正在发动“终末双腕”" notice="分摊,全减伤,牵制" icon="分摊.png"/>
+		<a time="066" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>/>
+		<a time="074" text="究极\n➜ 拉回中间面向1" sync="凯夫卡正在发动“究极”" notice="AOE,拉回中间面向1" style="HEAL" icon="治疗.png"/>
+		<t text="P6" sync="凯夫卡正在发动“遗弃末世”" notice="转场AOE,MT血仇" goto="P6"/>
+	</s>
+
+	<s name="P6">
+		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 退踩踏准备" notice="击退踩踏准备" notice-o="1"/>
+		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="016" text="击退" sync="众神之像:28DD" notice="击退" icon="击退.png"/>
+		<a time="019" text="踩塔" sync=":28EA:" notice="踩塔" icon="集合.png"/>
+		<a time="021" text="终末双腕\n➜ MT无敌,ST远离" sync="凯夫卡正在发动“终末双腕”" notice="MT无敌,ST远离" style="TANK" icon="无敌.png"/>
+		<a time="027" text="睡眠/诱惑" sync="众神之像:28E(5|6)"/>
+		<a time="034" text="究极" sync="凯夫卡正在发动“究极”" notice="全体攻撃、HPすぐに全快して" style="HEAL" icon="治疗.png"/>
+		<a time="042" text="强化1血(无心大天使)" sync="凯夫卡正在发动“无心大天使”" notice="1血踩塔" style="HEAL" icon="强制HP为1.png"/>
+		<a time="045" text="预读群疗➜准备撞头" sync=":28EA:" notice="预读群疗准备撞头" style="HEAL" icon="强制HP为1.png"/>
+		<a time="055" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" sync="凯夫卡:2900" notice="MT朝场外,ST跑远,其余中间" icon="注意.png"/>
+		<a time="060" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="067" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”"/>
+		<a time="073" text="制裁之光➜ST血仇" sync="凯夫卡正在发动“制裁之光”" notice="AOE,ST血仇" style="TANK" icon="治疗.png"/>
+		<t text="P7" sync="凯夫卡正在发动“异三角”" goto="P7"/>
+	</s>
+
+	<s name="P7">
+		<a time="000" text="小三角" notice="看顺序" notice-o="1" icon="躲避.png"/>
+		<a time="006" text="单翅膀" sync="凯夫卡:28FF" notice="AOE"/>
+		<a time="017" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" sync="凯夫卡:2900" notice="MT朝场外,ST跑远,其余中间" icon="注意.png"/>
+		<a time="023" text="终末双腕\n➜ 分摊,全减伤+牵制" sync="凯夫卡正在发动“终末双腕”" notice="分摊,全减伤,牵制" icon="分摊.png"/>
+		<a time="040" text="大三角\n➜ 检查中央小三角" sync="凯夫卡正在发动“异三角”" notice="站中心或去空地" icon="躲避.png"/>
+		<a time="048" text="过去/未来" sync="凯夫卡:28(EF|F1)" icon="在BOSS背面集合.png"/>
+		<a time="060" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="067" text="究极(1)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="075" text="究极(2)\n➜ MT拉回中间" sync="凯夫卡正在发动“究极”" notice="AOE,MT拉回中间" style="HEAL" icon="治疗.png"/>
+		<t text="P8" sync="凯夫卡正在发动“遗弃末世”" notice="转场AOE,MT血仇" goto="P8"/>
+	</s>
+
+	<s name="P8">
+		<a time="000" text="遗弃末世\n➜ 转场AOE,MT血仇击n➜ 退踩踏准备" notice="击退踩踏准备" notice-o="1"/>
+		<a time="015" text="究极" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="016" text="击退" sync="众神之像:28DD" notice="击退" icon="击退.png"/>
+		<a time="019" text="踩塔" sync=":28EA:" notice="踩塔" icon="集合.png"/>
+		<a time="021" text="终末双腕\n➜ 分摊,全减伤+牵制" sync="凯夫卡正在发动“终末双腕”" notice="分摊,全减伤,牵制" icon="分摊.png"/>
+		<a time="027" text="睡眠/诱惑" sync="众神之像:28E(5|6)"/>
+		<a time="034" text="究极" sync="凯夫卡正在发动“究极”" notice="全体攻撃、HPすぐに全快して" style="HEAL" icon="治疗.png"/>
+		<a time="042" text="强化1血(无心大天使)" sync="凯夫卡正在发动“无心大天使”" notice="1血踩塔" style="HEAL" icon="强制HP为1.png"/>
+		<a time="045" text="预读群疗➜准备撞头" sync=":28EA:" notice="预读群疗准备撞头" style="HEAL" icon="强制HP为1.png"/>
+		<a time="055" text="双翅膀\n➜ MT朝场外,ST跑远\n➜ 其余背靠中间" sync="凯夫卡:2900" notice="MT朝场外,ST跑远,其余中间" icon="注意.png"/>
+		<a time="060" text="究极(1)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="067" text="单翅膀" sync="凯夫卡正在发动“破坏之翼”" icon="躲避.png"/>
+		<a time="074" text="究极(2)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="082" text="究极(3)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="090" text="究极(4)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="098" text="究极(5)" sync="凯夫卡正在发动“究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="106" text="制裁之光(狂暴读条)" sync="凯夫卡正在发动“制裁之光" notice="狂暴读条" icon="注意.png"/>
+		<a time="116" text="狂暴" sync="凯夫卡:2A52" icon="时间结束.png"/>
 	</s>
 </timeline>
