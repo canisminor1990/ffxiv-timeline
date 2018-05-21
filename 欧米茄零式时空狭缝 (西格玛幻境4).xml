@@ -5,7 +5,7 @@
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境4)</zone>
 	<locale>CN</locale>
-	<entry>P1</entry>
+	<entry>分支判断</entry>
 	<start>0039:战斗开始</start>
 
 	<!-- -4为提前4秒播报，可按需更改 -->
@@ -14,8 +14,170 @@
 	<default target-element="Activity" target-attr="sync-s" value="-10"/>
 	<default target-element="Activity" target-attr="sync-e" value="10"/>
 
-	<s name="P1">
-		<a time="000" text="施工中..."/>
+	<!-- 分支判断 -->
+	<t sync="我要破坏一切！" sync-count="1">
+		<load target="门神" truncate="true"/>
+	</t>
+
+	<t sync="凯夫卡 starts using 无心天使" sync-count="1">
+		<load target="本体P1" truncate="true"/>
+	</t>
+
+	<s name="分支判断">
+		<a time="10" text="分支判断: 门神/本体" icon="分岐.png"/>
 	</s>
 
+	<!-- 门神触发器 -->
+	<t text="真真真" sync="附加了“真实的小丑”" notice="auto">
+		<v-notice duration="999" sync-to-hide="附加了“虚伪的小丑”" duration-visible="false" icon="真假.png"/>
+	</t>
+
+	<t text="假假假" sync="附加了“虚伪的小丑”" notice="auto">
+		<v-notice duration="999" sync-to-hide="附加了“真实的小丑”" duration-visible="false" icon="真假.png"/>
+	</t>
+
+	<t name="击退(波动弹)" sync="14:28DD:众神之像 starts using 波动弹 on :[mex]" notice="击退击退">
+		<v-notice duration="10" icon="击退.png"/>
+	</t>
+
+	<t name="去右边(重力波)" sync="众神之像 starts using 重力波" notice="去右边">
+		<v-notice duration="10" icon="右3点集合.png"/>
+	</t>
+
+	<t name="去左边(扑杀的神气)" sync="众神之像 starts using 扑杀的神气" notice="去左边">
+		<v-notice duration="10" icon="左9点集合.png"/>
+	</t>
+
+	<t name="左(黑洞连线)" sync="14:28E0:(.*?):(.*?):[mex]" notice="分摊后去左边">
+		<v-notice duration="10" icon="左9点集合.png"/>
+	</t>
+
+	<t name="右(石头连线)" sync="14:28E2:(.*?):(.*?):[mex]" notice="分摊后去右边">
+		<v-notice duration="10" icon="右3点集合.png"/>
+	</t>
+
+	<t name="去外围(圣母混乱)" sync="众神之像 starts using 圣母的神气 on [mex]" notice-d="Both" notice="去外围">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="在中间(睡魔)" sync="14:28E6:众神之像 starts using 睡魔的神气 on [mex]" notice-d="Both" notice="在中间">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="面对(神像)" sync="14:28E3:众神之像 starts using 圣母颂" notice-d="Both" notice="正对正对">
+		<v-notice duration="10" icon="背对.png"/>
+	</t>
+
+	<t name="背对(神像)" sync="14:28E4:众神之像 starts using 圣母颂" notice-d="Both" notice="背对背对">
+		<v-notice duration="10" icon="背对.png"/>
+	</t>
+
+	<!-- 门神时间轴 -->
+	<s name="门神">
+		<a time="0" text="起始阶段" style="PURPLE"/>
+		<a time="05" text="真假火(分散/分摊)" sync="凯夫卡正在发动“呼啦啦爆炎”" notice="真假火:分摊/分散" icon="真假.png"/>
+		<a time="13" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="22" text="魔法放出" sync="凯夫卡正在发动“魔法放出”" notice="真假同上次" icon="真假.png"/>
+		<a time="29" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="36" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+
+		<!-- 第一乐章 -->
+		<a time="55" text="第一乐章" style="PURPLE"/>
+		<!-- 第一次神像 -->
+		<a time="56" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面集合,黄圈散开" icon="在BOSS背面集合.png"/>
+		<a time="56" text="扩散盾/幕帘/摆脱" notice="扩散盾/幕帘/摆脱" notice-o="0" icon="治疗.png"/>
+		<a time="65" text="波动弹x2组" sync="众神之像 starts using 波动弹"/>
+		<a time="65" text="连线x4" notice="连线去A，没有去C" icon="连线.png"/>
+		<a time="65" text="分摊" icon="分摊.png"/>
+		<a time="73" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" notice="传送,扇形AOE" icon="躲避.png"/>
+		<a time="77" text=""/>
+		<a time="88" text="制裁之光" sync="凯夫卡 starts using 制裁之光" notice="大伤害AOE" style="HEAL" icon="治疗.png"/>
+		<a time="90" text="换T" notice="换T" style="TANK" icon="换T.png"/>
+		<a time="95" text="魔法储存" sync="凯夫卡发动了“魔法储存”" notice="魔法储存"/>
+		<a time="99" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="106" text="真假冰(圆形/空心)" sync="凯夫卡正在发动“真假冰(圆形/空心)”" notice="真假冰:圆形/空心" icon="真假.png"/>
+		<!-- 第二次神像 -->
+		<a time="114" text="众神之像(二)\n➜ 注意半场击退" sync="凯夫卡发动了“众神之像”" notice="注意半场击退" icon="击退.png"/>
+		<a time="120" text="冲击波" sync="众神之像 starts using 冲击波" icon="击退.png"/>
+		<a time="124" text="魔法放出(真假雷冰)" sync="凯夫卡正在发动“魔法放出”" notice="真假雷冰" icon="真假.png"/>
+		<a time="141" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="148" text="超驱动\n➜ 骑士无敌,然后换T" sync="凯夫卡正在发动“超驱动”" notice="骑士无敌,然后换T" style="TANK" icon="换T.png"/>
+
+		<!-- 第二乐章 -->
+		<a time="161" text="第二乐章" style="PURPLE"/>
+		<!-- 第三次神像 -->
+		<a time="162" text="众神之像(三)\n➜ MT拉到C点" sync="凯夫卡发动了“众神之像”" notice="MT拉到C点" icon="HOT.png"/>
+		<a time="167" text="连线处理"/>
+		<a time="178" text="半场即死"/>
+		<a time="180" text="连线处理"/>
+		<a time="185" text="击退" sync="凯夫卡发动了“恶狠狠毁荡”" notice="击退" icon="击退.png"/>
+		<a time="192" text="制裁之光" sync="凯夫卡 starts using 制裁之光" notice="大伤害AOE" style="HEAL" icon="治疗.png"/>
+		<a time="206" text="魔法储存" sync="凯夫卡发动了“魔法储存”" notice="魔法储存"/>
+		<a time="209" text="真假火(分散/分摊)" sync="凯夫卡正在发动“呼啦啦爆炎”" notice="真假火:分摊/分散" icon="真假.png"/>
+		<a time="218" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<!-- 第四次神像 -->
+		<a time="225" text="众神之像(四)\n➜ 半场秒杀AOE" sync="凯夫卡发动了“众神之像”" notice="左右どちらか確認"/>
+		<a time="232" text="魔法放出" sync="凯夫卡正在发动“魔法放出”" notice="真假同上次" icon="真假.png"/>
+		<a time="240" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="247" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="254" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+
+		<!-- 第三乐章 -->
+		<a time="262" text="第三乐章" style="PURPLE"/>
+		<!-- 第五次神像 -->
+		<a time="263" text="众神之像(五)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面结合" icon="在BOSS背面集合.png"/>
+		<a time="270" text="堆叠AOE" notice="黄圈散开,准备真假邪眼" icon="堆叠AOE.png"/>
+		<a time="274" text="真假邪眼" notice="真假邪眼" icon="背对.png"/>
+		<a time="283" text="真假邪眼" notice="真假邪眼" icon="背对.png"/>
+		<a time="285" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" notice="視線処理して後ろに回る"/>
+		<a time="295" text="制裁之光" sync="凯夫卡 starts using 制裁之光" notice="大伤害AOE" style="HEAL" icon="治疗.png"/>
+		<a time="305" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="313" text="魔法储存" sync="凯夫卡发动了“魔法储存”" notice="魔法储存"/>
+		<a time="317" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="324" text="真假冰(圆形/空心)" notice="真假冰:圆形/空心" icon="真假.png"/>
+		<!-- 第六次神像 -->
+		<a time="332" text="众神之像(六)" sync="凯夫卡发动了“众神之像”" notice="准备真假邪眼" icon="背对.png"/>
+		<a time="335" text="真假邪眼" notice="邪眼" icon="背对.png"/>
+		<a time="339" text="魔法放出\n➜ 真假雷冰,同上次" sync="凯夫卡正在发动“魔法放出”" notice="真假雷冰,同上次"/>
+		<a time="352" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="359" text="扑腾腾究极1" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="367" text="扑腾腾究极2" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="375" text="扑腾腾究极3" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="380" text="升天" sync="凯夫卡正在发动“升天”" notice="升天"/>
+		<a time="390" text="制裁之光" sync="凯夫卡发动了“制裁之光”" icon="时间结束.png"/>
+	</s>
+
+	<!-- 本体时间轴 -->
+	<t name="去背部(未来)" sync="14:28EE" notice-d="Both" notice="去背部">
+		<v-notice duration="5" icon="在BOSS背面集合.png.png"/>
+	</t>
+
+	<t name="不动(过去)" sync="14:28F1" notice-d="Both" notice="不动">
+		<v-notice duration="5" icon="在BOSS正面集合.png.png"/>
+	</t>
+
+	<t name="向外引导" sync="14:28F4" notice-d="Both" notice="auto">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="向内引导" sync="14:28F7" notice-d="Both" notice="auto">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="左翅膀" sync="14:28FE" notice="左翅膀">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="右翅膀" sync="14:28FF" notice="右翅膀">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<t name="双翅膀" sync="14:2900" notice="双翅膀">
+		<v-notice duration="10" icon="注意.png"/>
+	</t>
+
+	<!-- 本体时间轴 -->
+	<s name="本体P1">
+		<a time="0" text="施工中..." style="PURPLE"/>
+	</s>
 </timeline>

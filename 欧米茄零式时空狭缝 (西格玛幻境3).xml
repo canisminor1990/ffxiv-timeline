@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>欧米茄零式时空狭缝 (西格玛幻境3)</name>
-	<rev>v1.1.9</rev>
+	<rev>v1.2.0</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>欧米茄零式时空狭缝 (西格玛幻境3)</zone>
 	<locale>CN</locale>
@@ -26,7 +26,7 @@
 		<a time="024" text="原子射线\n➜ DPS四角放球" sync="守护者正在发动“原子射线”" notice="DPS四角放球" style="DPS" icon="标记.png"/>
 		<a time="041" text="燃烧弹(点名D)" sync="守护者:278A:导弹" notice="燃烧弹" style="HEAL" icon="治疗.png"/>
 		<a time="044" text="加载屏幕" sync="守护者正在发动“加载”" notice="加载屏幕" icon="分支.png"/>
-		<a time="054" text="分支判断" icon="分岐.png"/>
+		<a time="054" text="分支判断" icon="分支.png"/>
 
 		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛模拟程序" notice="加载达达,防击退,背朝角">
 			<load target="P1加载达达" truncate="true"/>
@@ -153,7 +153,7 @@
 		<a time="055" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
 		<a time="064" text="加载屏幕" notice="加载屏幕" icon="分支.png"/>
-		<a time="074" text="分支判断" icon="分岐.png"/>
+		<a time="074" text="分支判断" icon="分支.png"/>
 
 		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛">
 			<load target="P3达达→图书" truncate="true"/>
@@ -183,7 +183,7 @@
 		<a time="080" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<!-- -->
 		<a time="088" text="加载屏幕" notice="加载屏幕" icon="分支.png"/>
-		<a time="098" text="分支判断" icon="分岐.png"/>
+		<a time="098" text="分支判断" icon="分支.png"/>
 
 		<t text="分支:加载达达" sync="守护者 gains the effect of 达达鲁玛">
 			<load target="P3达达→图书" truncate="true"/>
