@@ -42,6 +42,10 @@
 
 <br />
 
+## Contributors
+- **更新器:** FanHua
+
+
 ## Copyright
 
 - **Author:** CanisMinor
