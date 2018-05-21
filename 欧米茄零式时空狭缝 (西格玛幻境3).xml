@@ -174,7 +174,7 @@
 		<a time="029" text="魔导激光" sync="守护者 starts using 魔导激光" notice="直线AOE" icon="躲避.png"/>
 		<a time="037" text="扩散离子" sync="守护者 starts using 扩散离子" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="047" text="D点ST拉章鱼" sync="守护者 starts using 实体化程序" notice="ST,D点拉章鱼,准备打断" icon="D点.png"/>
-		<a time="053" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹 注意踩圈" icon="环形散开.png"/>
+		<a time="053" text="飞弹模拟" sync="守护者 starts using 加载导弹模拟程序" notice="躲避飞弹" icon="环形散开.png"/>
 		<a time="057" text="ST章鱼➜打断石肤" sync="守护者 starts using 实体化程序" notice="ST章鱼,打断石肤" style="TANK" icon="注意.png"/>
 		<a time="059" text="BOSS上天(疾跑)" notice-o="0" notice="疾跑去对角" iocn="躲避.png"/>
 		<a time="065" text="链式炮" notice-o="0" notice="st减伤，集火章鱼" style="TANK" icon="提升Buff.png"/>
