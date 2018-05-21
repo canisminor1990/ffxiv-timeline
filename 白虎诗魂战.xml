@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>白虎诗魂战</name>
-	<rev>v1.1.1</rev>
+	<rev>v1.1.2</rev>
 	<description>作者: CanisMinor | ID: 男孩纸榨汁机(紫水) | 讨论群: 246243038</description>
 	<zone>白虎诗魂战</zone>
 	<locale>CN</locale>
@@ -13,6 +13,8 @@
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 
 	<s name="白虎诗魂战">
+		<!-- P1 -->
+		<a time="00:00" text="P1" style="PURPLE"/>
 		<a time="00:06" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="00:12" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="00:22" text="咒缚雷" notice="准备抓人"/>
@@ -34,8 +36,14 @@
 		<a time="02:03" text="雷火一闪" notice="直线AOE" icon="躲避.png"/>
 		<a time="02:08" text="风雷波动" sync="正在咏唱“风雷波动”" notice="AOE" style="HEAL" icon="治疗.png"/>
 		<a time="02:16" text="雷轰" notice="雷轰开始,法奶撞球" style="ORANGE" icon="爆炸.png"/>
+
+		<!-- P2 -->
+		<a time="03:05" text="P2" style="PURPLE"/>
 		<a time="03:06" sync="0044:我的愤怒有如无尽箭雨"/>
 		<a time="03:22" text="弹幕游戏，注意AOE和白帝"/>
+
+		<!-- P3 -->
+		<a time="04:27" text="P3" style="PURPLE"/>
 		<a time="04:28" sync="0044:竟然能承受下来"/>
 		<a time="04:38" text="天雷掌" sync="正在发动“天雷掌”" notice="死刑" style="TANK" icon="死刑.png"/>
 		<a time="04:49" text="天雷" sync="天雷霹雳，灼烧四野" notice="天雷"/>

@@ -74,27 +74,27 @@
 
 	<!-- 门神时间轴 -->
 	<s name="门神">
-		<a time="0" text="起始阶段" style="PURPLE"/>
-		<a time="05" text="真假火(分散/分摊)" sync="凯夫卡正在发动“呼啦啦爆炎”" notice="真假火:分摊/分散" icon="真假.png"/>
-		<a time="13" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
-		<a time="22" text="魔法放出" sync="凯夫卡正在发动“魔法放出”" notice="真假同上次" icon="真假.png"/>
-		<a time="29" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
-		<a time="36" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
+		<a time="000" text="起始阶段" style="PURPLE"/>
+		<a time="005" text="真假火(分散/分摊)" sync="凯夫卡正在发动“呼啦啦爆炎”" notice="真假火:分摊/分散" icon="真假.png"/>
+		<a time="013" text="超驱动" sync="凯夫卡正在发动“超驱动”" notice="死刑" style="TANK" icon="死刑.png"/>
+		<a time="022" text="魔法放出" sync="凯夫卡正在发动“魔法放出”" notice="真假同上次" icon="真假.png"/>
+		<a time="029" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="036" text="扑腾腾究极" sync="凯夫卡正在发动“扑腾腾究极”" notice="AOE" style="HEAL" icon="治疗.png"/>
 
 		<!-- 第一乐章 -->
-		<a time="55" text="第一乐章" style="PURPLE"/>
+		<a time="055" text="第一乐章" style="PURPLE"/>
 		<!-- 第一次神像 -->
-		<a time="56" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面集合,黄圈散开" icon="在BOSS背面集合.png"/>
-		<a time="56" text="扩散盾/幕帘/摆脱" notice="扩散盾/幕帘/摆脱" notice-o="0" icon="治疗.png"/>
-		<a time="65" text="波动弹x2组" sync="众神之像 starts using 波动弹"/>
-		<a time="65" text="连线x4" notice="连线去A，没有去C" icon="连线.png"/>
-		<a time="65" text="分摊" icon="分摊.png"/>
-		<a time="73" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" notice="传送,扇形AOE" icon="躲避.png"/>
-		<a time="77" text=""/>
-		<a time="88" text="制裁之光" sync="凯夫卡 starts using 制裁之光" notice="大伤害AOE" style="HEAL" icon="治疗.png"/>
-		<a time="90" text="换T" notice="换T" style="TANK" icon="换T.png"/>
-		<a time="95" text="魔法储存" sync="凯夫卡发动了“魔法储存”" notice="魔法储存"/>
-		<a time="99" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
+		<a time="056" text="众神之像(一)\n➜ 背面集合,黄圈散开" sync="凯夫卡发动了“众神之像”" notice="背面集合,黄圈散开" icon="在BOSS背面集合.png"/>
+		<a time="056" text="扩散盾/幕帘/摆脱" notice="扩散盾/幕帘/摆脱" notice-o="0" icon="治疗.png"/>
+		<a time="065" text="波动弹x2组" sync="众神之像 starts using 波动弹"/>
+		<a time="065" text="连线x4" notice="连线去A，没有去C" icon="连线.png"/>
+		<a time="065" text="分摊" icon="分摊.png"/>
+		<a time="073" text="BOSS传送" sync="凯夫卡正在发动“跳蹦蹦传送”" notice="传送,扇形AOE" icon="躲避.png"/>
+		<a time="077" text=""/>
+		<a time="088" text="制裁之光" sync="凯夫卡 starts using 制裁之光" notice="大伤害AOE" style="HEAL" icon="治疗.png"/>
+		<a time="090" text="换T" notice="换T" style="TANK" icon="换T.png"/>
+		<a time="095" text="魔法储存" sync="凯夫卡发动了“魔法储存”" notice="魔法储存"/>
+		<a time="099" text="真假雷(AOE站格)" sync="凯夫卡正在发动“劈啪啪暴雷”" notice="真假雷:AOE站格" icon="真假.png"/>
 		<a time="106" text="真假冰(圆形/空心)" sync="凯夫卡正在发动“真假冰(圆形/空心)”" notice="真假冰:圆形/空心" icon="真假.png"/>
 		<!-- 第二次神像 -->
 		<a time="114" text="众神之像(二)\n➜ 注意半场击退" sync="凯夫卡发动了“众神之像”" notice="注意半场击退" icon="击退.png"/>

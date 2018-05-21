@@ -1,25 +1,25 @@
 {
-    "version"   :  {
-        "pack": 1,
-	"updater": 1
-    },
-    "url": {
-        "pack": "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
-        "updater": "https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip",
-        "feedback": "http://bbs.ngacn.cc/read.php?tid=12766323"
-    },
-    "actions":[
-        {
-            "name": "copy",
-            "from": [
-                "ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境1).xml",
-                "ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境2).xml",
-                "ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境3).xml",
-                "ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境4).xml",
-                "ffxiv-timeline-master/白虎诗魂战.xml"
-            ],
-            "to": "Plugin/ACT.Hojoring/resources/时间轴文件/"
-        }
-    ]
+	"version": {
+		"pack"   : 1,
+		"updater": 1
+	},
+	"url"    : {
+		"pack"    : "https://github.com/canisminor1990/ffxiv-timeline/archive/master.zip",
+		"updater" : "https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip",
+		"feedback": "http://bbs.ngacn.cc/read.php?tid=12766323"
+	},
+	"actions": [
+		{
+			"name": "copy",
+			"from": [
+				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境1).xml",
+				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境2).xml",
+				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境3).xml",
+				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境4).xml",
+				"ffxiv-timeline-master/白虎诗魂战.xml"
+			],
+			"to"  : "Plugin/ACT.Hojoring/resources/时间轴文件/"
+		}
+	]
 }
 
