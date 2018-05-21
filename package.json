@@ -1,11 +1,15 @@
 {
-	"name"      : "ffxiv-timeline",
-	"version"   : "1.0.0",
+	"name": "ffxiv-timeline",
+	"version": "1.0.0",
 	"repository": "git@github.com:canisminor1990/ffxiv-timeline.git",
-	"author"    : "canisminor1990 <i@canisminor.cc>",
-	"license"   : "MIT",
-	"scripts"   : {
+	"author": "canisminor1990 <i@canisminor.cc>",
+	"license": "MIT",
+	"scripts": {
 		"test": "yarn xml",
 		"xml": "copy %cd%\\*.xml %cd%\\..\\ACT一键整合2\\Plugin\\ACT.Hojoring\\resources\\时间轴文件"
+	},
+	"dependencies": {
+		"fs-extra": "^6.0.1",
+		"path": "^0.12.7"
 	}
 }

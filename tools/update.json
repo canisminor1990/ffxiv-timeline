@@ -1,6 +1,6 @@
 {
 	"version"   : {
-		"pack"   : 1,
+		"pack"   : 2,
 		"updater": 1
 	},
 	"desc"      : "请将本更新程序放在ACT根目录运行",
@@ -20,6 +20,7 @@
 		{
 			"name": "copy",
 			"from": [
+				"ffxiv-timeline-master/resources/时间轴文件/Timeline.config",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境1).xml",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境2).xml",
 				"ffxiv-timeline-master/欧米茄零式时空狭缝 (西格玛幻境3).xml",
@@ -27,6 +28,62 @@
 				"ffxiv-timeline-master/白虎诗魂战.xml"
 			],
 			"to"  : "Plugin/ACT.Hojoring/resources/时间轴文件/"
+		},
+		{
+			"name": "copy",
+			"from": [
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/1号.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/2号.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/A点.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/B点.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/C点.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/D点.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/LB.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/上12点集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/下6点集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/冰.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/击退.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/分摊.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/分支.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/分散.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/右3点集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/嗑药.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/在BOSS正面集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/在BOSS背面集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/堆叠AOE.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/对话.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/左9点集合.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/强制HP为1.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/所有远程攻击.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/所有远程爆发攻击.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/换T.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/提升Buff.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/攻击.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/散开.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/旗.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/无敌.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/时间结束.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/标记.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/死刑.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/治疗.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/注意.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/火.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/炸弹.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/爆炸.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/环形散开.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/电.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/病毒.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/真假.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/磁力.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/禁止攻击.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/禁止移动.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/背对.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/计时器.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/躲避.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/连线.png",
+				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/集合.png"
+			],
+			"to"  : "Plugin/ACT.Hojoring/resources/图标文件/时间轴图标/Timeline CN/"
 		}
 	]
 }
