@@ -16,7 +16,7 @@
 
 #### 安装
 
-<img src="https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/preview.png" witdh="280px" />
+<img src="https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/preview.png" width="280" />
 
 - 关闭ACT
 - 下载[时间轴更新工具](https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/updater.zip)
