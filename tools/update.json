@@ -1,6 +1,6 @@
 {
 	"version"   : {
-		"pack"   : 4,
+		"pack"   : 5,
 		"updater": 1
 	},
 	"desc"      : "请将本更新程序放在ACT根目录运行",
