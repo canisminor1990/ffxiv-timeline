@@ -1,6 +1,6 @@
 # TimeLine
 
-![](http://qn.canisminor.cc/2017-11-17-timeline.png)
+![](https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/preview3.png)
 
 - **Q1:** 使用 `Hojoring.Timeline` 不兼容 `FZ.Timeline`
 - **Q2:** `Hojoring.Timeline` 为新整合版自带，即 `SpecialSpellTimer`，功能插件 > 计时器字幕 > 时间轴
@@ -10,6 +10,9 @@
 - **Q6:** 触发时间轴，必须使用 **倒计时** 开战，确保开全聊天框中的战斗日志，**非战斗中敌人** 也得勾选
 
 ## 使用
+
+![](https://github.com/canisminor1990/ffxiv-timeline/raw/master/tools/preview2.png)
+
 
 #### 安装
 
