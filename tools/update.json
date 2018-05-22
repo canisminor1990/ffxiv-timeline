@@ -1,6 +1,6 @@
 {
 	"version"   : {
-		"pack"   : 5,
+		"pack"   : 6,
 		"updater": 1
 	},
 	"desc"      : "请将本更新程序放在ACT根目录运行",
@@ -61,7 +61,6 @@
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/左9点集合.png",
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/强制HP为1.png",
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/所有远程攻击.png",
-				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/所有远程爆发攻击.png",
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/换T.png",
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/提升Buff.png",
 				"ffxiv-timeline-master/resources/图标文件/时间轴图标/Timeline CN/攻击.png",
