@@ -217,7 +217,7 @@
 
 	<s name="P4">
 		<a time="000" text="妖星乱舞\n➜ 远程BD诱导(给再生)\n➜ T奶12踩塔\n➜ 其余C等黄圈" notice="妖星乱舞" icon="注意.png"/>
-		<a time="005" text="过去/未来" sync="凯夫卡:28F(5|8)" icon="注意.png"/>
+		<a time="005" text="过去/未来" sync="凯夫卡:28F(7|4)" icon="注意.png"/>
 		<a time="014" text="消灭之脚\n➜ 引导AOE,注意面向" sync="凯夫卡正在发动“消灭之脚”" notice="引导AOE" icon="注意.png"/>
 		<a time="019" text="陨石AOE" sync="凯夫卡:2905" notice="AOE" style="TANK" icon="治疗.png"/>
 		<a time="023" text="制裁之光➜ST血仇" sync="凯夫卡正在发动“制裁之光”" notice="AOE,ST血仇" style="TANK" icon="治疗.png"/>
